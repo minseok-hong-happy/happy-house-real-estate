@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08 16:37 KST",
+  "generatedAt": "2026-08-11 17:33 KST",
   "schedule": "매일 14:00 KST",
   "overallStatus": "needs_configuration",
   "sources": [
@@ -9,7 +9,7 @@
       "status": "ok",
       "itemCount": 23,
       "optional": false,
-      "syncedAt": "2026-08-08 16:37 KST",
+      "syncedAt": "2026-08-11 17:33 KST",
       "message": "최근 3개월 거래 갱신 완료"
     },
     {
@@ -19,7 +19,7 @@
       "itemCount": 22,
       "totalCount": 22,
       "optional": false,
-      "syncedAt": "2026-08-08 16:37 KST",
+      "syncedAt": "2026-08-11 17:33 KST",
       "message": "최근 12개월 가격과 36개월 상승 흐름 갱신 완료"
     },
     {
@@ -28,7 +28,7 @@
       "status": "ok",
       "itemCount": 270,
       "optional": false,
-      "syncedAt": "2026-08-08 16:37 KST",
+      "syncedAt": "2026-08-11 17:32 KST",
       "message": "공식 CSV"
     },
     {
@@ -38,7 +38,7 @@
       "itemCount": 32,
       "totalCount": 270,
       "optional": false,
-      "syncedAt": "2026-08-08 16:37 KST",
+      "syncedAt": "2026-08-11 17:32 KST",
       "message": "매칭 가능한 단지 가격 갱신 완료"
     },
     {
@@ -48,7 +48,7 @@
       "itemCount": 0,
       "totalCount": 270,
       "optional": false,
-      "syncedAt": "2026-08-08 16:37 KST",
+      "syncedAt": "2026-08-11 17:32 KST",
       "message": "Geocoding API와 NAVER_MAPS_CLIENT_SECRET 설정이 필요합니다."
     },
     {
