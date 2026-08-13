@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-08-12 17:54 KST",
+    "lastSuccessfulAt": "2026-08-13 17:58 KST",
     "message": ""
   },
   "geocoding": {
@@ -1296,13 +1296,22 @@
           "areaTypeSqm": 62,
           "areaLabel": "전용 62㎡ · 약 19평",
           "representativeAreaSqm": 61.52,
-          "count": 17,
-          "averagePriceManwon": 70186,
+          "count": 18,
+          "averagePriceManwon": 70759,
           "minPriceManwon": 64500,
-          "maxPriceManwon": 78000,
-          "latestPriceManwon": 78000,
-          "latestContractDate": "2026-06-04",
+          "maxPriceManwon": 80500,
+          "latestPriceManwon": 80500,
+          "latestContractDate": "2026-07-15",
           "recentTransactions": [
+            {
+              "apartmentName": "은행주공",
+              "dongName": "은행동",
+              "jibun": "550",
+              "contractDate": "2026-07-15",
+              "priceManwon": 80500,
+              "areaSqm": 61.52,
+              "floor": 9
+            },
             {
               "apartmentName": "은행주공",
               "dongName": "은행동",
@@ -1320,15 +1329,6 @@
               "priceManwon": 74000,
               "areaSqm": 61.52,
               "floor": 14
-            },
-            {
-              "apartmentName": "은행주공",
-              "dongName": "은행동",
-              "jibun": "550",
-              "contractDate": "2026-05-18",
-              "priceManwon": 74000,
-              "areaSqm": 61.52,
-              "floor": 4
             }
           ]
         },
@@ -2090,10 +2090,10 @@
         "apartmentName": "삼익파크맨션",
         "dongName": "길동",
         "jibun": "53",
-        "contractDate": "2026-07-01",
-        "priceManwon": 135000,
-        "areaSqm": 62.91,
-        "floor": 3
+        "contractDate": "2026-07-18",
+        "priceManwon": 144900,
+        "areaSqm": 79.57,
+        "floor": 7
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -2309,13 +2309,22 @@
           "areaTypeSqm": 80,
           "areaLabel": "전용 80㎡ · 약 24평",
           "representativeAreaSqm": 79.57,
-          "count": 7,
-          "averagePriceManwon": 112929,
+          "count": 8,
+          "averagePriceManwon": 116925,
           "minPriceManwon": 75000,
-          "maxPriceManwon": 141000,
-          "latestPriceManwon": 141000,
-          "latestContractDate": "2026-04-24",
+          "maxPriceManwon": 144900,
+          "latestPriceManwon": 144900,
+          "latestContractDate": "2026-07-18",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익파크맨션",
+              "dongName": "길동",
+              "jibun": "53",
+              "contractDate": "2026-07-18",
+              "priceManwon": 144900,
+              "areaSqm": 79.57,
+              "floor": 7
+            },
             {
               "apartmentName": "삼익파크맨션",
               "dongName": "길동",
@@ -2333,15 +2342,6 @@
               "priceManwon": 127000,
               "areaSqm": 79.57,
               "floor": 5
-            },
-            {
-              "apartmentName": "삼익파크맨션",
-              "dongName": "길동",
-              "jibun": "53",
-              "contractDate": "2025-11-20",
-              "priceManwon": 126500,
-              "areaSqm": 79.57,
-              "floor": 3
             }
           ]
         },
@@ -7008,10 +7008,10 @@
         "apartmentName": "삼익그린2차",
         "dongName": "명일동",
         "jibun": "15",
-        "contractDate": "2026-07-10",
-        "priceManwon": 180000,
-        "areaSqm": 66.87,
-        "floor": 2
+        "contractDate": "2026-07-30",
+        "priceManwon": 142000,
+        "areaSqm": 42.93,
+        "floor": 3
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7023,13 +7023,22 @@
           "areaTypeSqm": 43,
           "areaLabel": "전용 43㎡ · 약 13평",
           "representativeAreaSqm": 42.93,
-          "count": 16,
-          "averagePriceManwon": 136863,
+          "count": 17,
+          "averagePriceManwon": 137165,
           "minPriceManwon": 118000,
           "maxPriceManwon": 154500,
-          "latestPriceManwon": 148000,
-          "latestContractDate": "2026-07-01",
+          "latestPriceManwon": 142000,
+          "latestContractDate": "2026-07-30",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익그린2차",
+              "dongName": "명일동",
+              "jibun": "15",
+              "contractDate": "2026-07-30",
+              "priceManwon": 142000,
+              "areaSqm": 42.93,
+              "floor": 3
+            },
             {
               "apartmentName": "삼익그린2차",
               "dongName": "명일동",
@@ -7047,15 +7056,6 @@
               "priceManwon": 142000,
               "areaSqm": 42.93,
               "floor": 2
-            },
-            {
-              "apartmentName": "삼익그린2차",
-              "dongName": "명일동",
-              "jibun": "15",
-              "contractDate": "2026-06-05",
-              "priceManwon": 149000,
-              "areaSqm": 42.93,
-              "floor": 7
             }
           ]
         },
@@ -7063,13 +7063,22 @@
           "areaTypeSqm": 55,
           "areaLabel": "전용 55㎡ · 약 17평",
           "representativeAreaSqm": 54.81,
-          "count": 19,
-          "averagePriceManwon": 154368,
+          "count": 20,
+          "averagePriceManwon": 155400,
           "minPriceManwon": 141000,
-          "maxPriceManwon": 171000,
-          "latestPriceManwon": 168000,
-          "latestContractDate": "2026-06-29",
+          "maxPriceManwon": 175000,
+          "latestPriceManwon": 175000,
+          "latestContractDate": "2026-07-25",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익그린2차",
+              "dongName": "명일동",
+              "jibun": "15",
+              "contractDate": "2026-07-25",
+              "priceManwon": 175000,
+              "areaSqm": 54.81,
+              "floor": 10
+            },
             {
               "apartmentName": "삼익그린2차",
               "dongName": "명일동",
@@ -7087,15 +7096,6 @@
               "priceManwon": 171000,
               "areaSqm": 54.81,
               "floor": 7
-            },
-            {
-              "apartmentName": "삼익그린2차",
-              "dongName": "명일동",
-              "jibun": "15",
-              "contractDate": "2026-04-29",
-              "priceManwon": 160000,
-              "areaSqm": 54.81,
-              "floor": 12
             }
           ]
         },
@@ -7103,13 +7103,22 @@
           "areaTypeSqm": 67,
           "areaLabel": "전용 67㎡ · 약 20평",
           "representativeAreaSqm": 66.87,
-          "count": 23,
-          "averagePriceManwon": 173296,
+          "count": 24,
+          "averagePriceManwon": 173638,
           "minPriceManwon": 156000,
           "maxPriceManwon": 195000,
-          "latestPriceManwon": 180000,
-          "latestContractDate": "2026-07-10",
+          "latestPriceManwon": 181500,
+          "latestContractDate": "2026-07-17",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익그린2차",
+              "dongName": "명일동",
+              "jibun": "15",
+              "contractDate": "2026-07-17",
+              "priceManwon": 181500,
+              "areaSqm": 66.87,
+              "floor": 14
+            },
             {
               "apartmentName": "삼익그린2차",
               "dongName": "명일동",
@@ -7127,15 +7136,6 @@
               "priceManwon": 185500,
               "areaSqm": 66.87,
               "floor": 6
-            },
-            {
-              "apartmentName": "삼익그린2차",
-              "dongName": "명일동",
-              "jibun": "15",
-              "contractDate": "2026-07-01",
-              "priceManwon": 187000,
-              "areaSqm": 66.87,
-              "floor": 8
             }
           ]
         },
@@ -12182,13 +12182,13 @@
       "projectType": "재건축(공동주택)",
       "supplyHouseholds": null,
       "latestTransaction": {
-        "apartmentName": "우만주공2단지",
+        "apartmentName": "우만주공1단지",
         "dongName": "우만동",
         "jibun": "28",
-        "contractDate": "2026-08-03",
-        "priceManwon": 46300,
-        "areaSqm": 49.94,
-        "floor": 5
+        "contractDate": "2026-08-11",
+        "priceManwon": 34500,
+        "areaSqm": 38.52,
+        "floor": 1
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -12200,13 +12200,22 @@
           "areaTypeSqm": 39,
           "areaLabel": "전용 39㎡ · 약 12평",
           "representativeAreaSqm": 38.52,
-          "count": 6,
-          "averagePriceManwon": 34833,
+          "count": 7,
+          "averagePriceManwon": 34786,
           "minPriceManwon": 32000,
           "maxPriceManwon": 36000,
-          "latestPriceManwon": 36000,
-          "latestContractDate": "2026-07-30",
+          "latestPriceManwon": 34500,
+          "latestContractDate": "2026-08-11",
           "recentTransactions": [
+            {
+              "apartmentName": "우만주공1단지",
+              "dongName": "우만동",
+              "jibun": "28",
+              "contractDate": "2026-08-11",
+              "priceManwon": 34500,
+              "areaSqm": 38.52,
+              "floor": 1
+            },
             {
               "apartmentName": "우만주공1단지",
               "dongName": "우만동",
@@ -12224,15 +12233,6 @@
               "priceManwon": 35500,
               "areaSqm": 38.52,
               "floor": 5
-            },
-            {
-              "apartmentName": "우만주공1단지",
-              "dongName": "우만동",
-              "jibun": "28",
-              "contractDate": "2026-05-22",
-              "priceManwon": 34000,
-              "areaSqm": 38.52,
-              "floor": 3
             }
           ]
         },
