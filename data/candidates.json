@@ -7,7 +7,7 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-08-13 17:58 KST",
+    "lastSuccessfulAt": "2026-08-15 14:56 KST",
     "message": ""
   },
   "candidates": [
@@ -49,9 +49,9 @@
         "apartmentName": "매교역푸르지오SKVIEW",
         "dongName": "매교동",
         "jibun": "300",
-        "contractDate": "2026-08-11",
-        "priceManwon": 114000,
-        "areaSqm": 84.97,
+        "contractDate": "2026-08-12",
+        "priceManwon": 86000,
+        "areaSqm": 59.94,
         "floor": 9
       },
       "areaPrices": [
@@ -114,13 +114,22 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.97,
-          "count": 99,
-          "averagePriceManwon": 96896,
+          "count": 100,
+          "averagePriceManwon": 97028,
           "minPriceManwon": 65100,
           "maxPriceManwon": 114000,
-          "latestPriceManwon": 114000,
+          "latestPriceManwon": 110000,
           "latestContractDate": "2026-08-11",
           "recentTransactions": [
+            {
+              "apartmentName": "매교역푸르지오SKVIEW",
+              "dongName": "매교동",
+              "jibun": "300",
+              "contractDate": "2026-08-11",
+              "priceManwon": 110000,
+              "areaSqm": 84.97,
+              "floor": 9
+            },
             {
               "apartmentName": "매교역푸르지오SKVIEW",
               "dongName": "매교동",
@@ -138,15 +147,6 @@
               "priceManwon": 104000,
               "areaSqm": 84.97,
               "floor": 12
-            },
-            {
-              "apartmentName": "매교역푸르지오SKVIEW",
-              "dongName": "매교동",
-              "jibun": "300",
-              "contractDate": "2026-07-23",
-              "priceManwon": 104000,
-              "areaSqm": 84.97,
-              "floor": 20
             }
           ],
           "growthAnalysis": {
@@ -155,9 +155,9 @@
             "observedMonths": 34,
             "periodStart": "2023-10-21",
             "periodEnd": "2026-08-11",
-            "transactionCount": 176,
+            "transactionCount": 177,
             "baselineSampleCount": 12,
-            "recentSampleCount": 62,
+            "recentSampleCount": 63,
             "baselineMedianPriceManwon": 85828,
             "recentMedianPriceManwon": 99000,
             "longTermChangePercent": 15.3,
@@ -202,23 +202,32 @@
         "apartmentName": "영통SKVIEW",
         "dongName": "망포동",
         "jibun": "725",
-        "contractDate": "2026-07-31",
-        "priceManwon": 90000,
-        "areaSqm": 59.5404,
-        "floor": 19
+        "contractDate": "2026-08-10",
+        "priceManwon": 87000,
+        "areaSqm": 59.5761,
+        "floor": 24
       },
       "areaPrices": [
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 59.36,
-          "count": 27,
-          "averagePriceManwon": 76848,
+          "representativeAreaSqm": 59.37,
+          "count": 28,
+          "averagePriceManwon": 77211,
           "minPriceManwon": 68000,
           "maxPriceManwon": 90000,
-          "latestPriceManwon": 90000,
-          "latestContractDate": "2026-07-31",
+          "latestPriceManwon": 87000,
+          "latestContractDate": "2026-08-10",
           "recentTransactions": [
+            {
+              "apartmentName": "영통SKVIEW",
+              "dongName": "망포동",
+              "jibun": "725",
+              "contractDate": "2026-08-10",
+              "priceManwon": 87000,
+              "areaSqm": 59.5761,
+              "floor": 24
+            },
             {
               "apartmentName": "영통SKVIEW",
               "dongName": "망포동",
@@ -236,30 +245,21 @@
               "priceManwon": 85500,
               "areaSqm": 59.5761,
               "floor": 4
-            },
-            {
-              "apartmentName": "영통SKVIEW",
-              "dongName": "망포동",
-              "jibun": "725",
-              "contractDate": "2026-06-19",
-              "priceManwon": 89000,
-              "areaSqm": 59.5404,
-              "floor": 14
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 67,
-            "observedMonths": 34,
+            "score": 70,
+            "observedMonths": 35,
             "periodStart": "2023-09-21",
-            "periodEnd": "2026-07-31",
-            "transactionCount": 71,
+            "periodEnd": "2026-08-10",
+            "transactionCount": 72,
             "baselineSampleCount": 11,
-            "recentSampleCount": 10,
+            "recentSampleCount": 11,
             "baselineMedianPriceManwon": 62800,
-            "recentMedianPriceManwon": 85950,
-            "longTermChangePercent": 36.9,
-            "recentMomentumPercent": 21.1,
+            "recentMedianPriceManwon": 86400,
+            "longTermChangePercent": 37.6,
+            "recentMomentumPercent": 21.7,
             "confidence": "high"
           }
         },
@@ -696,7 +696,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 73,
+            "score": 72,
             "observedMonths": 34,
             "periodStart": "2023-09-22",
             "periodEnd": "2026-08-06",
@@ -751,7 +751,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 31,
+            "score": 29,
             "observedMonths": 34,
             "periodStart": "2023-09-13",
             "periodEnd": "2026-06-29",
@@ -786,10 +786,10 @@
         "apartmentName": "영통아이파크캐슬2단지",
         "dongName": "망포동",
         "jibun": "760",
-        "contractDate": "2026-07-31",
-        "priceManwon": 92000,
-        "areaSqm": 59.83,
-        "floor": 4
+        "contractDate": "2026-08-12",
+        "priceManwon": 110000,
+        "areaSqm": 84.69,
+        "floor": 9
       },
       "areaPrices": [
         {
@@ -833,7 +833,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 50,
+            "score": 49,
             "observedMonths": 35,
             "periodStart": "2023-09-02",
             "periodEnd": "2026-07-31",
@@ -906,13 +906,31 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.69,
-          "count": 41,
-          "averagePriceManwon": 94368,
+          "count": 43,
+          "averagePriceManwon": 95421,
           "minPriceManwon": 80000,
-          "maxPriceManwon": 117000,
-          "latestPriceManwon": 117000,
-          "latestContractDate": "2026-07-16",
+          "maxPriceManwon": 124000,
+          "latestPriceManwon": 110000,
+          "latestContractDate": "2026-08-12",
           "recentTransactions": [
+            {
+              "apartmentName": "영통아이파크캐슬2단지",
+              "dongName": "망포동",
+              "jibun": "760",
+              "contractDate": "2026-08-12",
+              "priceManwon": 110000,
+              "areaSqm": 84.69,
+              "floor": 9
+            },
+            {
+              "apartmentName": "영통아이파크캐슬2단지",
+              "dongName": "망포동",
+              "jibun": "760",
+              "contractDate": "2026-07-31",
+              "priceManwon": 124000,
+              "areaSqm": 84.69,
+              "floor": 14
+            },
             {
               "apartmentName": "영통아이파크캐슬2단지",
               "dongName": "망포동",
@@ -921,39 +939,21 @@
               "priceManwon": 117000,
               "areaSqm": 84.69,
               "floor": 21
-            },
-            {
-              "apartmentName": "영통아이파크캐슬2단지",
-              "dongName": "망포동",
-              "jibun": "760",
-              "contractDate": "2026-07-15",
-              "priceManwon": 108500,
-              "areaSqm": 84.69,
-              "floor": 3
-            },
-            {
-              "apartmentName": "영통아이파크캐슬2단지",
-              "dongName": "망포동",
-              "jibun": "760",
-              "contractDate": "2026-07-01",
-              "priceManwon": 102000,
-              "areaSqm": 84.69,
-              "floor": 3
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 39,
-            "observedMonths": 34,
+            "score": 54,
+            "observedMonths": 35,
             "periodStart": "2023-09-07",
-            "periodEnd": "2026-07-16",
-            "transactionCount": 85,
+            "periodEnd": "2026-08-12",
+            "transactionCount": 87,
             "baselineSampleCount": 11,
-            "recentSampleCount": 19,
+            "recentSampleCount": 16,
             "baselineMedianPriceManwon": 81000,
-            "recentMedianPriceManwon": 100000,
-            "longTermChangePercent": 23.5,
-            "recentMomentumPercent": 14,
+            "recentMedianPriceManwon": 104900,
+            "longTermChangePercent": 29.5,
+            "recentMomentumPercent": 18.7,
             "confidence": "high"
           }
         },
@@ -1181,7 +1181,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 67,
+            "score": 66,
             "observedMonths": 34,
             "periodStart": "2023-09-15",
             "periodEnd": "2026-07-22",
@@ -1445,23 +1445,32 @@
         "apartmentName": "영통롯데캐슬엘클래스1단지",
         "dongName": "망포동",
         "jibun": "805",
-        "contractDate": "2026-07-24",
-        "priceManwon": 103000,
-        "areaSqm": 84.8531,
-        "floor": 14
+        "contractDate": "2026-08-13",
+        "priceManwon": 109000,
+        "areaSqm": 84.9836,
+        "floor": 13
       },
       "areaPrices": [
         {
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.96,
-          "count": 40,
-          "averagePriceManwon": 88546,
+          "count": 41,
+          "averagePriceManwon": 89045,
           "minPriceManwon": 80500,
           "maxPriceManwon": 110000,
-          "latestPriceManwon": 103000,
-          "latestContractDate": "2026-07-24",
+          "latestPriceManwon": 109000,
+          "latestContractDate": "2026-08-13",
           "recentTransactions": [
+            {
+              "apartmentName": "영통롯데캐슬엘클래스1단지",
+              "dongName": "망포동",
+              "jibun": "805",
+              "contractDate": "2026-08-13",
+              "priceManwon": 109000,
+              "areaSqm": 84.9836,
+              "floor": 13
+            },
             {
               "apartmentName": "영통롯데캐슬엘클래스1단지",
               "dongName": "망포동",
@@ -1479,22 +1488,13 @@
               "priceManwon": 110000,
               "areaSqm": 84.9836,
               "floor": 16
-            },
-            {
-              "apartmentName": "영통롯데캐슬엘클래스1단지",
-              "dongName": "망포동",
-              "jibun": "805",
-              "contractDate": "2026-07-13",
-              "priceManwon": 85500,
-              "areaSqm": 84.9882,
-              "floor": 1
             }
           ],
           "growthAnalysis": {
             "status": "insufficient",
             "message": "비교 가능한 장기 거래가 부족합니다.",
-            "observedMonths": 34,
-            "transactionCount": 59
+            "observedMonths": 35,
+            "transactionCount": 60
           }
         },
         {
@@ -1822,7 +1822,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 34,
+            "score": 32,
             "observedMonths": 29,
             "periodStart": "2024-01-30",
             "periodEnd": "2026-07-04",
@@ -1948,7 +1948,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 25,
+            "score": 24,
             "observedMonths": 29,
             "periodStart": "2024-02-09",
             "periodEnd": "2026-07-11",
@@ -2056,7 +2056,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 53,
+            "score": 52,
             "observedMonths": 34,
             "periodStart": "2023-09-16",
             "periodEnd": "2026-07-09",
@@ -2225,10 +2225,10 @@
         "apartmentName": "매화마을공무원2",
         "dongName": "야탑동",
         "jibun": "215",
-        "contractDate": "2026-07-31",
-        "priceManwon": 110000,
-        "areaSqm": 58.71,
-        "floor": 12
+        "contractDate": "2026-08-13",
+        "priceManwon": 125000,
+        "areaSqm": 66.6,
+        "floor": 7
       },
       "areaPrices": [
         {
@@ -2272,7 +2272,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 80,
+            "score": 79,
             "observedMonths": 35,
             "periodStart": "2023-09-02",
             "periodEnd": "2026-07-31",
@@ -2289,14 +2289,23 @@
         {
           "areaTypeSqm": 67,
           "areaLabel": "전용 67㎡ · 약 20평",
-          "representativeAreaSqm": 67.21,
-          "count": 26,
-          "averagePriceManwon": 108810,
+          "representativeAreaSqm": 67.18,
+          "count": 27,
+          "averagePriceManwon": 109409,
           "minPriceManwon": 88000,
-          "maxPriceManwon": 123000,
-          "latestPriceManwon": 120300,
-          "latestContractDate": "2026-07-21",
+          "maxPriceManwon": 125000,
+          "latestPriceManwon": 125000,
+          "latestContractDate": "2026-08-13",
           "recentTransactions": [
+            {
+              "apartmentName": "매화마을공무원2",
+              "dongName": "야탑동",
+              "jibun": "215",
+              "contractDate": "2026-08-13",
+              "priceManwon": 125000,
+              "areaSqm": 66.6,
+              "floor": 7
+            },
             {
               "apartmentName": "매화마을공무원2",
               "dongName": "야탑동",
@@ -2314,22 +2323,13 @@
               "priceManwon": 118000,
               "areaSqm": 67.43,
               "floor": 4
-            },
-            {
-              "apartmentName": "매화마을공무원2",
-              "dongName": "야탑동",
-              "jibun": "215",
-              "contractDate": "2026-07-02",
-              "priceManwon": 118500,
-              "areaSqm": 67.43,
-              "floor": 13
             }
           ],
           "growthAnalysis": {
             "status": "insufficient",
             "message": "비교 가능한 장기 거래가 부족합니다.",
-            "observedMonths": 33,
-            "transactionCount": 49
+            "observedMonths": 34,
+            "transactionCount": 50
           }
         }
       ]
@@ -2454,7 +2454,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 71,
+            "score": 70,
             "observedMonths": 35,
             "periodStart": "2023-09-13",
             "periodEnd": "2026-08-08",
@@ -2833,7 +2833,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 51,
+            "score": 49,
             "observedMonths": 28,
             "periodStart": "2024-03-25",
             "periodEnd": "2026-07-14",
@@ -3079,7 +3079,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 56,
+            "score": 54,
             "observedMonths": 26,
             "periodStart": "2024-06-03",
             "periodEnd": "2026-07-28",
@@ -3278,7 +3278,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 39,
+            "score": 37,
             "observedMonths": 35,
             "periodStart": "2023-09-02",
             "periodEnd": "2026-07-24",
