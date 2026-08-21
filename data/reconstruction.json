@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-08-20 14:24 KST",
+    "lastSuccessfulAt": "2026-08-21 14:25 KST",
     "message": ""
   },
   "geocoding": {
@@ -1415,9 +1415,9 @@
         {
           "areaTypeSqm": 67,
           "areaLabel": "전용 67㎡ · 약 20평",
-          "representativeAreaSqm": 66.69,
-          "count": 17,
-          "averagePriceManwon": 77162,
+          "representativeAreaSqm": 66.68,
+          "count": 18,
+          "averagePriceManwon": 77597,
           "minPriceManwon": 58000,
           "maxPriceManwon": 91000,
           "latestPriceManwon": 90000,

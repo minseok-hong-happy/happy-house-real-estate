@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "source": {
     "name": "국토교통부 아파트 매매 실거래자료",
     "url": "https://www.data.go.kr/data/15126469/openapi.do",
@@ -7,8 +7,8 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-08-20 14:24 KST",
-    "message": ""
+    "lastSuccessfulAt": "2026-08-21 14:25 KST",
+    "message": "일부 단지는 이전 동기화 가격을 유지합니다."
   },
   "candidates": [
     {
@@ -1024,10 +1024,10 @@
         "apartmentName": "힐스테이트영통",
         "dongName": "망포동",
         "jibun": "728",
-        "contractDate": "2026-07-28",
-        "priceManwon": 134000,
-        "areaSqm": 71.2981,
-        "floor": 23
+        "contractDate": "2026-08-15",
+        "priceManwon": 144000,
+        "areaSqm": 84.8897,
+        "floor": 16
       },
       "areaPrices": [
         {
@@ -1144,13 +1144,22 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.76,
-          "count": 64,
-          "averagePriceManwon": 119417,
+          "count": 65,
+          "averagePriceManwon": 119795,
           "minPriceManwon": 90000,
-          "maxPriceManwon": 140600,
-          "latestPriceManwon": 138000,
-          "latestContractDate": "2026-07-22",
+          "maxPriceManwon": 144000,
+          "latestPriceManwon": 144000,
+          "latestContractDate": "2026-08-15",
           "recentTransactions": [
+            {
+              "apartmentName": "힐스테이트영통",
+              "dongName": "망포동",
+              "jibun": "728",
+              "contractDate": "2026-08-15",
+              "priceManwon": 144000,
+              "areaSqm": 84.8897,
+              "floor": 16
+            },
             {
               "apartmentName": "힐스테이트영통",
               "dongName": "망포동",
@@ -1168,29 +1177,20 @@
               "priceManwon": 140600,
               "areaSqm": 84.8897,
               "floor": 9
-            },
-            {
-              "apartmentName": "힐스테이트영통",
-              "dongName": "망포동",
-              "jibun": "728",
-              "contractDate": "2026-07-13",
-              "priceManwon": 126000,
-              "areaSqm": 84.8897,
-              "floor": 17
             }
           ],
           "growthAnalysis": {
             "status": "ok",
             "score": 64,
-            "observedMonths": 34,
+            "observedMonths": 35,
             "periodStart": "2023-09-15",
-            "periodEnd": "2026-07-22",
-            "transactionCount": 187,
+            "periodEnd": "2026-08-15",
+            "transactionCount": 188,
             "baselineSampleCount": 22,
             "recentSampleCount": 35,
             "baselineMedianPriceManwon": 93900,
-            "recentMedianPriceManwon": 127500,
-            "longTermChangePercent": 35.8,
+            "recentMedianPriceManwon": 127800,
+            "longTermChangePercent": 36.1,
             "recentMomentumPercent": 17,
             "confidence": "high"
           }
@@ -2487,10 +2487,10 @@
         "apartmentName": "무지개(3단지)(건영)",
         "dongName": "구미동",
         "jibun": "201",
-        "contractDate": "2026-07-13",
-        "priceManwon": 114000,
-        "areaSqm": 53.83,
-        "floor": 10
+        "contractDate": "2026-08-17",
+        "priceManwon": 134500,
+        "areaSqm": 68.16,
+        "floor": 15
       },
       "areaPrices": [
         {
@@ -2534,7 +2534,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 70,
+            "score": 71,
             "observedMonths": 34,
             "periodStart": "2023-09-13",
             "periodEnd": "2026-07-13",
@@ -2551,14 +2551,23 @@
         {
           "areaTypeSqm": 68,
           "areaLabel": "전용 68㎡ · 약 21평",
-          "representativeAreaSqm": 68.22,
-          "count": 4,
-          "averagePriceManwon": 124700,
+          "representativeAreaSqm": 68.21,
+          "count": 5,
+          "averagePriceManwon": 126660,
           "minPriceManwon": 97800,
           "maxPriceManwon": 138000,
-          "latestPriceManwon": 138000,
-          "latestContractDate": "2026-06-29",
+          "latestPriceManwon": 134500,
+          "latestContractDate": "2026-08-17",
           "recentTransactions": [
+            {
+              "apartmentName": "무지개(3단지)(건영)",
+              "dongName": "구미동",
+              "jibun": "201",
+              "contractDate": "2026-08-17",
+              "priceManwon": 134500,
+              "areaSqm": 68.16,
+              "floor": 15
+            },
             {
               "apartmentName": "무지개(3단지)(건영)",
               "dongName": "구미동",
@@ -2576,30 +2585,21 @@
               "priceManwon": 138000,
               "areaSqm": 68.16,
               "floor": 10
-            },
-            {
-              "apartmentName": "무지개(3단지)(건영)",
-              "dongName": "구미동",
-              "jibun": "201",
-              "contractDate": "2026-06-03",
-              "priceManwon": 125000,
-              "areaSqm": 68.16,
-              "floor": 19
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 82,
-            "observedMonths": 32,
+            "score": 81,
+            "observedMonths": 34,
             "periodStart": "2023-10-27",
-            "periodEnd": "2026-06-29",
-            "transactionCount": 19,
+            "periodEnd": "2026-08-17",
+            "transactionCount": 20,
             "baselineSampleCount": 3,
-            "recentSampleCount": 3,
+            "recentSampleCount": 4,
             "baselineMedianPriceManwon": 79500,
-            "recentMedianPriceManwon": 138000,
-            "longTermChangePercent": 73.6,
-            "recentMomentumPercent": 41.1,
+            "recentMedianPriceManwon": 136250,
+            "longTermChangePercent": 71.4,
+            "recentMomentumPercent": 39.3,
             "confidence": "limited"
           }
         },
@@ -3108,8 +3108,8 @@
       ],
       "completionYear": 2019,
       "households": 768,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "판교밸리호반써밋",
         "dongName": "고등동",
@@ -3188,8 +3188,8 @@
       "matchNames": [
         "코오롱하늘채"
       ],
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "코오롱하늘채",
         "dongName": "단대동",
@@ -3335,8 +3335,8 @@
       ],
       "completionYear": 2018,
       "households": 1316,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "기흥역센트럴푸르지오",
         "dongName": "구갈동",
