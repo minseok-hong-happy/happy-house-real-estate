@@ -7,7 +7,7 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-08-21 14:25 KST",
+    "lastSuccessfulAt": "2026-08-22 14:19 KST",
     "message": "일부 단지는 이전 동기화 가격을 유지합니다."
   },
   "candidates": [
@@ -49,10 +49,10 @@
         "apartmentName": "매교역푸르지오SKVIEW",
         "dongName": "매교동",
         "jibun": "300",
-        "contractDate": "2026-08-12",
-        "priceManwon": 86000,
-        "areaSqm": 59.94,
-        "floor": 9
+        "contractDate": "2026-08-13",
+        "priceManwon": 108500,
+        "areaSqm": 84.97,
+        "floor": 4
       },
       "areaPrices": [
         {
@@ -114,13 +114,22 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.97,
-          "count": 100,
-          "averagePriceManwon": 97028,
+          "count": 101,
+          "averagePriceManwon": 97141,
           "minPriceManwon": 65100,
           "maxPriceManwon": 114000,
-          "latestPriceManwon": 110000,
-          "latestContractDate": "2026-08-11",
+          "latestPriceManwon": 108500,
+          "latestContractDate": "2026-08-13",
           "recentTransactions": [
+            {
+              "apartmentName": "매교역푸르지오SKVIEW",
+              "dongName": "매교동",
+              "jibun": "300",
+              "contractDate": "2026-08-13",
+              "priceManwon": 108500,
+              "areaSqm": 84.97,
+              "floor": 4
+            },
             {
               "apartmentName": "매교역푸르지오SKVIEW",
               "dongName": "매교동",
@@ -138,15 +147,6 @@
               "priceManwon": 114000,
               "areaSqm": 84.97,
               "floor": 9
-            },
-            {
-              "apartmentName": "매교역푸르지오SKVIEW",
-              "dongName": "매교동",
-              "jibun": "300",
-              "contractDate": "2026-07-23",
-              "priceManwon": 104000,
-              "areaSqm": 84.97,
-              "floor": 12
             }
           ],
           "growthAnalysis": {
@@ -154,8 +154,8 @@
             "score": 20,
             "observedMonths": 34,
             "periodStart": "2023-10-21",
-            "periodEnd": "2026-08-11",
-            "transactionCount": 177,
+            "periodEnd": "2026-08-13",
+            "transactionCount": 178,
             "baselineSampleCount": 12,
             "recentSampleCount": 63,
             "baselineMedianPriceManwon": 85828,
@@ -196,8 +196,8 @@
           "세부 동·향별 가격 편차"
         ]
       },
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "영통SKVIEW",
         "dongName": "망포동",
@@ -348,8 +348,8 @@
           "수리비와 장기수선 상태 확인 필요"
         ]
       },
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "현대",
         "dongName": "영통동",
@@ -542,8 +542,8 @@
       ],
       "households": 1783,
       "completionYear": 2019,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "영통아이파크캐슬1단지",
         "dongName": "망포동",
@@ -780,8 +780,8 @@
       ],
       "households": 1162,
       "completionYear": 2019,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "영통아이파크캐슬2단지",
         "dongName": "망포동",
@@ -1018,8 +1018,8 @@
       ],
       "households": 2140,
       "completionYear": 2017,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "힐스테이트영통",
         "dongName": "망포동",
@@ -1256,8 +1256,8 @@
       ],
       "households": 963,
       "completionYear": 2013,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "래미안영통마크원2단지",
         "dongName": "신동",
@@ -1439,8 +1439,8 @@
       ],
       "households": 642,
       "completionYear": 2022,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "영통롯데캐슬엘클래스1단지",
         "dongName": "망포동",
@@ -1558,8 +1558,8 @@
       ],
       "households": 1200,
       "completionYear": 1998,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "청명마을대우",
         "dongName": "영통동",
@@ -1714,8 +1714,8 @@
       ],
       "households": 1330,
       "completionYear": 2014,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "광교호반베르디움",
         "dongName": "원천동",
@@ -1849,8 +1849,8 @@
       "matchNames": [
         "원천마을푸르지오"
       ],
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "원천마을푸르지오",
         "dongName": "동천동",
@@ -1975,8 +1975,8 @@
       "matchNames": [
         "만현마을3단지성원쌍떼빌"
       ],
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "만현마을3단지성원쌍떼빌",
         "dongName": "상현동",
@@ -2083,8 +2083,8 @@
       "matchNames": [
         "써니벨리"
       ],
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "써니벨리",
         "dongName": "동천동",
@@ -2219,8 +2219,8 @@
         "매화마을공무원2"
       ],
       "completionYear": 1995,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "매화마을공무원2",
         "dongName": "야탑동",
@@ -2346,8 +2346,8 @@
         "매화마을공무원1"
       ],
       "completionYear": 1995,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "매화마을공무원1",
         "dongName": "야탑동",
@@ -2481,8 +2481,8 @@
       "matchNames": [
         "무지개(3단지)(건영)"
       ],
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "무지개(3단지)(건영)",
         "dongName": "구미동",
@@ -2671,8 +2671,8 @@
       "matchNames": [
         "SK-VIEW"
       ],
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "SK-VIEW",
         "dongName": "야탑동",
@@ -2780,8 +2780,8 @@
         "e편한세상금빛그랑메종5단지"
       ],
       "completionYear": 2022,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "e편한세상금빛그랑메종5단지",
         "dongName": "금광동",
@@ -2971,8 +2971,8 @@
         "신흥역하늘채랜더스원2단지"
       ],
       "completionYear": 2022,
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "latestTransaction": {
         "apartmentName": "신흥역하늘채랜더스원2단지",
         "dongName": "중앙동",

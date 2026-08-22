@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-08-21 14:25 KST",
+    "lastSuccessfulAt": "2026-08-22 14:19 KST",
     "message": ""
   },
   "geocoding": {
@@ -2105,13 +2105,22 @@
           "areaTypeSqm": 56,
           "areaLabel": "전용 56㎡ · 약 17평",
           "representativeAreaSqm": 55.7,
-          "count": 3,
-          "averagePriceManwon": 111333,
+          "count": 4,
+          "averagePriceManwon": 116625,
           "minPriceManwon": 105000,
-          "maxPriceManwon": 119000,
-          "latestPriceManwon": 119000,
-          "latestContractDate": "2026-05-08",
+          "maxPriceManwon": 132500,
+          "latestPriceManwon": 132500,
+          "latestContractDate": "2026-07-06",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익파크맨션",
+              "dongName": "길동",
+              "jibun": "53",
+              "contractDate": "2026-07-06",
+              "priceManwon": 132500,
+              "areaSqm": 55.7,
+              "floor": 4
+            },
             {
               "apartmentName": "삼익파크맨션",
               "dongName": "길동",
@@ -2129,15 +2138,6 @@
               "priceManwon": 105000,
               "areaSqm": 55.7,
               "floor": 10
-            },
-            {
-              "apartmentName": "삼익파크맨션",
-              "dongName": "길동",
-              "jibun": "53",
-              "contractDate": "2025-09-29",
-              "priceManwon": 110000,
-              "areaSqm": 55.7,
-              "floor": 8
             }
           ]
         },
