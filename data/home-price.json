@@ -14,15 +14,15 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-08-24 14:32 KST"
+    "lastSuccessfulAt": "2026-08-25 14:25 KST"
   },
   "recentTransactions": {
     "status": "ok",
     "message": "",
-    "periodLabel": "최근 3개월 계약일 기준 · 전용 59㎡형 · 26건",
+    "periodLabel": "최근 3개월 계약일 기준 · 전용 59㎡형 · 27건",
     "summary": {
-      "count": 26,
-      "averagePriceManwon": 79458,
+      "count": 27,
+      "averagePriceManwon": 79589,
       "minPriceManwon": 66700,
       "maxPriceManwon": 84800,
       "latestPriceManwon": 84500
@@ -32,8 +32,8 @@
         "areaTypeSqm": 59,
         "areaLabel": "전용 59㎡ · 약 18평",
         "representativeAreaSqm": 59.9,
-        "count": 26,
-        "averagePriceManwon": 79458,
+        "count": 27,
+        "averagePriceManwon": 79589,
         "minPriceManwon": 66700,
         "maxPriceManwon": 84800,
         "latestPriceManwon": 84500,
@@ -52,19 +52,19 @@
             "apartmentName": "힐스테이트푸르지오수원",
             "dongName": "매교동",
             "jibun": "292",
-            "contractDate": "2026-08-07",
-            "priceManwon": 82000,
-            "areaSqm": 59.95,
-            "floor": 10
+            "contractDate": "2026-08-11",
+            "priceManwon": 83000,
+            "areaSqm": 59.88,
+            "floor": 6
           },
           {
             "apartmentName": "힐스테이트푸르지오수원",
             "dongName": "매교동",
             "jibun": "292",
-            "contractDate": "2026-08-05",
-            "priceManwon": 83000,
+            "contractDate": "2026-08-07",
+            "priceManwon": 82000,
             "areaSqm": 59.95,
-            "floor": 13
+            "floor": 10
           }
         ]
       }
@@ -76,6 +76,15 @@
         "jibun": "292",
         "contractDate": "2026-08-15",
         "priceManwon": 84500,
+        "areaSqm": 59.88,
+        "floor": 6
+      },
+      {
+        "apartmentName": "힐스테이트푸르지오수원",
+        "dongName": "매교동",
+        "jibun": "292",
+        "contractDate": "2026-08-11",
+        "priceManwon": 83000,
         "areaSqm": 59.88,
         "floor": 6
       },

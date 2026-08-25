@@ -1,5 +1,5 @@
 {
-  "status": "ok",
+  "status": "partial",
   "source": {
     "name": "국토교통부 전국 도시정비사업 통합 데이터",
     "transport": "공식 CSV",
@@ -7,8 +7,8 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-08-24 14:31 KST",
-    "message": ""
+    "lastSuccessfulAt": "2026-08-25 14:25 KST",
+    "message": "사업 목록은 갱신했고 일부 실거래가는 기존 값을 유지합니다."
   },
   "geocoding": {
     "status": "not_configured",
@@ -3772,8 +3772,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -4877,10 +4877,10 @@
         "apartmentName": "장안현대",
         "dongName": "장안동",
         "jibun": "95-1",
-        "contractDate": "2026-08-10",
-        "priceManwon": 96000,
-        "areaSqm": 95.44,
-        "floor": 8
+        "contractDate": "2026-08-21",
+        "priceManwon": 92500,
+        "areaSqm": 95.45,
+        "floor": 4
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -4972,13 +4972,22 @@
           "areaTypeSqm": 95,
           "areaLabel": "전용 95㎡ · 약 29평",
           "representativeAreaSqm": 95.43,
-          "count": 20,
-          "averagePriceManwon": 79265,
+          "count": 21,
+          "averagePriceManwon": 79895,
           "minPriceManwon": 66000,
           "maxPriceManwon": 96000,
-          "latestPriceManwon": 96000,
-          "latestContractDate": "2026-08-10",
+          "latestPriceManwon": 92500,
+          "latestContractDate": "2026-08-21",
           "recentTransactions": [
+            {
+              "apartmentName": "장안현대",
+              "dongName": "장안동",
+              "jibun": "95-1",
+              "contractDate": "2026-08-21",
+              "priceManwon": 92500,
+              "areaSqm": 95.45,
+              "floor": 4
+            },
             {
               "apartmentName": "장안현대",
               "dongName": "장안동",
@@ -4995,15 +5004,6 @@
               "contractDate": "2026-07-23",
               "priceManwon": 93000,
               "areaSqm": 95.44,
-              "floor": 10
-            },
-            {
-              "apartmentName": "장안현대",
-              "dongName": "장안동",
-              "jibun": "95-1",
-              "contractDate": "2026-07-11",
-              "priceManwon": 93000,
-              "areaSqm": 95.39,
               "floor": 10
             }
           ]
@@ -5208,10 +5208,10 @@
         "apartmentName": "한남하이츠",
         "dongName": "옥수동",
         "jibun": "220-1",
-        "contractDate": "2026-07-09",
-        "priceManwon": 426000,
+        "contractDate": "2026-07-21",
+        "priceManwon": 480000,
         "areaSqm": 177.12,
-        "floor": 4
+        "floor": 9
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -5356,13 +5356,22 @@
           "areaTypeSqm": 177,
           "areaLabel": "전용 177㎡ · 약 54평",
           "representativeAreaSqm": 177.13,
-          "count": 5,
-          "averagePriceManwon": 444800,
+          "count": 6,
+          "averagePriceManwon": 450667,
           "minPriceManwon": 385000,
           "maxPriceManwon": 480000,
-          "latestPriceManwon": 426000,
-          "latestContractDate": "2026-07-09",
+          "latestPriceManwon": 480000,
+          "latestContractDate": "2026-07-21",
           "recentTransactions": [
+            {
+              "apartmentName": "한남하이츠",
+              "dongName": "옥수동",
+              "jibun": "220-1",
+              "contractDate": "2026-07-21",
+              "priceManwon": 480000,
+              "areaSqm": 177.12,
+              "floor": 9
+            },
             {
               "apartmentName": "한남하이츠",
               "dongName": "옥수동",
@@ -5380,15 +5389,6 @@
               "priceManwon": 385000,
               "areaSqm": 177.12,
               "floor": 3
-            },
-            {
-              "apartmentName": "한남하이츠",
-              "dongName": "옥수동",
-              "jibun": "220-1",
-              "contractDate": "2026-01-30",
-              "priceManwon": 480000,
-              "areaSqm": 177.12,
-              "floor": 14
             }
           ]
         }
@@ -7529,10 +7529,10 @@
         "apartmentName": "삼환도봉",
         "dongName": "도봉동",
         "jibun": "87",
-        "contractDate": "2026-05-17",
-        "priceManwon": 62000,
-        "areaSqm": 83.97,
-        "floor": 6
+        "contractDate": "2026-08-07",
+        "priceManwon": 59500,
+        "areaSqm": 73.89,
+        "floor": 11
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7544,13 +7544,22 @@
           "areaTypeSqm": 74,
           "areaLabel": "전용 74㎡ · 약 22평",
           "representativeAreaSqm": 73.89,
-          "count": 2,
-          "averagePriceManwon": 52000,
+          "count": 3,
+          "averagePriceManwon": 54500,
           "minPriceManwon": 52000,
-          "maxPriceManwon": 52000,
-          "latestPriceManwon": 52000,
-          "latestContractDate": "2026-01-17",
+          "maxPriceManwon": 59500,
+          "latestPriceManwon": 59500,
+          "latestContractDate": "2026-08-07",
           "recentTransactions": [
+            {
+              "apartmentName": "삼환도봉",
+              "dongName": "도봉동",
+              "jibun": "87",
+              "contractDate": "2026-08-07",
+              "priceManwon": 59500,
+              "areaSqm": 73.89,
+              "floor": 11
+            },
             {
               "apartmentName": "삼환도봉",
               "dongName": "도봉동",
@@ -9241,8 +9250,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9273,8 +9282,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9305,8 +9314,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9337,8 +9346,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9369,8 +9378,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9401,8 +9410,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9433,8 +9442,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9465,8 +9474,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9497,8 +9506,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9529,8 +9538,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9561,8 +9570,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -9601,8 +9610,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "ok",
-      "priceMessage": "",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": [
         {
           "areaTypeSqm": 43,
@@ -11240,10 +11249,10 @@
         "apartmentName": "수지삼성4차",
         "dongName": "풍덕천동",
         "jibun": "663-1",
-        "contractDate": "2026-07-25",
+        "contractDate": "2026-08-07",
         "priceManwon": 92500,
         "areaSqm": 59.76,
-        "floor": 13
+        "floor": 8
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -11255,13 +11264,22 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.76,
-          "count": 36,
-          "averagePriceManwon": 71271,
+          "count": 37,
+          "averagePriceManwon": 71844,
           "minPriceManwon": 52000,
           "maxPriceManwon": 93000,
           "latestPriceManwon": 92500,
-          "latestContractDate": "2026-07-25",
+          "latestContractDate": "2026-08-07",
           "recentTransactions": [
+            {
+              "apartmentName": "수지삼성4차",
+              "dongName": "풍덕천동",
+              "jibun": "663-1",
+              "contractDate": "2026-08-07",
+              "priceManwon": 92500,
+              "areaSqm": 59.76,
+              "floor": 8
+            },
             {
               "apartmentName": "수지삼성4차",
               "dongName": "풍덕천동",
@@ -11279,15 +11297,6 @@
               "priceManwon": 93000,
               "areaSqm": 59.76,
               "floor": 7
-            },
-            {
-              "apartmentName": "수지삼성4차",
-              "dongName": "풍덕천동",
-              "jibun": "663-1",
-              "contractDate": "2026-07-15",
-              "priceManwon": 90000,
-              "areaSqm": 59.76,
-              "floor": 2
             }
           ]
         }
@@ -11707,8 +11716,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -11739,8 +11748,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
@@ -11771,8 +11780,8 @@
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
       "geocodeSignature": "",
-      "priceStatus": "empty",
-      "priceMessage": "최근 12개월 내 신고 거래가 없어요.",
+      "priceStatus": "error",
+      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
       "areaPrices": []
     },
     {
