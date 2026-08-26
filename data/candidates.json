@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "source": {
     "name": "국토교통부 아파트 매매 실거래자료",
     "url": "https://www.data.go.kr/data/15126469/openapi.do",
@@ -7,8 +7,8 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-08-25 14:25 KST",
-    "message": "일부 단지는 이전 동기화 가격을 유지합니다."
+    "lastSuccessfulAt": "2026-08-26 14:26 KST",
+    "message": ""
   },
   "candidates": [
     {
@@ -49,10 +49,10 @@
         "apartmentName": "매교역푸르지오SKVIEW",
         "dongName": "매교동",
         "jibun": "300",
-        "contractDate": "2026-08-13",
-        "priceManwon": 108500,
-        "areaSqm": 84.97,
-        "floor": 4
+        "contractDate": "2026-08-22",
+        "priceManwon": 95000,
+        "areaSqm": 59.94,
+        "floor": 10
       },
       "areaPrices": [
         {
@@ -1948,7 +1948,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 24,
+            "score": 22,
             "observedMonths": 29,
             "periodStart": "2024-02-09",
             "periodEnd": "2026-07-11",
@@ -2235,8 +2235,8 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 58.63,
-          "count": 124,
-          "averagePriceManwon": 97538,
+          "count": 125,
+          "averagePriceManwon": 97638,
           "minPriceManwon": 54000,
           "maxPriceManwon": 115000,
           "latestPriceManwon": 115000,
@@ -2276,9 +2276,9 @@
             "observedMonths": 36,
             "periodStart": "2023-09-02",
             "periodEnd": "2026-08-19",
-            "transactionCount": 207,
+            "transactionCount": 208,
             "baselineSampleCount": 10,
-            "recentSampleCount": 71,
+            "recentSampleCount": 72,
             "baselineMedianPriceManwon": 70000,
             "recentMedianPriceManwon": 104000,
             "longTermChangePercent": 48.6,
@@ -2534,7 +2534,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 71,
+            "score": 72,
             "observedMonths": 34,
             "periodStart": "2023-09-13",
             "periodEnd": "2026-07-13",
@@ -2786,23 +2786,32 @@
         "apartmentName": "e편한세상금빛그랑메종5단지",
         "dongName": "금광동",
         "jibun": "1020",
-        "contractDate": "2026-08-04",
-        "priceManwon": 111000,
-        "areaSqm": 74.62,
-        "floor": 14
+        "contractDate": "2026-08-15",
+        "priceManwon": 113000,
+        "areaSqm": 59.98,
+        "floor": 11
       },
       "areaPrices": [
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.98,
-          "count": 45,
-          "averagePriceManwon": 95064,
+          "count": 46,
+          "averagePriceManwon": 95454,
           "minPriceManwon": 64000,
           "maxPriceManwon": 113000,
           "latestPriceManwon": 113000,
-          "latestContractDate": "2026-07-14",
+          "latestContractDate": "2026-08-15",
           "recentTransactions": [
+            {
+              "apartmentName": "e편한세상금빛그랑메종5단지",
+              "dongName": "금광동",
+              "jibun": "1020",
+              "contractDate": "2026-08-15",
+              "priceManwon": 113000,
+              "areaSqm": 59.98,
+              "floor": 11
+            },
             {
               "apartmentName": "e편한세상금빛그랑메종5단지",
               "dongName": "금광동",
@@ -2820,30 +2829,21 @@
               "priceManwon": 108000,
               "areaSqm": 59.98,
               "floor": 8
-            },
-            {
-              "apartmentName": "e편한세상금빛그랑메종5단지",
-              "dongName": "금광동",
-              "jibun": "1020",
-              "contractDate": "2026-06-13",
-              "priceManwon": 108500,
-              "areaSqm": 59.98,
-              "floor": 13
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 48,
-            "observedMonths": 28,
+            "score": 47,
+            "observedMonths": 29,
             "periodStart": "2024-03-25",
-            "periodEnd": "2026-07-14",
-            "transactionCount": 79,
+            "periodEnd": "2026-08-15",
+            "transactionCount": 80,
             "baselineSampleCount": 8,
-            "recentSampleCount": 32,
+            "recentSampleCount": 25,
             "baselineMedianPriceManwon": 79000,
-            "recentMedianPriceManwon": 100800,
-            "longTermChangePercent": 27.6,
-            "recentMomentumPercent": 18.6,
+            "recentMedianPriceManwon": 101500,
+            "longTermChangePercent": 28.5,
+            "recentMomentumPercent": 15.3,
             "confidence": "medium"
           }
         },
@@ -3278,7 +3278,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 36,
+            "score": 37,
             "observedMonths": 35,
             "periodStart": "2023-09-02",
             "periodEnd": "2026-08-07",
@@ -3335,29 +3335,47 @@
       ],
       "completionYear": 2018,
       "households": 1316,
-      "priceStatus": "error",
-      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
+      "priceStatus": "ok",
+      "priceMessage": "",
       "latestTransaction": {
         "apartmentName": "기흥역센트럴푸르지오",
         "dongName": "구갈동",
         "jibun": "662",
-        "contractDate": "2026-08-08",
-        "priceManwon": 101700,
-        "areaSqm": 84.9079,
-        "floor": 25
+        "contractDate": "2026-08-22",
+        "priceManwon": 103500,
+        "areaSqm": 84.7616,
+        "floor": 10
       },
       "areaPrices": [
         {
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.83,
-          "count": 147,
-          "averagePriceManwon": 90901,
+          "count": 149,
+          "averagePriceManwon": 91067,
           "minPriceManwon": 77000,
           "maxPriceManwon": 106700,
-          "latestPriceManwon": 101700,
-          "latestContractDate": "2026-08-08",
+          "latestPriceManwon": 103500,
+          "latestContractDate": "2026-08-22",
           "recentTransactions": [
+            {
+              "apartmentName": "기흥역센트럴푸르지오",
+              "dongName": "구갈동",
+              "jibun": "662",
+              "contractDate": "2026-08-22",
+              "priceManwon": 103500,
+              "areaSqm": 84.7616,
+              "floor": 10
+            },
+            {
+              "apartmentName": "기흥역센트럴푸르지오",
+              "dongName": "구갈동",
+              "jibun": "662",
+              "contractDate": "2026-08-14",
+              "priceManwon": 103000,
+              "areaSqm": 84.9868,
+              "floor": 5
+            },
             {
               "apartmentName": "기흥역센트럴푸르지오",
               "dongName": "구갈동",
@@ -3366,39 +3384,21 @@
               "priceManwon": 101700,
               "areaSqm": 84.9079,
               "floor": 25
-            },
-            {
-              "apartmentName": "기흥역센트럴푸르지오",
-              "dongName": "구갈동",
-              "jibun": "662",
-              "contractDate": "2026-07-04",
-              "priceManwon": 105000,
-              "areaSqm": 84.775,
-              "floor": 19
-            },
-            {
-              "apartmentName": "기흥역센트럴푸르지오",
-              "dongName": "구갈동",
-              "jibun": "662",
-              "contractDate": "2026-07-04",
-              "priceManwon": 106700,
-              "areaSqm": 84.7616,
-              "floor": 35
             }
           ],
           "growthAnalysis": {
             "status": "ok",
             "score": 36,
-            "observedMonths": 35,
+            "observedMonths": 36,
             "periodStart": "2023-09-02",
-            "periodEnd": "2026-08-08",
-            "transactionCount": 288,
+            "periodEnd": "2026-08-22",
+            "transactionCount": 290,
             "baselineSampleCount": 21,
-            "recentSampleCount": 77,
+            "recentSampleCount": 74,
             "baselineMedianPriceManwon": 79500,
-            "recentMedianPriceManwon": 94700,
-            "longTermChangePercent": 19.1,
-            "recentMomentumPercent": 9.6,
+            "recentMedianPriceManwon": 95500,
+            "longTermChangePercent": 20.1,
+            "recentMomentumPercent": 9.8,
             "confidence": "high"
           }
         }
