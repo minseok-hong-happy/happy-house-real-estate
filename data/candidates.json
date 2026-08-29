@@ -1,5 +1,5 @@
 {
-  "status": "partial",
+  "status": "ok",
   "source": {
     "name": "국토교통부 아파트 매매 실거래자료",
     "url": "https://www.data.go.kr/data/15126469/openapi.do",
@@ -7,8 +7,8 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-08-28 01:02 KST",
-    "message": "일부 단지는 이전 동기화 가격을 유지합니다."
+    "lastSuccessfulAt": "2026-08-29 20:26 KST",
+    "message": ""
   },
   "candidates": [
     {
@@ -2416,9 +2416,9 @@
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 59.4,
-          "count": 40,
-          "averagePriceManwon": 97428,
+          "representativeAreaSqm": 59.39,
+          "count": 41,
+          "averagePriceManwon": 97734,
           "minPriceManwon": 60000,
           "maxPriceManwon": 113300,
           "latestPriceManwon": 105500,
@@ -2446,10 +2446,10 @@
               "apartmentName": "매화마을공무원1",
               "dongName": "야탑동",
               "jibun": "201",
-              "contractDate": "2026-07-27",
-              "priceManwon": 100000,
+              "contractDate": "2026-08-06",
+              "priceManwon": 110000,
               "areaSqm": 58.92,
-              "floor": 1
+              "floor": 7
             }
           ],
           "growthAnalysis": {
@@ -2458,12 +2458,12 @@
             "observedMonths": 35,
             "periodStart": "2023-09-13",
             "periodEnd": "2026-08-15",
-            "transactionCount": 95,
+            "transactionCount": 96,
             "baselineSampleCount": 5,
-            "recentSampleCount": 22,
+            "recentSampleCount": 23,
             "baselineMedianPriceManwon": 72500,
-            "recentMedianPriceManwon": 104050,
-            "longTermChangePercent": 43.5,
+            "recentMedianPriceManwon": 104100,
+            "longTermChangePercent": 43.6,
             "recentMomentumPercent": 12.7,
             "confidence": "medium"
           }
@@ -3335,8 +3335,8 @@
       ],
       "completionYear": 2018,
       "households": 1316,
-      "priceStatus": "error",
-      "priceMessage": "최근 실거래가를 불러오지 못했어요.",
+      "priceStatus": "ok",
+      "priceMessage": "",
       "latestTransaction": {
         "apartmentName": "기흥역센트럴푸르지오",
         "dongName": "구갈동",

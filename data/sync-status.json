@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-28 01:02 KST",
+  "generatedAt": "2026-08-29 20:26 KST",
   "schedule": "매일 14:00 KST",
-  "overallStatus": "partial",
+  "overallStatus": "needs_configuration",
   "sources": [
     {
       "id": "home-transactions",
@@ -9,18 +9,18 @@
       "status": "ok",
       "itemCount": 27,
       "optional": false,
-      "syncedAt": "2026-08-28 01:02 KST",
+      "syncedAt": "2026-08-29 20:26 KST",
       "message": "최근 3개월 거래 갱신 완료"
     },
     {
       "id": "candidate-transactions",
       "label": "이사 후보지 실거래가",
-      "status": "partial",
-      "itemCount": 21,
+      "status": "ok",
+      "itemCount": 22,
       "totalCount": 22,
       "optional": false,
-      "syncedAt": "2026-08-28 01:02 KST",
-      "message": "일부 단지는 이전 동기화 가격을 유지합니다."
+      "syncedAt": "2026-08-29 20:26 KST",
+      "message": "최근 12개월 가격과 36개월 상승 흐름 갱신 완료"
     },
     {
       "id": "reconstruction-projects",
@@ -28,7 +28,7 @@
       "status": "ok",
       "itemCount": 270,
       "optional": false,
-      "syncedAt": "2026-08-28 01:02 KST",
+      "syncedAt": "2026-08-29 20:26 KST",
       "message": "공식 CSV"
     },
     {
@@ -38,7 +38,7 @@
       "itemCount": 32,
       "totalCount": 270,
       "optional": false,
-      "syncedAt": "2026-08-28 01:02 KST",
+      "syncedAt": "2026-08-29 20:26 KST",
       "message": "매칭 가능한 단지 가격 갱신 완료"
     },
     {
@@ -48,7 +48,7 @@
       "itemCount": 0,
       "totalCount": 270,
       "optional": false,
-      "syncedAt": "2026-08-28 01:02 KST",
+      "syncedAt": "2026-08-29 20:26 KST",
       "message": "Geocoding API와 NAVER_MAPS_CLIENT_SECRET 설정이 필요합니다."
     },
     {
