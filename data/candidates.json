@@ -7,7 +7,7 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-09-03 18:20 KST",
+    "lastSuccessfulAt": "2026-09-04 18:14 KST",
     "message": "일부 단지는 이전 동기화 가격을 유지합니다."
   },
   "candidates": [
@@ -595,7 +595,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 83,
+            "score": 80,
             "observedMonths": 34,
             "periodStart": "2023-10-07",
             "periodEnd": "2026-08-20",
@@ -1033,23 +1033,32 @@
         "apartmentName": "힐스테이트영통",
         "dongName": "망포동",
         "jibun": "728",
-        "contractDate": "2026-08-24",
-        "priceManwon": 135000,
-        "areaSqm": 71.2981,
-        "floor": 10
+        "contractDate": "2026-08-28",
+        "priceManwon": 106000,
+        "areaSqm": 62.5963,
+        "floor": 13
       },
       "areaPrices": [
         {
           "areaTypeSqm": 63,
           "areaLabel": "전용 63㎡ · 약 19평",
-          "representativeAreaSqm": 62.66,
-          "count": 34,
-          "averagePriceManwon": 99477,
+          "representativeAreaSqm": 62.65,
+          "count": 35,
+          "averagePriceManwon": 99664,
           "minPriceManwon": 83000,
           "maxPriceManwon": 121000,
-          "latestPriceManwon": 108000,
-          "latestContractDate": "2026-07-23",
+          "latestPriceManwon": 106000,
+          "latestContractDate": "2026-08-28",
           "recentTransactions": [
+            {
+              "apartmentName": "힐스테이트영통",
+              "dongName": "망포동",
+              "jibun": "728",
+              "contractDate": "2026-08-28",
+              "priceManwon": 106000,
+              "areaSqm": 62.5963,
+              "floor": 13
+            },
             {
               "apartmentName": "힐스테이트영통",
               "dongName": "망포동",
@@ -1067,30 +1076,21 @@
               "priceManwon": 118500,
               "areaSqm": 62.6303,
               "floor": 8
-            },
-            {
-              "apartmentName": "힐스테이트영통",
-              "dongName": "망포동",
-              "jibun": "728",
-              "contractDate": "2026-07-16",
-              "priceManwon": 118000,
-              "areaSqm": 62.8033,
-              "floor": 14
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 78,
-            "observedMonths": 33,
+            "score": 85,
+            "observedMonths": 35,
             "periodStart": "2023-10-11",
-            "periodEnd": "2026-07-23",
-            "transactionCount": 139,
+            "periodEnd": "2026-08-28",
+            "transactionCount": 140,
             "baselineSampleCount": 23,
-            "recentSampleCount": 23,
+            "recentSampleCount": 20,
             "baselineMedianPriceManwon": 72500,
-            "recentMedianPriceManwon": 102477,
-            "longTermChangePercent": 41.3,
-            "recentMomentumPercent": 19.2,
+            "recentMedianPriceManwon": 105100,
+            "longTermChangePercent": 45,
+            "recentMomentumPercent": 20.5,
             "confidence": "high"
           }
         },
@@ -1135,7 +1135,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 79,
+            "score": 78,
             "observedMonths": 34,
             "periodStart": "2023-10-11",
             "periodEnd": "2026-08-24",
@@ -1463,23 +1463,32 @@
         "apartmentName": "영통롯데캐슬엘클래스1단지",
         "dongName": "망포동",
         "jibun": "805",
-        "contractDate": "2026-08-13",
-        "priceManwon": 109000,
-        "areaSqm": 84.9836,
-        "floor": 13
+        "contractDate": "2026-09-02",
+        "priceManwon": 98000,
+        "areaSqm": 84.9882,
+        "floor": 7
       },
       "areaPrices": [
         {
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.96,
-          "count": 42,
-          "averagePriceManwon": 89258,
+          "count": 43,
+          "averagePriceManwon": 89462,
           "minPriceManwon": 80500,
           "maxPriceManwon": 110000,
-          "latestPriceManwon": 109000,
-          "latestContractDate": "2026-08-13",
+          "latestPriceManwon": 98000,
+          "latestContractDate": "2026-09-02",
           "recentTransactions": [
+            {
+              "apartmentName": "영통롯데캐슬엘클래스1단지",
+              "dongName": "망포동",
+              "jibun": "805",
+              "contractDate": "2026-09-02",
+              "priceManwon": 98000,
+              "areaSqm": 84.9882,
+              "floor": 7
+            },
             {
               "apartmentName": "영통롯데캐슬엘클래스1단지",
               "dongName": "망포동",
@@ -1497,22 +1506,13 @@
               "priceManwon": 98000,
               "areaSqm": 84.9836,
               "floor": 17
-            },
-            {
-              "apartmentName": "영통롯데캐슬엘클래스1단지",
-              "dongName": "망포동",
-              "jibun": "805",
-              "contractDate": "2026-07-24",
-              "priceManwon": 103000,
-              "areaSqm": 84.8531,
-              "floor": 14
             }
           ],
           "growthAnalysis": {
             "status": "insufficient",
             "message": "비교 가능한 장기 거래가 부족합니다.",
-            "observedMonths": 32,
-            "transactionCount": 60
+            "observedMonths": 33,
+            "transactionCount": 61
           }
         },
         {
@@ -1794,7 +1794,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 85,
+            "score": 83,
             "observedMonths": 34,
             "periodStart": "2023-10-13",
             "periodEnd": "2026-08-07",
@@ -2008,10 +2008,10 @@
         "apartmentName": "만현마을3단지성원쌍떼빌",
         "dongName": "상현동",
         "jibun": "864",
-        "contractDate": "2026-08-14",
-        "priceManwon": 94000,
+        "contractDate": "2026-08-15",
+        "priceManwon": 92000,
         "areaSqm": 84.975,
-        "floor": 14
+        "floor": 10
       },
       "areaPrices": [
         {
@@ -2046,13 +2046,22 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.97,
-          "count": 27,
-          "averagePriceManwon": 81133,
+          "count": 28,
+          "averagePriceManwon": 81521,
           "minPriceManwon": 71500,
           "maxPriceManwon": 94000,
-          "latestPriceManwon": 94000,
-          "latestContractDate": "2026-08-14",
+          "latestPriceManwon": 92000,
+          "latestContractDate": "2026-08-15",
           "recentTransactions": [
+            {
+              "apartmentName": "만현마을3단지성원쌍떼빌",
+              "dongName": "상현동",
+              "jibun": "864",
+              "contractDate": "2026-08-15",
+              "priceManwon": 92000,
+              "areaSqm": 84.975,
+              "floor": 10
+            },
             {
               "apartmentName": "만현마을3단지성원쌍떼빌",
               "dongName": "상현동",
@@ -2070,15 +2079,6 @@
               "priceManwon": 92500,
               "areaSqm": 84.975,
               "floor": 9
-            },
-            {
-              "apartmentName": "만현마을3단지성원쌍떼빌",
-              "dongName": "상현동",
-              "jibun": "864",
-              "contractDate": "2026-06-29",
-              "priceManwon": 92500,
-              "areaSqm": 84.975,
-              "floor": 9
             }
           ],
           "growthAnalysis": {
@@ -2086,14 +2086,14 @@
             "score": 73,
             "observedMonths": 34,
             "periodStart": "2023-10-05",
-            "periodEnd": "2026-08-14",
-            "transactionCount": 74,
+            "periodEnd": "2026-08-15",
+            "transactionCount": 75,
             "baselineSampleCount": 10,
-            "recentSampleCount": 12,
+            "recentSampleCount": 13,
             "baselineMedianPriceManwon": 63750,
-            "recentMedianPriceManwon": 89000,
-            "longTermChangePercent": 39.6,
-            "recentMomentumPercent": 20,
+            "recentMedianPriceManwon": 89500,
+            "longTermChangePercent": 40.4,
+            "recentMomentumPercent": 20.5,
             "confidence": "high"
           }
         }
@@ -2218,7 +2218,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 76,
+            "score": 75,
             "observedMonths": 34,
             "periodStart": "2023-10-07",
             "periodEnd": "2026-07-23",
