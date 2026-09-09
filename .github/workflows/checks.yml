@@ -15,3 +15,4 @@ jobs:
           node-version: 20
       - run: node --check planner.js && node --check finance-core.js && node --check script.js && node --check scripts/sync-home-price.mjs
       - run: node --test tests/*.test.cjs
+
