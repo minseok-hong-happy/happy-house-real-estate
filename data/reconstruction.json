@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-09-08 18:16 KST",
+    "lastSuccessfulAt": "2026-09-09 18:20 KST",
     "message": ""
   },
   "geocoding": {
@@ -2157,9 +2157,9 @@
         {
           "areaTypeSqm": 63,
           "areaLabel": "전용 63㎡ · 약 19평",
-          "representativeAreaSqm": 63.09,
-          "count": 14,
-          "averagePriceManwon": 117500,
+          "representativeAreaSqm": 63.11,
+          "count": 15,
+          "averagePriceManwon": 118600,
           "minPriceManwon": 70000,
           "maxPriceManwon": 135000,
           "latestPriceManwon": 78000,
@@ -2187,10 +2187,10 @@
               "apartmentName": "삼익파크맨션",
               "dongName": "길동",
               "jibun": "53",
-              "contractDate": "2026-07-01",
-              "priceManwon": 135000,
-              "areaSqm": 62.91,
-              "floor": 3
+              "contractDate": "2026-07-25",
+              "priceManwon": 134000,
+              "areaSqm": 63.35,
+              "floor": 1
             }
           ]
         },
@@ -4901,8 +4901,8 @@
           "areaTypeSqm": 95,
           "areaLabel": "전용 95㎡ · 약 29평",
           "representativeAreaSqm": 95.43,
-          "count": 19,
-          "averagePriceManwon": 83779,
+          "count": 20,
+          "averagePriceManwon": 84090,
           "minPriceManwon": 71500,
           "maxPriceManwon": 98000,
           "latestPriceManwon": 98000,
@@ -5922,10 +5922,10 @@
         "apartmentName": "군자주공9",
         "dongName": "선부동",
         "jibun": "967",
-        "contractDate": "2026-08-30",
-        "priceManwon": 26100,
+        "contractDate": "2026-09-07",
+        "priceManwon": 24500,
         "areaSqm": 39.27,
-        "floor": 2
+        "floor": 3
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -5936,14 +5936,23 @@
         {
           "areaTypeSqm": 39,
           "areaLabel": "전용 39㎡ · 약 12평",
-          "representativeAreaSqm": 39.39,
-          "count": 10,
-          "averagePriceManwon": 26660,
-          "minPriceManwon": 25800,
+          "representativeAreaSqm": 39.38,
+          "count": 11,
+          "averagePriceManwon": 26464,
+          "minPriceManwon": 24500,
           "maxPriceManwon": 27800,
-          "latestPriceManwon": 26100,
-          "latestContractDate": "2026-08-30",
+          "latestPriceManwon": 24500,
+          "latestContractDate": "2026-09-07",
           "recentTransactions": [
+            {
+              "apartmentName": "군자주공9",
+              "dongName": "선부동",
+              "jibun": "967",
+              "contractDate": "2026-09-07",
+              "priceManwon": 24500,
+              "areaSqm": 39.27,
+              "floor": 3
+            },
             {
               "apartmentName": "군자주공9",
               "dongName": "선부동",
@@ -5961,15 +5970,6 @@
               "priceManwon": 26500,
               "areaSqm": 39.27,
               "floor": 3
-            },
-            {
-              "apartmentName": "군자주공9",
-              "dongName": "선부동",
-              "jibun": "967",
-              "contractDate": "2026-05-06",
-              "priceManwon": 26000,
-              "areaSqm": 39.27,
-              "floor": 5
             }
           ]
         },
@@ -7581,10 +7581,10 @@
         "apartmentName": "성산시영(대우)",
         "dongName": "성산동",
         "jibun": "446",
-        "contractDate": "2026-08-05",
-        "priceManwon": 144000,
+        "contractDate": "2026-08-11",
+        "priceManwon": 153850,
         "areaSqm": 50.03,
-        "floor": 2
+        "floor": 8
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7596,13 +7596,22 @@
           "areaTypeSqm": 49,
           "areaLabel": "전용 49㎡ · 약 15평",
           "representativeAreaSqm": 50.03,
-          "count": 33,
-          "averagePriceManwon": 128064,
+          "count": 34,
+          "averagePriceManwon": 128822,
           "minPriceManwon": 91200,
-          "maxPriceManwon": 150000,
-          "latestPriceManwon": 144000,
-          "latestContractDate": "2026-08-05",
+          "maxPriceManwon": 153850,
+          "latestPriceManwon": 153850,
+          "latestContractDate": "2026-08-11",
           "recentTransactions": [
+            {
+              "apartmentName": "성산시영(대우)",
+              "dongName": "성산동",
+              "jibun": "446",
+              "contractDate": "2026-08-11",
+              "priceManwon": 153850,
+              "areaSqm": 50.03,
+              "floor": 8
+            },
             {
               "apartmentName": "성산시영(대우)",
               "dongName": "성산동",
@@ -7620,15 +7629,6 @@
               "priceManwon": 150000,
               "areaSqm": 50.03,
               "floor": 7
-            },
-            {
-              "apartmentName": "성산시영(대우)",
-              "dongName": "성산동",
-              "jibun": "446",
-              "contractDate": "2026-07-09",
-              "priceManwon": 148000,
-              "areaSqm": 50.03,
-              "floor": 13
             }
           ]
         },
@@ -10479,13 +10479,22 @@
           "areaTypeSqm": 128,
           "areaLabel": "전용 128㎡ · 약 39평",
           "representativeAreaSqm": 127.57,
-          "count": 7,
-          "averagePriceManwon": 85400,
+          "count": 8,
+          "averagePriceManwon": 86475,
           "minPriceManwon": 78000,
-          "maxPriceManwon": 90000,
-          "latestPriceManwon": 89500,
-          "latestContractDate": "2026-08-12",
+          "maxPriceManwon": 94000,
+          "latestPriceManwon": 94000,
+          "latestContractDate": "2026-08-21",
           "recentTransactions": [
+            {
+              "apartmentName": "호계럭키",
+              "dongName": "호계동",
+              "jibun": "570",
+              "contractDate": "2026-08-21",
+              "priceManwon": 94000,
+              "areaSqm": 127.57,
+              "floor": 13
+            },
             {
               "apartmentName": "호계럭키",
               "dongName": "호계동",
@@ -10503,15 +10512,6 @@
               "priceManwon": 86000,
               "areaSqm": 127.57,
               "floor": 8
-            },
-            {
-              "apartmentName": "호계럭키",
-              "dongName": "호계동",
-              "jibun": "570",
-              "contractDate": "2026-06-30",
-              "priceManwon": 90000,
-              "areaSqm": 127.57,
-              "floor": 3
             }
           ]
         }
@@ -12066,10 +12066,10 @@
         "apartmentName": "우만주공1단지",
         "dongName": "우만동",
         "jibun": "28",
-        "contractDate": "2026-09-04",
-        "priceManwon": 49400,
-        "areaSqm": 47.25,
-        "floor": 3
+        "contractDate": "2026-09-05",
+        "priceManwon": 34000,
+        "areaSqm": 38.52,
+        "floor": 4
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -12081,13 +12081,22 @@
           "areaTypeSqm": 39,
           "areaLabel": "전용 39㎡ · 약 12평",
           "representativeAreaSqm": 38.52,
-          "count": 8,
-          "averagePriceManwon": 34938,
+          "count": 9,
+          "averagePriceManwon": 34833,
           "minPriceManwon": 32000,
           "maxPriceManwon": 36000,
-          "latestPriceManwon": 36000,
-          "latestContractDate": "2026-08-12",
+          "latestPriceManwon": 34000,
+          "latestContractDate": "2026-09-05",
           "recentTransactions": [
+            {
+              "apartmentName": "우만주공1단지",
+              "dongName": "우만동",
+              "jibun": "28",
+              "contractDate": "2026-09-05",
+              "priceManwon": 34000,
+              "areaSqm": 38.52,
+              "floor": 4
+            },
             {
               "apartmentName": "우만주공1단지",
               "dongName": "우만동",
@@ -12105,15 +12114,6 @@
               "priceManwon": 34500,
               "areaSqm": 38.52,
               "floor": 1
-            },
-            {
-              "apartmentName": "우만주공1단지",
-              "dongName": "우만동",
-              "jibun": "28",
-              "contractDate": "2026-07-30",
-              "priceManwon": 36000,
-              "areaSqm": 38.52,
-              "floor": 4
             }
           ]
         },
@@ -12241,13 +12241,22 @@
           "areaTypeSqm": 49,
           "areaLabel": "전용 49㎡ · 약 15평",
           "representativeAreaSqm": 49.94,
-          "count": 22,
-          "averagePriceManwon": 45414,
+          "count": 23,
+          "averagePriceManwon": 45613,
           "minPriceManwon": 29400,
           "maxPriceManwon": 53000,
-          "latestPriceManwon": 46300,
-          "latestContractDate": "2026-08-03",
+          "latestPriceManwon": 50000,
+          "latestContractDate": "2026-08-31",
           "recentTransactions": [
+            {
+              "apartmentName": "우만주공2단지",
+              "dongName": "우만동",
+              "jibun": "28",
+              "contractDate": "2026-08-31",
+              "priceManwon": 50000,
+              "areaSqm": 49.94,
+              "floor": 12
+            },
             {
               "apartmentName": "우만주공2단지",
               "dongName": "우만동",
@@ -12265,15 +12274,6 @@
               "priceManwon": 53000,
               "areaSqm": 49.94,
               "floor": 12
-            },
-            {
-              "apartmentName": "우만주공2단지",
-              "dongName": "우만동",
-              "jibun": "28",
-              "contractDate": "2026-07-02",
-              "priceManwon": 46500,
-              "areaSqm": 49.94,
-              "floor": 2
             }
           ]
         },
