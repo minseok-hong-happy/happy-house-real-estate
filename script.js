@@ -186,7 +186,8 @@ function brokerageMaximum(price) {
   if (price < 50000000) return { fee: Math.min(price * 0.006, 250000), rate: 0.006 };
   if (price < 200000000) return { fee: Math.min(price * 0.005, 800000), rate: 0.005 };
   if (price < 900000000) return { fee: price * 0.004, rate: 0.004 };
-  return { fee: price * 0.009, rate: 0.009 };
+  const rate = price < 1200000000 ? 0.005 : price < 1500000000 ? 0.006 : 0.007;
+  return { fee: price * rate, rate };
 }
 
 function earnedIncomeDeduction(grossSalary) {
@@ -248,6 +249,7 @@ function estimatePurchaseTax(price, area) {
 }
 
 function calculateFinance() {
+  if (window.HappyPlanner) return window.HappyPlanner.refresh();
   const salePriceEok = numberValue(fields.salePrice);
   const creditAmountEok = Math.max(0, numberValue(fields.creditAmount) || 0);
   const creditRate = Math.max(0, numberValue(fields.creditRate) || 0);
@@ -421,6 +423,7 @@ function renderListings(listingData) {
 }
 
 function renderHomePrice(data) {
+  window.happyHouseHomeData = data;
   const apartment = data.apartment || {};
   const sync = data.sync || {};
   const trades = data.recentTransactions || {};
@@ -442,6 +445,13 @@ function renderHomePrice(data) {
   setText('#trade-latest', formatPriceManwon(Number(summary.latestPriceManwon)));
   renderTransactionRows(trades.records);
   renderListings(data.currentListings);
+
+  if (window.HappyPlanner) {
+    latestHomePriceManwon = Number(summary.latestPriceManwon);
+    latestHomePriceContractDate = trades.records?.[0]?.contractDate || '';
+    window.HappyPlanner.setHome(data);
+    return;
+  }
 
   latestHomePriceManwon = Number(summary.latestPriceManwon);
   latestHomePriceContractDate = trades.records?.[0]?.contractDate || '';
@@ -954,7 +964,9 @@ function renderPriceRecommendations(data) {
 }
 
 function renderCandidates(data) {
+  window.happyHouseCandidateData = data;
   candidateData = data;
+  if (window.HappyPlanner) return window.HappyPlanner.setCandidates(data);
   const sync = data.sync || {};
   const syncedAt = sync.lastSuccessfulAt || null;
   const syncDot = document.querySelector('#candidate-sync-dot');
@@ -1245,6 +1257,7 @@ function renderFilteredReconstruction({ resetPage = false } = {}) {
   }
   loadMore.hidden = visibleItems.length >= filtered.length;
   loadMore.textContent = '더 보기 (' + (filtered.length - visibleItems.length).toLocaleString('ko-KR') + '개 남음)';
+  window.HappyPlanner?.setReconstruction({ items: reconstructionItems });
 }
 
 function mapPopupContent(item) {
@@ -1730,9 +1743,11 @@ function renderMapProjects() {
       : '잘못된 시군구 중심 추정 핀은 제거했습니다. NAVER Geocoding 동기화가 끝난 단지만 표시합니다.'));
   updateMapLabelVisibility();
   if (!document.querySelector('#map-panel').hidden) void hydrateBrowserMapPoints(scopedItems);
+  window.HappyPlanner?.refreshMap();
 }
 
 function renderReconstruction(data) {
+  window.happyHouseReconstructionData = data;
   const sync = data.sync || {};
   const syncedAt = sync.lastSuccessfulAt || null;
   const syncDot = document.querySelector('#reconstruction-sync-dot');

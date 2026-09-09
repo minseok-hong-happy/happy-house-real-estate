@@ -1,5 +1,6 @@
 import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import process from 'node:process';
+import { pathToFileURL } from 'node:url';
 
 const HOME_DATA_PATH = 'data/home-price.json';
 const RECONSTRUCTION_DATA_PATH = 'data/reconstruction.json';
@@ -300,6 +301,7 @@ function parseTransactions(xml) {
     if (!contractDate || !Number.isFinite(priceManwon) || cancellationType === 'O' || cancellationDate) continue;
     records.push({
       apartmentName: name,
+      buildYear: Number(tagValue(item, ['buildYear'])) || null,
       dongName: tagValue(item, ['umdNm', 'legalDong', 'dong']),
       jibun: tagValue(item, ['jibun']),
       contractDate,
@@ -368,6 +370,8 @@ function fetchDistrictMonth(serviceKey, lawdCd, yearMonth) {
 
 function targetTransactions(records, target, cutoff) {
   return records.filter((record) => {
+    if (target.exactName && normalizedName(record.apartmentName) !== normalizedName(target.name)) return false;
+    if (target.jibun && record.jibun !== target.jibun) return false;
     if (!matchesTarget(record.apartmentName, target)) return false;
     if (target.dongNames?.length && !target.dongNames.some((dong) => normalizedName(record.dongName) === normalizedName(dong))) return false;
     const parsedDate = new Date(record.contractDate + 'T00:00:00Z');
@@ -1155,6 +1159,8 @@ async function syncCandidates(serviceKey, previous) {
     const previousItem = previous.recommendationPool?.find((item) => item.id === target.id);
     recommendationPool.push(await syncPriceTarget(serviceKey, target, previousItem));
   }
+  const discovery = await discoverCandidates(serviceKey, [...MOVE_CANDIDATES, ...RECOMMENDATION_TARGETS], previous);
+  recommendationPool.push(...discovery.items);
   assignGrowthScores([...candidates, ...recommendationPool]);
   const hasError = [...candidates, ...recommendationPool].some((item) => item.priceStatus === 'error');
   return {
@@ -1169,9 +1175,43 @@ async function syncCandidates(serviceKey, previous) {
       lastSuccessfulAt: formatKstTimestamp(),
       message: hasError ? '일부 단지는 이전 동기화 가격을 유지합니다.' : ''
     },
+    discovery: { districtCount: discovery.districtCount, perDistrictLimit: 12, message: '추적 지역의 최근 신고 거래에서 59~100㎡, 8.5~12억원 후보 자동 발견. 전체 시장 목록은 아닙니다.' },
     candidates,
     recommendationPool
   };
+}
+
+async function discoverCandidates(serviceKey, configured, previous, fetchMonth = fetchDistrictMonth) {
+  const districts = new Map(configured.map(item => [item.lawdCd, item.location.split(' ').slice(0, 2).join(' ')]));
+  const discovered = [];
+  for (const [lawdCd, location] of districts) {
+    try {
+      const responses = await Promise.all(recentMonths(36).map(month => fetchMonth(serviceKey, lawdCd, month)));
+      const groups = new Map();
+      for (const record of responses.flat()) {
+        if (!record.apartmentName || !record.dongName || !record.jibun) continue;
+        if (configured.some(t => t.lawdCd === lawdCd && (!t.dongNames?.length || t.dongNames.includes(record.dongName)) && matchesTarget(record.apartmentName, t))) continue;
+        const key = [record.dongName, record.jibun, record.apartmentName].join('|');
+        if (!groups.has(key)) groups.set(key, []);
+        groups.get(key).push(record);
+      }
+      const choices = [...groups.entries()].map(([key, records]) => {
+        const areaPrices = summarizeAreaPrices(records, null, { summaryMonthCount:12, analyzeGrowth:true });
+        const matching = areaPrices.filter(a => a.areaTypeSqm >= 59 && a.areaTypeSqm <= 100 && a.latestPriceManwon >= 85000 && a.latestPriceManwon <= 120000);
+        if (!matching.length) return null;
+        const latest = [...records].sort((a,b)=>b.contractDate.localeCompare(a.contractDate))[0];
+        return { id:'auto-'+lawdCd+'-'+encodeURIComponent(key),name:latest.apartmentName,location:location+' '+latest.dongName,lawdCd,
+          dongNames:[latest.dongName],jibun:latest.jibun,matchNames:[latest.apartmentName],exactName:true,discovered:true,
+          completionYear:latest.buildYear||null,priceStatus:'ok',priceMessage:'',latestTransaction:latest,areaPrices,
+          discoveryCount:matching.reduce((total,a)=>total+a.count,0) };
+      }).filter(Boolean).sort((a,b)=>b.discoveryCount-a.discoveryCount || b.latestTransaction.contractDate.localeCompare(a.latestTransaction.contractDate)).slice(0,12);
+      discovered.push(...choices);
+    } catch (error) {
+      console.warn('[discovery] '+lawdCd+': '+error.message);
+      discovered.push(...(previous.recommendationPool||[]).filter(i=>i.discovered&&i.lawdCd===lawdCd).map(i=>({...i,priceStatus:'error',priceMessage:'이전 정상 거래 유지'})));
+    }
+  }
+  return {items:discovered,districtCount:districts.size};
 }
 
 function buildSyncStatus(homeData, reconstruction, candidates) {
@@ -1319,7 +1359,11 @@ async function main() {
   console.log('[sync-status] ' + syncStatus.overallStatus + ' · ' + syncStatus.sources.map((source) => source.id + '=' + source.status).join(', '));
 }
 
-main().catch((error) => {
-  console.error('[sync-home-price] ' + error.message);
-  process.exitCode = 1;
-});
+export { discoverCandidates, parseTransactions, targetTransactions };
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => {
+    console.error('[sync-home-price] ' + error.message);
+    process.exitCode = 1;
+  });
+}

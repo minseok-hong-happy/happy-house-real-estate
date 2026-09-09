@@ -33,6 +33,10 @@ The workflow also reads the Ministry of Land, Infrastructure and Transport natio
 
 Where a redevelopment-zone name can be safely matched to a transaction apartment and district code, the latest 12-month official transaction is added. Unmatched projects remain in the list with their official project information instead of showing a potentially incorrect apartment price.
 
+## Candidate discovery
+
+The same daily job reuses the 36-month district transaction cache to discover additional complexes outside the fixed shortlist. In each already-tracked district, it includes up to 12 additional complexes with a 59-100 square-meter type whose latest transaction within 12 months is KRW 850 million to KRW 1.2 billion. Display filters default to KRW 900 million to KRW 1.1 billion. Grouping uses legal neighborhood, lot address, and exact apartment name; it does not merge similarly named homes. District retrieval failures preserve previous discovered records. This is a bounded discovery pool, not an exhaustive market or listings API.
+
 ## Current listings
 
 The official Naver Developers API catalog does not provide a Naver Real Estate listings API. Do not configure an unauthorized crawler for Naver Real Estate. Configure a separately contracted provider that allows automated retrieval instead:
