@@ -94,6 +94,7 @@
     if(!p.kbKnown) notes.push('이 집의 KB 시세 확인 전 한도 추정입니다.');
     else if(age(t.kbDate)>30) notes.push('저장된 KB 시세가 오래됐어요. 최신값을 확인해 주세요.');
     if(!F.known(state.settings.monthlyLimit)) notes.push('감당할 월 주거비 상한을 입력하면 적합 여부를 확인할 수 있어요.');
+    else if(p.monthlyOver>1) notes.push('상한을 넘는 달이 있어요. 가장 큰 정기 부담은 '+money(p.peak)+'/월입니다.');
     if(age(t.date)>90) notes.push('마지막 거래가 90일 이상 지났어요. 현재 매물 가격을 확인해 주세요.');
     if(t.kind==='reconstruction'&&!t.projectConfirmed) notes.push('재건축 분담금·임시거주비 확인 전입니다.');
     return notes;
@@ -104,7 +105,7 @@
     const list = state.compare.map(find).filter(Boolean).slice(0,3);
     document.querySelector('#home-panel').innerHTML = header('내 이사 계획', '월 부담과 남는 자산을 함께 확인하세요.',button('내 조건 수정','go-budget')) +
       `<section class="dp-hero"><div><span class="dp-kicker">선택한 집</span><h2>${esc(t.name)} <small>${t.area}㎡</small></h2><p>매수가 ${eok(t.price)} · ${t.date?esc(t.date)+' 실거래 참고':'직접 계산'}</p><span class="dp-badge ${tone}">${noSale?'매도가 입력 필요':label}</span></div><div class="dp-hero-amount"><span>${p.shortage>1?'더 필요한 자금':'이사 후 남는 현금'}</span><strong>${noSale?'확인 중':money(p.shortage>1?p.shortage:p.initialCash)}</strong><small>비상자금 목표 ${money(p.reserve)} ${p.shortage>1?'포함':'확보 여부 반영'}</small>${button('이 집 자세히 계산','go-budget','',true)}</div></section>` +
-      `<div class="dp-stats">${stat('거치 중 월 주거비',money(p.rows[0].recurring),'개인 이자·세금·주거비 포함')}${stat('37개월차 월 주거비',money(p.rows[36].recurring),p.monthlyOver>1?'월 상한보다 '+money(p.monthlyOver)+' 초과':'원금 상환 시작',p.monthlyOver>1?'dp-warn':'')}${stat('37개월차 예상 저축',money(p.monthlySavings),F.known(p.monthlySavings)?'가계 실수령 − 생활비 − 주거비':'가계 실수령·생활비 입력 후 표시')}</div>` +
+      `<div class="dp-stats">${stat('거치 중 월 주거비',money(p.rows[0].recurring),'개인 이자·세금·주거비 포함')}${stat('37개월차 월 주거비',money(p.rows[36].recurring),'정기 납부 최대 '+money(p.peak)+'/월',p.monthlyOver>1?'dp-warn':'')}${stat('37개월차 예상 저축',money(p.monthlySavings),F.known(p.monthlySavings)?'가계 실수령 − 생활비 − 주거비':'가계 실수령·생활비 입력 후 표시')}</div>` +
       `<div class="dp-next">${checks(t,p).slice(0,1).map(esc).join('')||'다음은 현재 집을 유지했을 때와 비교해 보세요.'}${button('현재 집과 비교','go-candidates')}</div>` +
       `<div class="dp-section-title"><h2>비교 중인 집</h2>${button('후보 찾기','go-recommendations')}</div><div class="dp-picks">${list.map(i=>compactCard(i)).join('')||'<p class="dp-muted">추천에서 마음에 드는 집을 담아보세요.</p>'}</div>`+
       (changes.length?`<section class="dp-note"><b>지난 방문 이후 실거래 변화</b>${changes.slice(0,3).map(c=>`<p>${esc(c.name)} ${c.area}㎡ · ${eok(c.before)} → ${eok(c.after)}</p>`).join('')}</section>`:'')+
@@ -134,10 +135,15 @@
       `<div class="dp-actions">${button('설정 내보내기','export')}${button('설정 가져오기','import')}<input type="file" id="dp-import" accept="application/json,.json" hidden></div></div>`+
       `<div class="dp-results"><section class="dp-result-card"><span class="dp-kicker">${p.shortage>1?'더 필요한 자금':'비상자금 확보 후 여유'}</span><strong>${money(p.shortage>1?p.shortage:p.initialCash-p.reserve)}</strong><p>매수대금 + 세금·복비 + 이사·수리 + 비상자금</p><div class="dp-line"><span>총 매수 지출</span><b>${money(p.upfront)}</b></div><div class="dp-line"><span>매도 순자금</span><b>${money(p.saleNet)}</b></div><div class="dp-line"><span>사내 대출 추정</span><b>${eok(p.loan)}</b></div><div class="dp-line"><span>매수 후 현금</span><b>${money(p.initialCash)}</b></div>${button('우리집 유지와 비교','go-candidates','',true)}</section>`+
       `<section class="dp-card"><h2>월 주거비</h2><div class="dp-line"><span>1개월차 · 거치 중</span><b>${money(p.rows[0].recurring)}</b></div><div class="dp-line"><span>37개월차 · 상환 시작</span><b>${money(p.rows[36].recurring)}</b></div><div class="dp-line"><span>가장 큰 정기 월 부담</span><b>${money(p.peak)}</b></div><p class="dp-muted">원금·개인 이자·지원분 세금·유지비 포함. 만기 원금은 월별표에 별도 합산합니다.</p>${checks(t,p).map(n=>`<p class="dp-callout">${esc(n)}</p>`).join('')}</section>`+
+      details('37개월차 · 원금·이자·세금 나눠보기',monthlyBreakdown(p.rows[36],t))+
       details('세금·복비 계산 내역',`<div class="dp-line"><span>매도 복비 (조달금에서 차감)</span><b>${money(p.saleFee)}</b></div><div class="dp-line"><span>매수 복비</span><b>${money(p.buyerFee)}</b></div><div class="dp-line"><span>취득세·교육세 등</span><b>${money(p.tax)}</b></div><div class="dp-line"><span>이사·수리·기타</span><b>${money(p.other)}</b></div><p class="dp-muted">일반 주택 매수 세율 가정. 주택 수·명의·특례에 따라 달라집니다. 확인한 세액은 직접 입력할 수 있어요. <a href="https://map.gg.go.kr/reb/selectRebRateView.do" target="_blank" rel="noreferrer">중개보수 기준</a></p>`)+
       details('매도가가 3,000만원 낮아진다면',`<p>추가 필요자금 <b>${money(F.plan({...s,salePrice:Math.max(0,s.salePrice-30000000)},t).shortage)}</b></p><p>신용금리가 2%p 높아지면 37개월차 <b>${money(F.plan({...s,creditRate:Number(s.creditRate)+2},t).rows[36].recurring)}/월</b></p>`)+`</div></div>`+
       details('13년 월별 납부표 · 만기 원금 포함',timeline(p))+
       details('계약금과 잔금 사이에 돈이 부족할까?',closingView(s,t));
+  }
+  function monthlyBreakdown(row,t) {
+    const entries=[['사내대출 원금',row.companyPrincipal],['신용대출 원금',row.creditPrincipal],['사내대출 개인 이자',row.companyInterest],['신용대출 이자',row.creditInterest],['회사 지원이자 추가세금 추정',row.subsidyTax],['월 환산 보유세 예산',Number(t.holdingTax||0)/12],['관리·교통비 예산',Number(t.operating||0)+Number(t.transport||0)],['월 납부 합계',row.total]];
+    return entries.map(([label,value])=>`<div class="dp-line"><span>${label}</span><b>${money(value)}</b></div>`).join('')+'<p class="dp-muted">원금 상환과 소모되는 이자·세금·유지비를 구분했습니다. 신용대출 만기 원금이 있는 달은 합계에 포함됩니다.</p>';
   }
   function timeline(p) {
     const max=Math.max(1,p.peak);
