@@ -1,0 +1,18 @@
+name: Check decision planner
+on:
+  push:
+    paths: ['*.js', 'scripts/**', 'tests/**', '.github/workflows/checks.yml']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  finance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node --check planner.js && node --check finance-core.js && node --check script.js && node --check scripts/sync-home-price.mjs
+      - run: node --test tests/*.test.cjs
+
