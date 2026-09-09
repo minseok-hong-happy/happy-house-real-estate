@@ -19,6 +19,8 @@ The same run refreshes every time-sensitive source used by the site:
 
 Per-source status and counts are written to `data/sync-status.json` and to the GitHub Actions run summary. A required transaction API failure stops the run before data files are replaced. A transient optional-provider failure preserves the last usable value with a `stale` status.
 
+MOLIT pages share a serialized queue with at least 550 milliseconds between request starts, a 20-second timeout, and at most four attempts for transient HTTP 429/5xx or network failures. Retries use exponential backoff and honor bounded `Retry-After` values; permanent authentication errors are not retried. A successful Action can still have partial source status, so inspect the source counts rather than only the workflow badge.
+
 ## Official recent transaction prices
 
 The workflow uses the Ministry of Land, Infrastructure and Transport apartment transaction API for the last three months of reported apartment sales. It also refreshes the latest reported transaction from the last 12 months for each Reconstruction target. Add the following GitHub Actions secret before the first successful sync:

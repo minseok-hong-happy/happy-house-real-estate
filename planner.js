@@ -16,6 +16,7 @@
   try { state = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch { storageError = true; }
   function validState(data) {
     if (!data || data.version !== 2 || !data.settings || typeof data.settings !== 'object') return false;
+    for(const key of ['overrides','prices','snapshots','mapPoints','assumptions'])if(Object.hasOwn(data,key)&&(!data[key]||typeof data[key]!=='object'||Array.isArray(data[key])))return false;
     const forbidden = key => ['__proto__','constructor','prototype'].includes(key);
     for (const [key,value] of Object.entries(data.settings)) {
       if (!Object.hasOwn(defaults,key) || forbidden(key)) return false;
@@ -89,6 +90,7 @@
   }
   function checks(t,p) {
     const notes = [];
+    if(t.priceStatus==='error') notes.push('이 단지는 이번 수집에 실패해 이전 거래 자료를 보여줍니다.');
     if(!p.kbKnown) notes.push('이 집의 KB 시세 확인 전 한도 추정입니다.');
     else if(age(t.kbDate)>30) notes.push('저장된 KB 시세가 오래됐어요. 최신값을 확인해 주세요.');
     if(!F.known(state.settings.monthlyLimit)) notes.push('감당할 월 주거비 상한을 입력하면 적합 여부를 확인할 수 있어요.');
@@ -245,7 +247,7 @@
       area:Number(a.areaTypeSqm),price:Number(a.latestPriceManwon)*10000,date:a.latestContractDate,count:a.count,
       floor:a.recentTransactions?.[0]?.floor,trades:a.recentTransactions||[],trend:a.growthAnalysis?.longTermChangePercent,
       observedMonths:a.growthAnalysis?.observedMonths,completionYear:item.completionYear,requested:(data.candidates||[]).some(c=>c.id===item.id),
-      mapPoint:item.mapPoint,latestTransaction:item.latestTransaction
+      mapPoint:item.mapPoint,latestTransaction:item.latestTransaction,priceStatus:item.priceStatus
     })));
     catalog=[...additions,...catalog.filter(i=>i.kind==='reconstruction')];
     changes=additions.filter(i=>state.prices[i.key]&&state.prices[i.key]!==i.price&&state.saved.includes(i.key)).map(i=>({...i,before:state.prices[i.key],after:i.price}));

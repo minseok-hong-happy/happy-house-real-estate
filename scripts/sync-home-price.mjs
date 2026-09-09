@@ -325,6 +325,22 @@ function summarizeTransactions(records) {
 }
 
 const districtMonthCache = new Map();
+const sleep = milliseconds => new Promise(resolve => setTimeout(resolve, milliseconds));
+
+// Share one paced queue across all districts, pages, candidates and reconstruction.
+function createRequestQueue(interval = 550, wait = sleep, now = Date.now) {
+  let tail = Promise.resolve(), lastStart = -Infinity;
+  return task => {
+    const run = tail.then(async () => {
+      await wait(Math.max(0, lastStart + interval - now()));
+      lastStart = now();
+      return task();
+    });
+    tail = run.catch(() => {});
+    return run;
+  };
+}
+const queueMolitRequest = createRequestQueue();
 
 function decodedServiceKey(serviceKey) {
   let decodedKey;
@@ -336,22 +352,33 @@ function decodedServiceKey(serviceKey) {
   return decodedKey;
 }
 
-async function requestDistrictPage(serviceKey, lawdCd, yearMonth, pageNo) {
+async function requestDistrictPage(serviceKey, lawdCd, yearMonth, pageNo, { request = fetch, enqueue = queueMolitRequest, wait = sleep } = {}) {
   const url = new URL(SERVICE_URL);
   url.searchParams.set('serviceKey', decodedServiceKey(serviceKey));
   url.searchParams.set('LAWD_CD', lawdCd);
   url.searchParams.set('DEAL_YMD', yearMonth);
   url.searchParams.set('numOfRows', '1000');
   url.searchParams.set('pageNo', String(pageNo));
-  const response = await fetch(url);
-  const body = await response.text();
-  const resultCode = tagValue(body, ['resultCode']);
-  if (!response.ok) throw new Error('국토교통부 API HTTP ' + response.status + ': ' + apiErrorDetail(response, body));
-  if (!['00', '000'].includes(resultCode)) throw new Error('국토교통부 API 오류: ' + apiErrorDetail(response, body));
-  return {
-    records: parseTransactions(body),
-    totalCount: Number(tagValue(body, ['totalCount'])) || 0
-  };
+  for (let attempt = 0; attempt < 4; attempt++) {
+    try {
+      const { response, body } = await enqueue(async () => {
+        const response = await request(url, { signal: AbortSignal.timeout(20000) });
+        return { response, body: await response.text() };
+      });
+      const resultCode = tagValue(body, ['resultCode']);
+      if (!response.ok || !['00', '000'].includes(resultCode)) {
+        const error = new Error('국토교통부 API HTTP ' + response.status + ': ' + apiErrorDetail(response, body));
+        error.retryable = response.status === 429 || response.status >= 500 || resultCode === '23' || body.includes('LIMITED_NUMBER_OF_SERVICE_REQUESTS_PER_SECOND');
+        const retryAfter = response.headers.get('retry-after');
+        error.retryDelay = retryAfter ? (Number.isFinite(Number(retryAfter)) ? Number(retryAfter) * 1000 : Date.parse(retryAfter) - Date.now()) : 0;
+        throw error;
+      }
+      return { records: parseTransactions(body), totalCount: Number(tagValue(body, ['totalCount'])) || 0 };
+    } catch (error) {
+      if (attempt === 3 || error.retryable === false || error.retryDelay > 120000) throw error;
+      await wait(Math.max(1500 * 2 ** attempt, error.retryDelay || 0));
+    }
+  }
 }
 
 function fetchDistrictMonth(serviceKey, lawdCd, yearMonth) {
@@ -1359,7 +1386,7 @@ async function main() {
   console.log('[sync-status] ' + syncStatus.overallStatus + ' · ' + syncStatus.sources.map((source) => source.id + '=' + source.status).join(', '));
 }
 
-export { discoverCandidates, parseTransactions, targetTransactions };
+export { discoverCandidates, parseTransactions, targetTransactions, createRequestQueue, requestDistrictPage };
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((error) => {
