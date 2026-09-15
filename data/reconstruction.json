@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-09-13 18:59 KST",
+    "lastSuccessfulAt": "2026-09-15 18:47 KST",
     "message": ""
   },
   "geocoding": {
@@ -2079,10 +2079,10 @@
         "buildYear": 1982,
         "dongName": "길동",
         "jibun": "53",
-        "contractDate": "2026-08-21",
-        "priceManwon": 78000,
+        "contractDate": "2026-08-24",
+        "priceManwon": 136000,
         "areaSqm": 62.91,
-        "floor": 12
+        "floor": 5
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -2202,14 +2202,34 @@
         {
           "areaTypeSqm": 63,
           "areaLabel": "전용 63㎡ · 약 19평",
-          "representativeAreaSqm": 63.11,
-          "count": 15,
-          "averagePriceManwon": 118600,
+          "representativeAreaSqm": 63.08,
+          "count": 17,
+          "averagePriceManwon": 120765,
           "minPriceManwon": 70000,
-          "maxPriceManwon": 135000,
-          "latestPriceManwon": 78000,
-          "latestContractDate": "2026-08-21",
+          "maxPriceManwon": 138000,
+          "latestPriceManwon": 136000,
+          "latestContractDate": "2026-08-24",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익파크맨션",
+              "buildYear": 1982,
+              "dongName": "길동",
+              "jibun": "53",
+              "contractDate": "2026-08-24",
+              "priceManwon": 136000,
+              "areaSqm": 62.91,
+              "floor": 5
+            },
+            {
+              "apartmentName": "삼익파크맨션",
+              "buildYear": 1982,
+              "dongName": "길동",
+              "jibun": "53",
+              "contractDate": "2026-08-22",
+              "priceManwon": 138000,
+              "areaSqm": 62.91,
+              "floor": 10
+            },
             {
               "apartmentName": "삼익파크맨션",
               "buildYear": 1982,
@@ -2219,26 +2239,6 @@
               "priceManwon": 78000,
               "areaSqm": 62.91,
               "floor": 12
-            },
-            {
-              "apartmentName": "삼익파크맨션",
-              "buildYear": 1982,
-              "dongName": "길동",
-              "jibun": "53",
-              "contractDate": "2026-08-08",
-              "priceManwon": 135000,
-              "areaSqm": 63.32,
-              "floor": 5
-            },
-            {
-              "apartmentName": "삼익파크맨션",
-              "buildYear": 1982,
-              "dongName": "길동",
-              "jibun": "53",
-              "contractDate": "2026-07-25",
-              "priceManwon": 134000,
-              "areaSqm": 63.35,
-              "floor": 1
             }
           ]
         },
@@ -4247,10 +4247,10 @@
         "buildYear": 1983,
         "dongName": "개포동",
         "jibun": "185",
-        "contractDate": "2026-09-04",
-        "priceManwon": 325000,
-        "areaSqm": 83.7,
-        "floor": 1
+        "contractDate": "2026-09-09",
+        "priceManwon": 310000,
+        "areaSqm": 73.26,
+        "floor": 7
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -4390,14 +4390,24 @@
         {
           "areaTypeSqm": 74,
           "areaLabel": "전용 74㎡ · 약 22평",
-          "representativeAreaSqm": 73.09,
-          "count": 7,
-          "averagePriceManwon": 362643,
-          "minPriceManwon": 348500,
+          "representativeAreaSqm": 73.11,
+          "count": 8,
+          "averagePriceManwon": 356063,
+          "minPriceManwon": 310000,
           "maxPriceManwon": 377000,
-          "latestPriceManwon": 375000,
-          "latestContractDate": "2026-04-15",
+          "latestPriceManwon": 310000,
+          "latestContractDate": "2026-09-09",
           "recentTransactions": [
+            {
+              "apartmentName": "개포주공7단지",
+              "buildYear": 1983,
+              "dongName": "개포동",
+              "jibun": "185",
+              "contractDate": "2026-09-09",
+              "priceManwon": 310000,
+              "areaSqm": 73.26,
+              "floor": 7
+            },
             {
               "apartmentName": "개포주공7단지",
               "buildYear": 1983,
@@ -4417,16 +4427,6 @@
               "priceManwon": 360000,
               "areaSqm": 73.02,
               "floor": 1
-            },
-            {
-              "apartmentName": "개포주공6단지",
-              "buildYear": 1983,
-              "dongName": "개포동",
-              "jibun": "185",
-              "contractDate": "2026-01-24",
-              "priceManwon": 377000,
-              "areaSqm": 73.02,
-              "floor": 8
             }
           ]
         },
@@ -4944,14 +4944,14 @@
       "projectType": "재건축(공동주택)",
       "supplyHouseholds": 746,
       "latestTransaction": {
-        "apartmentName": "장안현대",
-        "buildYear": 1984,
+        "apartmentName": "장안현대홈타운(336)",
+        "buildYear": 2003,
         "dongName": "장안동",
-        "jibun": "95-1",
-        "contractDate": "2026-08-31",
-        "priceManwon": 98000,
-        "areaSqm": 95.39,
-        "floor": 5
+        "jibun": "336",
+        "contractDate": "2026-09-04",
+        "priceManwon": 144000,
+        "areaSqm": 112.78,
+        "floor": 19
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -5092,13 +5092,23 @@
           "areaTypeSqm": 114,
           "areaLabel": "전용 114㎡ · 약 34평",
           "representativeAreaSqm": 112.78,
-          "count": 18,
-          "averagePriceManwon": 117972,
+          "count": 19,
+          "averagePriceManwon": 119342,
           "minPriceManwon": 91000,
-          "maxPriceManwon": 130000,
-          "latestPriceManwon": 121500,
-          "latestContractDate": "2026-06-03",
+          "maxPriceManwon": 144000,
+          "latestPriceManwon": 144000,
+          "latestContractDate": "2026-09-04",
           "recentTransactions": [
+            {
+              "apartmentName": "장안현대홈타운(336)",
+              "buildYear": 2003,
+              "dongName": "장안동",
+              "jibun": "336",
+              "contractDate": "2026-09-04",
+              "priceManwon": 144000,
+              "areaSqm": 112.78,
+              "floor": 19
+            },
             {
               "apartmentName": "장안현대홈타운(336)",
               "buildYear": 2003,
@@ -5118,16 +5128,6 @@
               "priceManwon": 128000,
               "areaSqm": 112.78,
               "floor": 9
-            },
-            {
-              "apartmentName": "장안현대홈타운(336)",
-              "buildYear": 2003,
-              "dongName": "장안동",
-              "jibun": "336",
-              "contractDate": "2026-04-28",
-              "priceManwon": 120000,
-              "areaSqm": 112.78,
-              "floor": 2
             }
           ]
         },
@@ -8604,10 +8604,10 @@
         "buildYear": 1978,
         "dongName": "잠원동",
         "jibun": "73",
-        "contractDate": "2026-09-05",
-        "priceManwon": 415000,
+        "contractDate": "2026-09-11",
+        "priceManwon": 400000,
         "areaSqm": 79.42,
-        "floor": 9
+        "floor": 1
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -8662,13 +8662,23 @@
           "areaTypeSqm": 79,
           "areaLabel": "전용 79㎡ · 약 24평",
           "representativeAreaSqm": 79.42,
-          "count": 4,
-          "averagePriceManwon": 432175,
-          "minPriceManwon": 415000,
+          "count": 5,
+          "averagePriceManwon": 425740,
+          "minPriceManwon": 400000,
           "maxPriceManwon": 475000,
-          "latestPriceManwon": 415000,
-          "latestContractDate": "2026-09-05",
+          "latestPriceManwon": 400000,
+          "latestContractDate": "2026-09-11",
           "recentTransactions": [
+            {
+              "apartmentName": "신반포2",
+              "buildYear": 1978,
+              "dongName": "잠원동",
+              "jibun": "73",
+              "contractDate": "2026-09-11",
+              "priceManwon": 400000,
+              "areaSqm": 79.42,
+              "floor": 1
+            },
             {
               "apartmentName": "신반포2",
               "buildYear": 1978,
@@ -8688,16 +8698,6 @@
               "priceManwon": 416000,
               "areaSqm": 79.42,
               "floor": 9
-            },
-            {
-              "apartmentName": "신반포2",
-              "buildYear": 1978,
-              "dongName": "잠원동",
-              "jibun": "73",
-              "contractDate": "2026-02-20",
-              "priceManwon": 475000,
-              "areaSqm": 79.42,
-              "floor": 8
             }
           ]
         },
@@ -10718,9 +10718,9 @@
         "dongName": "호계동",
         "jibun": "570",
         "contractDate": "2026-08-21",
-        "priceManwon": 79800,
-        "areaSqm": 84.79,
-        "floor": 5
+        "priceManwon": 94000,
+        "areaSqm": 127.57,
+        "floor": 13
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -10732,23 +10732,13 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.79,
-          "count": 31,
-          "averagePriceManwon": 66481,
+          "count": 30,
+          "averagePriceManwon": 66037,
           "minPriceManwon": 46000,
-          "maxPriceManwon": 79800,
-          "latestPriceManwon": 79800,
-          "latestContractDate": "2026-08-21",
+          "maxPriceManwon": 77000,
+          "latestPriceManwon": 74000,
+          "latestContractDate": "2026-08-10",
           "recentTransactions": [
-            {
-              "apartmentName": "호계럭키",
-              "buildYear": 1992,
-              "dongName": "호계동",
-              "jibun": "570",
-              "contractDate": "2026-08-21",
-              "priceManwon": 79800,
-              "areaSqm": 84.79,
-              "floor": 5
-            },
             {
               "apartmentName": "호계럭키",
               "buildYear": 1992,
@@ -10768,6 +10758,16 @@
               "priceManwon": 74750,
               "areaSqm": 84.79,
               "floor": 9
+            },
+            {
+              "apartmentName": "호계럭키",
+              "buildYear": 1992,
+              "dongName": "호계동",
+              "jibun": "570",
+              "contractDate": "2026-07-30",
+              "priceManwon": 77000,
+              "areaSqm": 84.79,
+              "floor": 8
             }
           ]
         },
