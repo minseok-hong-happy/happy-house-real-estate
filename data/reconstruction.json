@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-09-17 18:49 KST",
+    "lastSuccessfulAt": "2026-09-18 18:23 KST",
     "message": ""
   },
   "geocoding": {
@@ -8667,14 +8667,14 @@
           "minPriceManwon": 400000,
           "maxPriceManwon": 475000,
           "latestPriceManwon": 400000,
-          "latestContractDate": "2026-09-11",
+          "latestContractDate": "2026-09-10",
           "recentTransactions": [
             {
               "apartmentName": "신반포2",
               "buildYear": 1978,
               "dongName": "잠원동",
               "jibun": "73",
-              "contractDate": "2026-09-11",
+              "contractDate": "2026-09-10",
               "priceManwon": 400000,
               "areaSqm": 79.42,
               "floor": 1
