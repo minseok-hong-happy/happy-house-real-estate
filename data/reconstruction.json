@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-09-18 18:23 KST",
+    "lastSuccessfulAt": "2026-09-19 18:11 KST",
     "message": ""
   },
   "geocoding": {
@@ -1177,10 +1177,10 @@
           "areaTypeSqm": 29,
           "areaLabel": "전용 29㎡ · 약 9평",
           "representativeAreaSqm": 29.25,
-          "count": 12,
-          "averagePriceManwon": 43654,
+          "count": 13,
+          "averagePriceManwon": 44234,
           "minPriceManwon": 33192,
-          "maxPriceManwon": 50000,
+          "maxPriceManwon": 51200,
           "latestPriceManwon": 43000,
           "latestContractDate": "2026-09-08",
           "recentTransactions": [
@@ -1199,20 +1199,20 @@
               "buildYear": 1987,
               "dongName": "은행동",
               "jibun": "550",
-              "contractDate": "2026-07-11",
-              "priceManwon": 43000,
+              "contractDate": "2026-08-22",
+              "priceManwon": 51200,
               "areaSqm": 29.25,
-              "floor": 3
+              "floor": 2
             },
             {
               "apartmentName": "은행주공",
               "buildYear": 1987,
               "dongName": "은행동",
               "jibun": "550",
-              "contractDate": "2026-06-12",
-              "priceManwon": 50000,
+              "contractDate": "2026-07-11",
+              "priceManwon": 43000,
               "areaSqm": 29.25,
-              "floor": 5
+              "floor": 3
             }
           ]
         },
@@ -4305,8 +4305,8 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 60.13,
-          "count": 6,
-          "averagePriceManwon": 327000,
+          "count": 7,
+          "averagePriceManwon": 324571,
           "minPriceManwon": 310000,
           "maxPriceManwon": 337000,
           "latestPriceManwon": 310000,
@@ -4337,10 +4337,10 @@
               "buildYear": 1983,
               "dongName": "개포동",
               "jibun": "185",
-              "contractDate": "2026-01-02",
-              "priceManwon": 337000,
+              "contractDate": "2026-06-03",
+              "priceManwon": 310000,
               "areaSqm": 60.13,
-              "floor": 2
+              "floor": 4
             }
           ]
         },
@@ -4390,9 +4390,9 @@
         {
           "areaTypeSqm": 74,
           "areaLabel": "전용 74㎡ · 약 22평",
-          "representativeAreaSqm": 73.11,
-          "count": 8,
-          "averagePriceManwon": 356063,
+          "representativeAreaSqm": 73.1,
+          "count": 9,
+          "averagePriceManwon": 354278,
           "minPriceManwon": 310000,
           "maxPriceManwon": 377000,
           "latestPriceManwon": 310000,
@@ -4409,6 +4409,16 @@
               "floor": 7
             },
             {
+              "apartmentName": "개포주공6단지",
+              "buildYear": 1983,
+              "dongName": "개포동",
+              "jibun": "185",
+              "contractDate": "2026-06-10",
+              "priceManwon": 340000,
+              "areaSqm": 73.02,
+              "floor": 6
+            },
+            {
               "apartmentName": "개포주공7단지",
               "buildYear": 1983,
               "dongName": "개포동",
@@ -4417,16 +4427,6 @@
               "priceManwon": 375000,
               "areaSqm": 73.26,
               "floor": 5
-            },
-            {
-              "apartmentName": "개포주공6단지",
-              "buildYear": 1983,
-              "dongName": "개포동",
-              "jibun": "185",
-              "contractDate": "2026-01-25",
-              "priceManwon": 360000,
-              "areaSqm": 73.02,
-              "floor": 1
             }
           ]
         },
@@ -8619,13 +8619,23 @@
           "areaTypeSqm": 69,
           "areaLabel": "전용 69㎡ · 약 21평",
           "representativeAreaSqm": 68.91,
-          "count": 9,
-          "averagePriceManwon": 405833,
-          "minPriceManwon": 385000,
+          "count": 10,
+          "averagePriceManwon": 401250,
+          "minPriceManwon": 360000,
           "maxPriceManwon": 422500,
-          "latestPriceManwon": 398000,
-          "latestContractDate": "2026-07-23",
+          "latestPriceManwon": 360000,
+          "latestContractDate": "2026-09-03",
           "recentTransactions": [
+            {
+              "apartmentName": "신반포2",
+              "buildYear": 1978,
+              "dongName": "잠원동",
+              "jibun": "73",
+              "contractDate": "2026-09-03",
+              "priceManwon": 360000,
+              "areaSqm": 68.91,
+              "floor": 8
+            },
             {
               "apartmentName": "신반포2",
               "buildYear": 1978,
@@ -8643,16 +8653,6 @@
               "jibun": "73",
               "contractDate": "2026-06-20",
               "priceManwon": 416000,
-              "areaSqm": 68.91,
-              "floor": 11
-            },
-            {
-              "apartmentName": "신반포2",
-              "buildYear": 1978,
-              "dongName": "잠원동",
-              "jibun": "73",
-              "contractDate": "2026-06-02",
-              "priceManwon": 399000,
               "areaSqm": 68.91,
               "floor": 11
             }
@@ -9726,10 +9726,10 @@
         "buildYear": 1988,
         "dongName": "신월동",
         "jibun": "987-1",
-        "contractDate": "2026-09-02",
-        "priceManwon": 70000,
-        "areaSqm": 43.2,
-        "floor": 3
+        "contractDate": "2026-09-15",
+        "priceManwon": 82000,
+        "areaSqm": 50.67,
+        "floor": 9
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -9784,13 +9784,23 @@
           "areaTypeSqm": 51,
           "areaLabel": "전용 51㎡ · 약 15평",
           "representativeAreaSqm": 50.67,
-          "count": 23,
-          "averagePriceManwon": 64798,
+          "count": 24,
+          "averagePriceManwon": 65515,
           "minPriceManwon": 42100,
-          "maxPriceManwon": 77000,
-          "latestPriceManwon": 77000,
-          "latestContractDate": "2026-08-22",
+          "maxPriceManwon": 82000,
+          "latestPriceManwon": 82000,
+          "latestContractDate": "2026-09-15",
           "recentTransactions": [
+            {
+              "apartmentName": "신월시영",
+              "buildYear": 1988,
+              "dongName": "신월동",
+              "jibun": "987-1",
+              "contractDate": "2026-09-15",
+              "priceManwon": 82000,
+              "areaSqm": 50.67,
+              "floor": 9
+            },
             {
               "apartmentName": "신월시영",
               "buildYear": 1988,
@@ -9810,16 +9820,6 @@
               "priceManwon": 60000,
               "areaSqm": 50.67,
               "floor": 1
-            },
-            {
-              "apartmentName": "신월시영",
-              "buildYear": 1988,
-              "dongName": "신월동",
-              "jibun": "987-1",
-              "contractDate": "2026-07-11",
-              "priceManwon": 75000,
-              "areaSqm": 50.67,
-              "floor": 3
             }
           ]
         },
