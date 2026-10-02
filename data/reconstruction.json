@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-01 20:21 KST",
+    "lastSuccessfulAt": "2026-10-02 19:54 KST",
     "message": ""
   },
   "geocoding": {
@@ -3342,9 +3342,9 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.83,
-          "count": 4,
-          "averagePriceManwon": 264750,
-          "minPriceManwon": 260000,
+          "count": 5,
+          "averagePriceManwon": 261800,
+          "minPriceManwon": 250000,
           "maxPriceManwon": 273000,
           "latestPriceManwon": 265000,
           "latestContractDate": "2026-09-12",
@@ -3365,19 +3365,19 @@
               "dongName": "송파동",
               "jibun": "166",
               "contractDate": "2026-09-05",
-              "priceManwon": 273000,
+              "priceManwon": 250000,
               "areaSqm": 84.828,
-              "floor": 7
+              "floor": 2
             },
             {
               "apartmentName": "가락삼익맨숀",
               "buildYear": 1984,
               "dongName": "송파동",
               "jibun": "166",
-              "contractDate": "2026-07-25",
-              "priceManwon": 261000,
+              "contractDate": "2026-09-05",
+              "priceManwon": 273000,
               "areaSqm": 84.828,
-              "floor": 9
+              "floor": 7
             }
           ]
         },
