@@ -7,7 +7,7 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-10-09 20:49 KST",
+    "lastSuccessfulAt": "2026-10-10 20:02 KST",
     "message": ""
   },
   "discovery": {
@@ -105,7 +105,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 41,
+            "score": 40,
             "observedMonths": 34,
             "periodStart": "2023-11-21",
             "periodEnd": "2026-09-23",
@@ -482,7 +482,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 25,
+            "score": 24,
             "observedMonths": 32,
             "periodStart": "2023-11-18",
             "periodEnd": "2026-07-08",
@@ -946,7 +946,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 36,
+            "score": 35,
             "observedMonths": 34,
             "periodStart": "2023-11-13",
             "periodEnd": "2026-09-03",
@@ -1380,7 +1380,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 43,
+            "score": 42,
             "observedMonths": 31,
             "periodStart": "2023-12-21",
             "periodEnd": "2026-08-05",
@@ -1438,7 +1438,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 33,
+            "score": 32,
             "observedMonths": 34,
             "periodStart": "2023-11-27",
             "periodEnd": "2026-09-18",
@@ -1708,7 +1708,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 18,
+            "score": 17,
             "observedMonths": 29,
             "periodStart": "2024-01-06",
             "periodEnd": "2026-05-30",
@@ -1939,7 +1939,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 50,
+            "score": 49,
             "observedMonths": 31,
             "periodStart": "2024-01-30",
             "periodEnd": "2026-08-21",
@@ -2288,7 +2288,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 64,
+            "score": 63,
             "observedMonths": 32,
             "periodStart": "2023-11-14",
             "periodEnd": "2026-07-08",
@@ -2980,23 +2980,33 @@
         "buildYear": 2023,
         "dongName": "금광동",
         "jibun": "1020",
-        "contractDate": "2026-09-15",
-        "priceManwon": 107000,
-        "areaSqm": 59.98,
-        "floor": 6
+        "contractDate": "2026-10-05",
+        "priceManwon": 120000,
+        "areaSqm": 74.62,
+        "floor": 19
       },
       "areaPrices": [
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.98,
-          "count": 36,
-          "averagePriceManwon": 99114,
+          "count": 37,
+          "averagePriceManwon": 99401,
           "minPriceManwon": 64000,
           "maxPriceManwon": 113000,
-          "latestPriceManwon": 107000,
-          "latestContractDate": "2026-09-15",
+          "latestPriceManwon": 109750,
+          "latestContractDate": "2026-09-21",
           "recentTransactions": [
+            {
+              "apartmentName": "e편한세상금빛그랑메종5단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1020",
+              "contractDate": "2026-09-21",
+              "priceManwon": 109750,
+              "areaSqm": 59.98,
+              "floor": 6
+            },
             {
               "apartmentName": "e편한세상금빛그랑메종5단지",
               "buildYear": 2023,
@@ -3016,31 +3026,21 @@
               "priceManwon": 113000,
               "areaSqm": 59.98,
               "floor": 11
-            },
-            {
-              "apartmentName": "e편한세상금빛그랑메종5단지",
-              "buildYear": 2023,
-              "dongName": "금광동",
-              "jibun": "1020",
-              "contractDate": "2026-07-14",
-              "priceManwon": 113000,
-              "areaSqm": 59.98,
-              "floor": 17
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 57,
+            "score": 54,
             "observedMonths": 30,
             "periodStart": "2024-03-25",
-            "periodEnd": "2026-09-15",
-            "transactionCount": 81,
+            "periodEnd": "2026-09-21",
+            "transactionCount": 82,
             "baselineSampleCount": 8,
-            "recentSampleCount": 24,
+            "recentSampleCount": 25,
             "baselineMedianPriceManwon": 79000,
-            "recentMedianPriceManwon": 101750,
-            "longTermChangePercent": 28.8,
-            "recentMomentumPercent": 13.1,
+            "recentMedianPriceManwon": 102000,
+            "longTermChangePercent": 29.1,
+            "recentMomentumPercent": 10.4,
             "confidence": "high"
           }
         },
@@ -3048,13 +3048,23 @@
           "areaTypeSqm": 74,
           "areaLabel": "전용 74㎡ · 약 22평",
           "representativeAreaSqm": 74.67,
-          "count": 12,
-          "averagePriceManwon": 109329,
+          "count": 13,
+          "averagePriceManwon": 110150,
           "minPriceManwon": 95000,
           "maxPriceManwon": 125000,
-          "latestPriceManwon": 125000,
-          "latestContractDate": "2026-09-04",
+          "latestPriceManwon": 120000,
+          "latestContractDate": "2026-10-05",
           "recentTransactions": [
+            {
+              "apartmentName": "e편한세상금빛그랑메종5단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1020",
+              "contractDate": "2026-10-05",
+              "priceManwon": 120000,
+              "areaSqm": 74.62,
+              "floor": 19
+            },
             {
               "apartmentName": "e편한세상금빛그랑메종5단지",
               "buildYear": 2023,
@@ -3074,31 +3084,21 @@
               "priceManwon": 111000,
               "areaSqm": 74.62,
               "floor": 14
-            },
-            {
-              "apartmentName": "e편한세상금빛그랑메종5단지",
-              "buildYear": 2023,
-              "dongName": "금광동",
-              "jibun": "1020",
-              "contractDate": "2026-07-04",
-              "priceManwon": 117500,
-              "areaSqm": 74.7,
-              "floor": 6
             }
           ],
           "growthAnalysis": {
             "status": "ok",
             "score": 62,
-            "observedMonths": 30,
+            "observedMonths": 31,
             "periodStart": "2024-03-15",
-            "periodEnd": "2026-09-04",
-            "transactionCount": 37,
+            "periodEnd": "2026-10-05",
+            "transactionCount": 38,
             "baselineSampleCount": 5,
             "recentSampleCount": 7,
             "baselineMedianPriceManwon": 86000,
-            "recentMedianPriceManwon": 113900,
-            "longTermChangePercent": 32.4,
-            "recentMomentumPercent": 19.9,
+            "recentMedianPriceManwon": 114000,
+            "longTermChangePercent": 32.6,
+            "recentMomentumPercent": 20,
             "confidence": "medium"
           }
         },
@@ -3146,7 +3146,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 40,
+            "score": 39,
             "observedMonths": 26,
             "periodStart": "2024-07-06",
             "periodEnd": "2026-09-03",
@@ -3375,7 +3375,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 37,
+            "score": 36,
             "observedMonths": 33,
             "periodStart": "2023-11-27",
             "periodEnd": "2026-09-02",
@@ -3488,7 +3488,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 47,
+            "score": 46,
             "observedMonths": 30,
             "periodStart": "2024-02-10",
             "periodEnd": "2026-08-07",
@@ -4901,7 +4901,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 20,
+            "score": 19,
             "observedMonths": 29,
             "periodStart": "2024-04-23",
             "periodEnd": "2026-09-09",
@@ -5155,7 +5155,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 39,
+            "score": 38,
             "observedMonths": 30,
             "periodStart": "2024-02-21",
             "periodEnd": "2026-08-21",
@@ -5578,7 +5578,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 61,
+            "score": 60,
             "observedMonths": 34,
             "periodStart": "2023-11-04",
             "periodEnd": "2026-08-21",
@@ -5636,7 +5636,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 53,
+            "score": 52,
             "observedMonths": 34,
             "periodStart": "2023-11-02",
             "periodEnd": "2026-09-05",
@@ -5872,7 +5872,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 32,
+            "score": 31,
             "observedMonths": 34,
             "periodStart": "2023-11-18",
             "periodEnd": "2026-09-29",
@@ -6333,7 +6333,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 30,
+            "score": 29,
             "observedMonths": 28,
             "periodStart": "2024-03-23",
             "periodEnd": "2026-08-06",
@@ -6391,7 +6391,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 48,
+            "score": 47,
             "observedMonths": 32,
             "periodStart": "2023-12-06",
             "periodEnd": "2026-07-24",
@@ -6480,7 +6480,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 39,
+            "score": 38,
             "observedMonths": 35,
             "periodStart": "2023-11-10",
             "periodEnd": "2026-10-03",
@@ -6707,7 +6707,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 26,
+            "score": 25,
             "observedMonths": 29,
             "periodStart": "2024-01-28",
             "periodEnd": "2026-07-04",
@@ -7477,7 +7477,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 61,
+            "score": 60,
             "observedMonths": 34,
             "periodStart": "2023-11-01",
             "periodEnd": "2026-09-08",
@@ -8056,7 +8056,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 70,
+            "score": 69,
             "observedMonths": 25,
             "periodStart": "2024-06-23",
             "periodEnd": "2026-07-27",
@@ -9405,7 +9405,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 55,
+            "score": 54,
             "observedMonths": 25,
             "periodStart": "2024-04-20",
             "periodEnd": "2026-06-01",
@@ -9888,7 +9888,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 61,
+            "score": 60,
             "observedMonths": 28,
             "periodStart": "2024-04-13",
             "periodEnd": "2026-08-17",
@@ -10084,7 +10084,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 37,
+            "score": 36,
             "observedMonths": 34,
             "periodStart": "2023-11-17",
             "periodEnd": "2026-09-08",
@@ -10423,7 +10423,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 38,
+            "score": 37,
             "observedMonths": 29,
             "periodStart": "2024-03-11",
             "periodEnd": "2026-08-01",
@@ -10717,7 +10717,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 53,
+            "score": 52,
             "observedMonths": 34,
             "periodStart": "2023-11-14",
             "periodEnd": "2026-09-17",
@@ -11491,7 +11491,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 56,
+            "score": 57,
             "observedMonths": 30,
             "periodStart": "2024-01-18",
             "periodEnd": "2026-07-30",
@@ -11607,7 +11607,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 62,
+            "score": 61,
             "observedMonths": 32,
             "periodStart": "2023-12-19",
             "periodEnd": "2026-08-20",
@@ -11695,23 +11695,33 @@
         "buildYear": 2003,
         "dongName": "하대원동",
         "jibun": "249",
-        "contractDate": "2026-09-04",
-        "priceManwon": 85000,
-        "areaSqm": 84.99,
-        "floor": 4
+        "contractDate": "2026-09-23",
+        "priceManwon": 78000,
+        "areaSqm": 59.91,
+        "floor": 16
       },
       "areaPrices": [
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.91,
-          "count": 17,
-          "averagePriceManwon": 69859,
+          "count": 18,
+          "averagePriceManwon": 70311,
           "minPriceManwon": 60000,
-          "maxPriceManwon": 76300,
-          "latestPriceManwon": 76300,
-          "latestContractDate": "2026-08-17",
+          "maxPriceManwon": 78000,
+          "latestPriceManwon": 78000,
+          "latestContractDate": "2026-09-23",
           "recentTransactions": [
+            {
+              "apartmentName": "아튼빌",
+              "buildYear": 2003,
+              "dongName": "하대원동",
+              "jibun": "249",
+              "contractDate": "2026-09-23",
+              "priceManwon": 78000,
+              "areaSqm": 59.91,
+              "floor": 16
+            },
             {
               "apartmentName": "아튼빌",
               "buildYear": 2003,
@@ -11731,31 +11741,21 @@
               "priceManwon": 74500,
               "areaSqm": 59.91,
               "floor": 10
-            },
-            {
-              "apartmentName": "아튼빌",
-              "buildYear": 2003,
-              "dongName": "하대원동",
-              "jibun": "249",
-              "contractDate": "2026-07-05",
-              "priceManwon": 75500,
-              "areaSqm": 59.91,
-              "floor": 7
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 35,
-            "observedMonths": 32,
+            "score": 36,
+            "observedMonths": 33,
             "periodStart": "2023-12-22",
-            "periodEnd": "2026-08-17",
-            "transactionCount": 51,
+            "periodEnd": "2026-09-23",
+            "transactionCount": 52,
             "baselineSampleCount": 12,
             "recentSampleCount": 13,
             "baselineMedianPriceManwon": 59995,
-            "recentMedianPriceManwon": 71500,
-            "longTermChangePercent": 19.2,
-            "recentMomentumPercent": 9.6,
+            "recentMedianPriceManwon": 73000,
+            "longTermChangePercent": 21.7,
+            "recentMomentumPercent": 7.4,
             "confidence": "high"
           }
         },
@@ -11935,211 +11935,6 @@
         }
       ],
       "discoveryCount": 26
-    },
-    {
-      "id": "auto-41133-%EC%A4%91%EC%95%99%EB%8F%99%7C710%7C%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC",
-      "name": "롯데캐슬",
-      "location": "성남시 중원구 중앙동",
-      "lawdCd": "41133",
-      "dongNames": [
-        "중앙동"
-      ],
-      "jibun": "710",
-      "matchNames": [
-        "롯데캐슬"
-      ],
-      "exactName": true,
-      "discovered": true,
-      "completionYear": 2012,
-      "priceStatus": "ok",
-      "priceMessage": "",
-      "latestTransaction": {
-        "apartmentName": "롯데캐슬",
-        "buildYear": 2012,
-        "dongName": "중앙동",
-        "jibun": "710",
-        "contractDate": "2026-07-28",
-        "priceManwon": 115500,
-        "areaSqm": 59.94,
-        "floor": 16
-      },
-      "areaPrices": [
-        {
-          "areaTypeSqm": 59,
-          "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 59.94,
-          "count": 12,
-          "averagePriceManwon": 102958,
-          "minPriceManwon": 93000,
-          "maxPriceManwon": 115500,
-          "latestPriceManwon": 115500,
-          "latestContractDate": "2026-07-28",
-          "recentTransactions": [
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2026-07-28",
-              "priceManwon": 115500,
-              "areaSqm": 59.94,
-              "floor": 16
-            },
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2026-07-15",
-              "priceManwon": 102000,
-              "areaSqm": 59.93,
-              "floor": 1
-            },
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2026-06-20",
-              "priceManwon": 108000,
-              "areaSqm": 59.94,
-              "floor": 7
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 73,
-            "observedMonths": 32,
-            "periodStart": "2023-12-02",
-            "periodEnd": "2026-07-28",
-            "transactionCount": 49,
-            "baselineSampleCount": 4,
-            "recentSampleCount": 8,
-            "baselineMedianPriceManwon": 76500,
-            "recentMedianPriceManwon": 107500,
-            "longTermChangePercent": 40.5,
-            "recentMomentumPercent": 22.2,
-            "confidence": "medium"
-          }
-        },
-        {
-          "areaTypeSqm": 84,
-          "areaLabel": "전용 84㎡ · 약 25평",
-          "representativeAreaSqm": 84.91,
-          "count": 12,
-          "averagePriceManwon": 108208,
-          "minPriceManwon": 99000,
-          "maxPriceManwon": 125000,
-          "latestPriceManwon": 108000,
-          "latestContractDate": "2026-06-22",
-          "recentTransactions": [
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2026-06-22",
-              "priceManwon": 108000,
-              "areaSqm": 84.94,
-              "floor": 17
-            },
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2026-05-30",
-              "priceManwon": 104000,
-              "areaSqm": 84.88,
-              "floor": 1
-            },
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2026-05-09",
-              "priceManwon": 116000,
-              "areaSqm": 84.88,
-              "floor": 12
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 29,
-            "observedMonths": 28,
-            "periodStart": "2024-03-01",
-            "periodEnd": "2026-06-22",
-            "transactionCount": 34,
-            "baselineSampleCount": 9,
-            "recentSampleCount": 10,
-            "baselineMedianPriceManwon": 93000,
-            "recentMedianPriceManwon": 107500,
-            "longTermChangePercent": 15.6,
-            "recentMomentumPercent": 10.5,
-            "confidence": "medium"
-          }
-        },
-        {
-          "areaTypeSqm": 114,
-          "areaLabel": "전용 114㎡ · 약 34평",
-          "representativeAreaSqm": 114.85,
-          "count": 3,
-          "averagePriceManwon": 108100,
-          "minPriceManwon": 98800,
-          "maxPriceManwon": 117000,
-          "latestPriceManwon": 117000,
-          "latestContractDate": "2026-05-07",
-          "recentTransactions": [
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2026-05-07",
-              "priceManwon": 117000,
-              "areaSqm": 114.88,
-              "floor": 16
-            },
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2026-01-18",
-              "priceManwon": 108500,
-              "areaSqm": 114.84,
-              "floor": 17
-            },
-            {
-              "apartmentName": "롯데캐슬",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "710",
-              "contractDate": "2025-11-21",
-              "priceManwon": 98800,
-              "areaSqm": 114.84,
-              "floor": 2
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 9,
-            "observedMonths": 22,
-            "periodStart": "2024-06-29",
-            "periodEnd": "2026-05-07",
-            "transactionCount": 9,
-            "baselineSampleCount": 3,
-            "recentSampleCount": 3,
-            "baselineMedianPriceManwon": 101000,
-            "recentMedianPriceManwon": 108500,
-            "longTermChangePercent": 7.4,
-            "recentMomentumPercent": 5.9,
-            "confidence": "limited"
-          }
-        }
-      ],
-      "discoveryCount": 24
     },
     {
       "id": "auto-41133-%EC%A4%91%EC%95%99%EB%8F%99%7C578%7C%EC%A4%91%EC%95%99%EB%8F%99%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B81%EC%B0%A8",
@@ -12458,7 +12253,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 55,
+            "score": 54,
             "observedMonths": 33,
             "periodStart": "2024-01-07",
             "periodEnd": "2026-09-30",
@@ -12503,6 +12298,193 @@
         }
       ],
       "discoveryCount": 22
+    },
+    {
+      "id": "auto-41133-%EA%B8%88%EA%B4%91%EB%8F%99%7C1003%7Ce%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EA%B8%88%EB%B9%9B%EA%B7%B8%EB%9E%91%EB%A9%94%EC%A2%852%EB%8B%A8%EC%A7%80",
+      "name": "e편한세상금빛그랑메종2단지",
+      "location": "성남시 중원구 금광동",
+      "lawdCd": "41133",
+      "dongNames": [
+        "금광동"
+      ],
+      "jibun": "1003",
+      "matchNames": [
+        "e편한세상금빛그랑메종2단지"
+      ],
+      "exactName": true,
+      "discovered": true,
+      "completionYear": 2023,
+      "priceStatus": "ok",
+      "priceMessage": "",
+      "latestTransaction": {
+        "apartmentName": "e편한세상금빛그랑메종2단지",
+        "buildYear": 2023,
+        "dongName": "금광동",
+        "jibun": "1003",
+        "contractDate": "2026-09-13",
+        "priceManwon": 112400,
+        "areaSqm": 59.95,
+        "floor": 7
+      },
+      "areaPrices": [
+        {
+          "areaTypeSqm": 52,
+          "areaLabel": "전용 52㎡ · 약 16평",
+          "representativeAreaSqm": 51.96,
+          "count": 5,
+          "averagePriceManwon": 90900,
+          "minPriceManwon": 80000,
+          "maxPriceManwon": 100000,
+          "latestPriceManwon": 100000,
+          "latestContractDate": "2026-08-18",
+          "recentTransactions": [
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-08-18",
+              "priceManwon": 100000,
+              "areaSqm": 51.96,
+              "floor": 9
+            },
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-05-29",
+              "priceManwon": 94800,
+              "areaSqm": 51.96,
+              "floor": 16
+            },
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-05-09",
+              "priceManwon": 90000,
+              "areaSqm": 51.96,
+              "floor": 21
+            }
+          ],
+          "growthAnalysis": {
+            "status": "insufficient",
+            "message": "비교 가능한 장기 거래가 부족합니다.",
+            "observedMonths": 26,
+            "transactionCount": 20
+          }
+        },
+        {
+          "areaTypeSqm": 59,
+          "areaLabel": "전용 59㎡ · 약 18평",
+          "representativeAreaSqm": 59.93,
+          "count": 12,
+          "averagePriceManwon": 104558,
+          "minPriceManwon": 94500,
+          "maxPriceManwon": 113000,
+          "latestPriceManwon": 112400,
+          "latestContractDate": "2026-09-13",
+          "recentTransactions": [
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-09-13",
+              "priceManwon": 112400,
+              "areaSqm": 59.95,
+              "floor": 7
+            },
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-08-03",
+              "priceManwon": 110000,
+              "areaSqm": 59.9,
+              "floor": 10
+            },
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-07-27",
+              "priceManwon": 113000,
+              "areaSqm": 59.9,
+              "floor": 12
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 64,
+            "observedMonths": 27,
+            "periodStart": "2024-06-22",
+            "periodEnd": "2026-09-13",
+            "transactionCount": 42,
+            "baselineSampleCount": 6,
+            "recentSampleCount": 10,
+            "baselineMedianPriceManwon": 79750,
+            "recentMedianPriceManwon": 104250,
+            "longTermChangePercent": 30.7,
+            "recentMomentumPercent": 23.7,
+            "confidence": "medium"
+          }
+        },
+        {
+          "areaTypeSqm": 74,
+          "areaLabel": "전용 74㎡ · 약 22평",
+          "representativeAreaSqm": 74.62,
+          "count": 9,
+          "averagePriceManwon": 101600,
+          "minPriceManwon": 62000,
+          "maxPriceManwon": 117700,
+          "latestPriceManwon": 117700,
+          "latestContractDate": "2026-08-29",
+          "recentTransactions": [
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-08-29",
+              "priceManwon": 117700,
+              "areaSqm": 74.62,
+              "floor": 13
+            },
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-07-14",
+              "priceManwon": 110000,
+              "areaSqm": 74.62,
+              "floor": 3
+            },
+            {
+              "apartmentName": "e편한세상금빛그랑메종2단지",
+              "buildYear": 2023,
+              "dongName": "금광동",
+              "jibun": "1003",
+              "contractDate": "2026-05-17",
+              "priceManwon": 109800,
+              "areaSqm": 74.62,
+              "floor": 9
+            }
+          ],
+          "growthAnalysis": {
+            "status": "insufficient",
+            "message": "비교 가능한 장기 거래가 부족합니다.",
+            "observedMonths": 28,
+            "transactionCount": 24
+          }
+        }
+      ],
+      "discoveryCount": 21
     },
     {
       "id": "auto-41131-%ED%83%9C%ED%8F%89%EB%8F%99%7C7346%7C%EA%B0%80%EC%B2%9C%EB%8C%80%EC%97%AD%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C",
@@ -13008,7 +12990,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 58,
+            "score": 57,
             "observedMonths": 33,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-09-16",
@@ -13235,7 +13217,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 44,
+            "score": 43,
             "observedMonths": 32,
             "periodStart": "2024-01-25",
             "periodEnd": "2026-09-12",
@@ -13373,7 +13355,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 43,
+            "score": 42,
             "observedMonths": 29,
             "periodStart": "2024-02-26",
             "periodEnd": "2026-08-08",
@@ -13600,7 +13582,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 26,
+            "score": 25,
             "observedMonths": 34,
             "periodStart": "2023-11-25",
             "periodEnd": "2026-09-23",
@@ -14259,7 +14241,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 42,
+            "score": 41,
             "observedMonths": 32,
             "periodStart": "2023-11-11",
             "periodEnd": "2026-07-03",
@@ -14317,7 +14299,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 38,
+            "score": 37,
             "observedMonths": 31,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-07-04",
@@ -14551,7 +14533,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 50,
+            "score": 49,
             "observedMonths": 32,
             "periodStart": "2023-12-22",
             "periodEnd": "2026-09-02",
@@ -14925,7 +14907,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 27,
+            "score": 26,
             "observedMonths": 33,
             "periodStart": "2023-11-06",
             "periodEnd": "2026-08-21",
@@ -15330,7 +15312,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 41,
+            "score": 40,
             "observedMonths": 31,
             "periodStart": "2024-01-06",
             "periodEnd": "2026-08-11",
@@ -15419,7 +15401,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 30,
+            "score": 29,
             "observedMonths": 32,
             "periodStart": "2023-11-10",
             "periodEnd": "2026-06-30",
@@ -15762,7 +15744,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 15,
+            "score": 14,
             "observedMonths": 25,
             "periodStart": "2024-06-15",
             "periodEnd": "2026-07-04",
