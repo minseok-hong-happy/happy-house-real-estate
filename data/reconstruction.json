@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-10 20:00 KST",
+    "lastSuccessfulAt": "2026-10-11 20:12 KST",
     "message": ""
   },
   "geocoding": {
@@ -10797,10 +10797,10 @@
         "buildYear": 1996,
         "dongName": "박달동",
         "jibun": "149-1",
-        "contractDate": "2026-09-20",
-        "priceManwon": 29000,
+        "contractDate": "2026-10-01",
+        "priceManwon": 27000,
         "areaSqm": 59.31,
-        "floor": 10
+        "floor": 2
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -10812,13 +10812,23 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.31,
-          "count": 30,
-          "averagePriceManwon": 30272,
+          "count": 31,
+          "averagePriceManwon": 30166,
           "minPriceManwon": 25000,
           "maxPriceManwon": 33200,
-          "latestPriceManwon": 29000,
-          "latestContractDate": "2026-09-20",
+          "latestPriceManwon": 27000,
+          "latestContractDate": "2026-10-01",
           "recentTransactions": [
+            {
+              "apartmentName": "금호타운",
+              "buildYear": 1996,
+              "dongName": "박달동",
+              "jibun": "149-1",
+              "contractDate": "2026-10-01",
+              "priceManwon": 27000,
+              "areaSqm": 59.31,
+              "floor": 2
+            },
             {
               "apartmentName": "금호타운",
               "buildYear": 1996,
@@ -10838,16 +10848,6 @@
               "priceManwon": 28800,
               "areaSqm": 59.31,
               "floor": 2
-            },
-            {
-              "apartmentName": "금호타운",
-              "buildYear": 1996,
-              "dongName": "박달동",
-              "jibun": "149-1",
-              "contractDate": "2026-08-20",
-              "priceManwon": 33000,
-              "areaSqm": 59.31,
-              "floor": 12
             }
           ]
         },
@@ -12245,10 +12245,10 @@
         "buildYear": 1989,
         "dongName": "우만동",
         "jibun": "28",
-        "contractDate": "2026-09-19",
-        "priceManwon": 58000,
-        "areaSqm": 58.01,
-        "floor": 6
+        "contractDate": "2026-10-02",
+        "priceManwon": 51500,
+        "areaSqm": 49.94,
+        "floor": 7
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -12432,13 +12432,23 @@
           "areaTypeSqm": 49,
           "areaLabel": "전용 49㎡ · 약 15평",
           "representativeAreaSqm": 49.94,
-          "count": 19,
-          "averagePriceManwon": 46095,
+          "count": 20,
+          "averagePriceManwon": 46365,
           "minPriceManwon": 29400,
           "maxPriceManwon": 53000,
-          "latestPriceManwon": 50000,
-          "latestContractDate": "2026-08-31",
+          "latestPriceManwon": 51500,
+          "latestContractDate": "2026-10-02",
           "recentTransactions": [
+            {
+              "apartmentName": "우만주공2단지",
+              "buildYear": 1989,
+              "dongName": "우만동",
+              "jibun": "28",
+              "contractDate": "2026-10-02",
+              "priceManwon": 51500,
+              "areaSqm": 49.94,
+              "floor": 7
+            },
             {
               "apartmentName": "우만주공2단지",
               "buildYear": 1989,
@@ -12458,16 +12468,6 @@
               "priceManwon": 46300,
               "areaSqm": 49.94,
               "floor": 5
-            },
-            {
-              "apartmentName": "우만주공2단지",
-              "buildYear": 1989,
-              "dongName": "우만동",
-              "jibun": "28",
-              "contractDate": "2026-07-28",
-              "priceManwon": 53000,
-              "areaSqm": 49.94,
-              "floor": 12
             }
           ]
         },
