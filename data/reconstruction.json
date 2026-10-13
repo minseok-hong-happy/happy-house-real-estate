@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-12 21:45 KST",
+    "lastSuccessfulAt": "2026-10-13 21:28 KST",
     "message": ""
   },
   "geocoding": {
@@ -7681,14 +7681,14 @@
       "projectType": "재건축(공동주택)",
       "supplyHouseholds": 4823,
       "latestTransaction": {
-        "apartmentName": "성산시영(대우)",
+        "apartmentName": "성산시영(선경)",
         "buildYear": 1986,
         "dongName": "성산동",
         "jibun": "446",
-        "contractDate": "2026-08-11",
-        "priceManwon": 153850,
-        "areaSqm": 50.03,
-        "floor": 8
+        "contractDate": "2026-09-22",
+        "priceManwon": 150000,
+        "areaSqm": 50.54,
+        "floor": 1
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7743,13 +7743,23 @@
           "areaTypeSqm": 51,
           "areaLabel": "전용 51㎡ · 약 15평",
           "representativeAreaSqm": 50.54,
-          "count": 3,
-          "averagePriceManwon": 145433,
+          "count": 4,
+          "averagePriceManwon": 146575,
           "minPriceManwon": 137000,
           "maxPriceManwon": 155000,
-          "latestPriceManwon": 155000,
-          "latestContractDate": "2026-07-31",
+          "latestPriceManwon": 150000,
+          "latestContractDate": "2026-09-22",
           "recentTransactions": [
+            {
+              "apartmentName": "성산시영(선경)",
+              "buildYear": 1986,
+              "dongName": "성산동",
+              "jibun": "446",
+              "contractDate": "2026-09-22",
+              "priceManwon": 150000,
+              "areaSqm": 50.54,
+              "floor": 1
+            },
             {
               "apartmentName": "성산시영(선경)",
               "buildYear": 1986,
@@ -7769,16 +7779,6 @@
               "priceManwon": 144300,
               "areaSqm": 50.54,
               "floor": 1
-            },
-            {
-              "apartmentName": "성산시영(선경)",
-              "buildYear": 1986,
-              "dongName": "성산동",
-              "jibun": "446",
-              "contractDate": "2025-11-25",
-              "priceManwon": 137000,
-              "areaSqm": 50.54,
-              "floor": 13
             }
           ]
         },
@@ -12245,10 +12245,10 @@
         "buildYear": 1989,
         "dongName": "우만동",
         "jibun": "28",
-        "contractDate": "2026-10-02",
-        "priceManwon": 51500,
-        "areaSqm": 49.94,
-        "floor": 7
+        "contractDate": "2026-10-08",
+        "priceManwon": 59000,
+        "areaSqm": 58.01,
+        "floor": 14
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -12474,14 +12474,24 @@
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 58.35,
-          "count": 20,
-          "averagePriceManwon": 55430,
+          "representativeAreaSqm": 58.34,
+          "count": 21,
+          "averagePriceManwon": 55600,
           "minPriceManwon": 53000,
-          "maxPriceManwon": 58000,
-          "latestPriceManwon": 58000,
-          "latestContractDate": "2026-09-19",
+          "maxPriceManwon": 59000,
+          "latestPriceManwon": 59000,
+          "latestContractDate": "2026-10-08",
           "recentTransactions": [
+            {
+              "apartmentName": "우만주공2단지",
+              "buildYear": 1989,
+              "dongName": "우만동",
+              "jibun": "28",
+              "contractDate": "2026-10-08",
+              "priceManwon": 59000,
+              "areaSqm": 58.01,
+              "floor": 14
+            },
             {
               "apartmentName": "우만주공2단지",
               "buildYear": 1989,
@@ -12501,16 +12511,6 @@
               "priceManwon": 54000,
               "areaSqm": 58.01,
               "floor": 15
-            },
-            {
-              "apartmentName": "우만주공2단지",
-              "buildYear": 1989,
-              "dongName": "우만동",
-              "jibun": "28",
-              "contractDate": "2026-08-07",
-              "priceManwon": 55000,
-              "areaSqm": 59.39,
-              "floor": 4
             }
           ]
         },
