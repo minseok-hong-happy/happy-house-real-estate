@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-16 18:29 KST",
+    "lastSuccessfulAt": "2026-10-17 18:01 KST",
     "message": ""
   },
   "geocoding": {
@@ -12301,10 +12301,10 @@
         "buildYear": 1989,
         "dongName": "우만동",
         "jibun": "28",
-        "contractDate": "2026-10-08",
-        "priceManwon": 59000,
-        "areaSqm": 58.01,
-        "floor": 14
+        "contractDate": "2026-10-14",
+        "priceManwon": 43000,
+        "areaSqm": 45.9,
+        "floor": 1
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -12402,13 +12402,23 @@
           "areaTypeSqm": 46,
           "areaLabel": "전용 46㎡ · 약 14평",
           "representativeAreaSqm": 45.87,
-          "count": 8,
-          "averagePriceManwon": 41219,
+          "count": 9,
+          "averagePriceManwon": 41417,
           "minPriceManwon": 38750,
           "maxPriceManwon": 43000,
           "latestPriceManwon": 43000,
-          "latestContractDate": "2026-09-19",
+          "latestContractDate": "2026-10-14",
           "recentTransactions": [
+            {
+              "apartmentName": "우만주공2단지",
+              "buildYear": 1989,
+              "dongName": "우만동",
+              "jibun": "28",
+              "contractDate": "2026-10-14",
+              "priceManwon": 43000,
+              "areaSqm": 45.9,
+              "floor": 1
+            },
             {
               "apartmentName": "우만주공2단지",
               "buildYear": 1989,
@@ -12428,16 +12438,6 @@
               "priceManwon": 41500,
               "areaSqm": 45.9,
               "floor": 11
-            },
-            {
-              "apartmentName": "우만주공2단지",
-              "buildYear": 1989,
-              "dongName": "우만동",
-              "jibun": "28",
-              "contractDate": "2026-08-29",
-              "priceManwon": 43000,
-              "areaSqm": 45.9,
-              "floor": 10
             }
           ]
         },
@@ -12530,14 +12530,24 @@
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 58.34,
-          "count": 21,
-          "averagePriceManwon": 55600,
+          "representativeAreaSqm": 58.32,
+          "count": 22,
+          "averagePriceManwon": 55550,
           "minPriceManwon": 53000,
           "maxPriceManwon": 59000,
-          "latestPriceManwon": 59000,
-          "latestContractDate": "2026-10-08",
+          "latestPriceManwon": 54500,
+          "latestContractDate": "2026-10-09",
           "recentTransactions": [
+            {
+              "apartmentName": "우만주공2단지",
+              "buildYear": 1989,
+              "dongName": "우만동",
+              "jibun": "28",
+              "contractDate": "2026-10-09",
+              "priceManwon": 54500,
+              "areaSqm": 58.01,
+              "floor": 14
+            },
             {
               "apartmentName": "우만주공2단지",
               "buildYear": 1989,
@@ -12557,16 +12567,6 @@
               "priceManwon": 58000,
               "areaSqm": 58.01,
               "floor": 6
-            },
-            {
-              "apartmentName": "우만주공2단지",
-              "buildYear": 1989,
-              "dongName": "우만동",
-              "jibun": "28",
-              "contractDate": "2026-08-20",
-              "priceManwon": 54000,
-              "areaSqm": 58.01,
-              "floor": 15
             }
           ]
         },
