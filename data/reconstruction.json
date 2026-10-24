@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-23 18:45 KST",
+    "lastSuccessfulAt": "2026-10-24 18:19 KST",
     "message": ""
   },
   "geocoding": {
@@ -4917,10 +4917,10 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.87,
-          "count": 37,
-          "averagePriceManwon": 118131,
+          "count": 38,
+          "averagePriceManwon": 118522,
           "minPriceManwon": 105000,
-          "maxPriceManwon": 131500,
+          "maxPriceManwon": 133000,
           "latestPriceManwon": 131500,
           "latestContractDate": "2026-10-07",
           "recentTransactions": [
@@ -4939,20 +4939,20 @@
               "buildYear": 2003,
               "dongName": "장안동",
               "jibun": "336",
-              "contractDate": "2026-07-25",
-              "priceManwon": 124000,
+              "contractDate": "2026-09-30",
+              "priceManwon": 133000,
               "areaSqm": 84.87,
-              "floor": 4
+              "floor": 6
             },
             {
               "apartmentName": "장안현대홈타운(336)",
               "buildYear": 2003,
               "dongName": "장안동",
               "jibun": "336",
-              "contractDate": "2026-07-11",
-              "priceManwon": 123750,
+              "contractDate": "2026-07-25",
+              "priceManwon": 124000,
               "areaSqm": 84.87,
-              "floor": 3
+              "floor": 4
             }
           ]
         },
