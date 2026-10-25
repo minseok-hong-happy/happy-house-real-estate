@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-24 18:19 KST",
+    "lastSuccessfulAt": "2026-10-25 18:36 KST",
     "message": ""
   },
   "geocoding": {
@@ -10863,10 +10863,10 @@
         "buildYear": 1996,
         "dongName": "박달동",
         "jibun": "149-1",
-        "contractDate": "2026-10-15",
-        "priceManwon": 31540,
-        "areaSqm": 59.31,
-        "floor": 10
+        "contractDate": "2026-10-24",
+        "priceManwon": 44000,
+        "areaSqm": 84.897,
+        "floor": 17
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -10921,13 +10921,33 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.9,
-          "count": 13,
-          "averagePriceManwon": 42462,
+          "count": 15,
+          "averagePriceManwon": 42600,
           "minPriceManwon": 38500,
           "maxPriceManwon": 45500,
-          "latestPriceManwon": 43000,
-          "latestContractDate": "2026-07-17",
+          "latestPriceManwon": 44000,
+          "latestContractDate": "2026-10-24",
           "recentTransactions": [
+            {
+              "apartmentName": "금호타운",
+              "buildYear": 1996,
+              "dongName": "박달동",
+              "jibun": "149-1",
+              "contractDate": "2026-10-24",
+              "priceManwon": 44000,
+              "areaSqm": 84.897,
+              "floor": 17
+            },
+            {
+              "apartmentName": "금호타운",
+              "buildYear": 1996,
+              "dongName": "박달동",
+              "jibun": "149-1",
+              "contractDate": "2026-10-23",
+              "priceManwon": 43000,
+              "areaSqm": 84.897,
+              "floor": 15
+            },
             {
               "apartmentName": "금호타운",
               "buildYear": 1996,
@@ -10937,26 +10957,6 @@
               "priceManwon": 43000,
               "areaSqm": 84.897,
               "floor": 11
-            },
-            {
-              "apartmentName": "금호타운",
-              "buildYear": 1996,
-              "dongName": "박달동",
-              "jibun": "149-1",
-              "contractDate": "2026-07-06",
-              "priceManwon": 43000,
-              "areaSqm": 84.897,
-              "floor": 17
-            },
-            {
-              "apartmentName": "금호타운",
-              "buildYear": 1996,
-              "dongName": "박달동",
-              "jibun": "149-1",
-              "contractDate": "2026-06-27",
-              "priceManwon": 45500,
-              "areaSqm": 84.897,
-              "floor": 19
             }
           ]
         },
