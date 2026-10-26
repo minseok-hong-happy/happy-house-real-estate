@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-25 18:36 KST",
+    "lastSuccessfulAt": "2026-10-26 19:44 KST",
     "message": ""
   },
   "geocoding": {
@@ -6452,10 +6452,10 @@
         "buildYear": 1995,
         "dongName": "풍덕천동",
         "jibun": "692-1",
-        "contractDate": "2026-09-19",
-        "priceManwon": 120000,
-        "areaSqm": 74.1285,
-        "floor": 17
+        "contractDate": "2026-10-17",
+        "priceManwon": 93000,
+        "areaSqm": 59.9985,
+        "floor": 1
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -6467,13 +6467,23 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 60,
-          "count": 3,
-          "averagePriceManwon": 94500,
+          "count": 4,
+          "averagePriceManwon": 94125,
           "minPriceManwon": 83000,
           "maxPriceManwon": 104000,
-          "latestPriceManwon": 96500,
-          "latestContractDate": "2026-08-08",
+          "latestPriceManwon": 93000,
+          "latestContractDate": "2026-10-17",
           "recentTransactions": [
+            {
+              "apartmentName": "수지삼성2차",
+              "buildYear": 1995,
+              "dongName": "풍덕천동",
+              "jibun": "692-1",
+              "contractDate": "2026-10-17",
+              "priceManwon": 93000,
+              "areaSqm": 59.9985,
+              "floor": 1
+            },
             {
               "apartmentName": "수지삼성2차",
               "buildYear": 1995,
@@ -6493,16 +6503,6 @@
               "priceManwon": 104000,
               "areaSqm": 59.9985,
               "floor": 5
-            },
-            {
-              "apartmentName": "수지삼성2차",
-              "buildYear": 1995,
-              "dongName": "풍덕천동",
-              "jibun": "692-1",
-              "contractDate": "2026-01-09",
-              "priceManwon": 83000,
-              "areaSqm": 59.9985,
-              "floor": 8
             }
           ]
         },
