@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-26 19:44 KST",
+    "lastSuccessfulAt": "2026-10-27 19:12 KST",
     "message": ""
   },
   "geocoding": {
@@ -4859,10 +4859,10 @@
         "buildYear": 2003,
         "dongName": "장안동",
         "jibun": "336",
-        "contractDate": "2026-10-07",
-        "priceManwon": 131500,
-        "areaSqm": 84.78,
-        "floor": 15
+        "contractDate": "2026-10-24",
+        "priceManwon": 153500,
+        "areaSqm": 112.78,
+        "floor": 7
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -4873,14 +4873,24 @@
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 59.09,
-          "count": 19,
-          "averagePriceManwon": 98553,
+          "representativeAreaSqm": 59.11,
+          "count": 20,
+          "averagePriceManwon": 99975,
           "minPriceManwon": 85000,
-          "maxPriceManwon": 121000,
-          "latestPriceManwon": 121000,
-          "latestContractDate": "2026-06-29",
+          "maxPriceManwon": 127000,
+          "latestPriceManwon": 127000,
+          "latestContractDate": "2026-10-23",
           "recentTransactions": [
+            {
+              "apartmentName": "장안현대홈타운(336)",
+              "buildYear": 2003,
+              "dongName": "장안동",
+              "jibun": "336",
+              "contractDate": "2026-10-23",
+              "priceManwon": 127000,
+              "areaSqm": 59.54,
+              "floor": 17
+            },
             {
               "apartmentName": "장안현대홈타운(336)",
               "buildYear": 2003,
@@ -4900,16 +4910,6 @@
               "priceManwon": 97000,
               "areaSqm": 59.54,
               "floor": 17
-            },
-            {
-              "apartmentName": "장안현대홈타운(336)",
-              "buildYear": 2003,
-              "dongName": "장안동",
-              "jibun": "336",
-              "contractDate": "2026-04-27",
-              "priceManwon": 106000,
-              "areaSqm": 58.42,
-              "floor": 14
             }
           ]
         },
@@ -5003,13 +5003,33 @@
           "areaTypeSqm": 114,
           "areaLabel": "전용 114㎡ · 약 34평",
           "representativeAreaSqm": 112.78,
-          "count": 14,
-          "averagePriceManwon": 123321,
+          "count": 16,
+          "averagePriceManwon": 126250,
           "minPriceManwon": 109000,
-          "maxPriceManwon": 144000,
-          "latestPriceManwon": 144000,
-          "latestContractDate": "2026-09-04",
+          "maxPriceManwon": 153500,
+          "latestPriceManwon": 153500,
+          "latestContractDate": "2026-10-24",
           "recentTransactions": [
+            {
+              "apartmentName": "장안현대홈타운(336)",
+              "buildYear": 2003,
+              "dongName": "장안동",
+              "jibun": "336",
+              "contractDate": "2026-10-24",
+              "priceManwon": 153500,
+              "areaSqm": 112.78,
+              "floor": 7
+            },
+            {
+              "apartmentName": "장안현대홈타운(336)",
+              "buildYear": 2003,
+              "dongName": "장안동",
+              "jibun": "336",
+              "contractDate": "2026-10-23",
+              "priceManwon": 140000,
+              "areaSqm": 112.78,
+              "floor": 11
+            },
             {
               "apartmentName": "장안현대홈타운(336)",
               "buildYear": 2003,
@@ -5019,26 +5039,6 @@
               "priceManwon": 144000,
               "areaSqm": 112.78,
               "floor": 19
-            },
-            {
-              "apartmentName": "장안현대홈타운(336)",
-              "buildYear": 2003,
-              "dongName": "장안동",
-              "jibun": "336",
-              "contractDate": "2026-06-03",
-              "priceManwon": 121500,
-              "areaSqm": 112.78,
-              "floor": 1
-            },
-            {
-              "apartmentName": "장안현대홈타운(336)",
-              "buildYear": 2003,
-              "dongName": "장안동",
-              "jibun": "336",
-              "contractDate": "2026-05-21",
-              "priceManwon": 128000,
-              "areaSqm": 112.78,
-              "floor": 9
             }
           ]
         },
@@ -7747,14 +7747,14 @@
       "projectType": "재건축(공동주택)",
       "supplyHouseholds": 4823,
       "latestTransaction": {
-        "apartmentName": "성산시영(선경)",
+        "apartmentName": "성산시영(대우)",
         "buildYear": 1986,
         "dongName": "성산동",
         "jibun": "446",
-        "contractDate": "2026-10-02",
-        "priceManwon": 158000,
-        "areaSqm": 50.54,
-        "floor": 4
+        "contractDate": "2026-10-05",
+        "priceManwon": 145000,
+        "areaSqm": 50.03,
+        "floor": 5
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7766,13 +7766,23 @@
           "areaTypeSqm": 49,
           "areaLabel": "전용 49㎡ · 약 15평",
           "representativeAreaSqm": 50.03,
-          "count": 20,
-          "averagePriceManwon": 139023,
+          "count": 21,
+          "averagePriceManwon": 139307,
           "minPriceManwon": 91200,
           "maxPriceManwon": 153850,
-          "latestPriceManwon": 140500,
-          "latestContractDate": "2026-09-23",
+          "latestPriceManwon": 145000,
+          "latestContractDate": "2026-10-05",
           "recentTransactions": [
+            {
+              "apartmentName": "성산시영(대우)",
+              "buildYear": 1986,
+              "dongName": "성산동",
+              "jibun": "446",
+              "contractDate": "2026-10-05",
+              "priceManwon": 145000,
+              "areaSqm": 50.03,
+              "floor": 5
+            },
             {
               "apartmentName": "성산시영(대우)",
               "buildYear": 1986,
@@ -7792,16 +7802,6 @@
               "priceManwon": 153850,
               "areaSqm": 50.03,
               "floor": 8
-            },
-            {
-              "apartmentName": "성산시영(대우)",
-              "buildYear": 1986,
-              "dongName": "성산동",
-              "jibun": "446",
-              "contractDate": "2026-08-05",
-              "priceManwon": 144000,
-              "areaSqm": 50.03,
-              "floor": 2
             }
           ]
         },
@@ -8149,10 +8149,10 @@
         "buildYear": 1979,
         "dongName": "잠원동",
         "jibun": "70",
-        "contractDate": "2026-06-05",
-        "priceManwon": 445000,
-        "areaSqm": 100.11,
-        "floor": 9
+        "contractDate": "2026-10-05",
+        "priceManwon": 401000,
+        "areaSqm": 96.48,
+        "floor": 6
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -8160,6 +8160,29 @@
       "priceStatus": "ok",
       "priceMessage": "",
       "areaPrices": [
+        {
+          "areaTypeSqm": 96,
+          "areaLabel": "전용 96㎡ · 약 29평",
+          "representativeAreaSqm": 96.48,
+          "count": 1,
+          "averagePriceManwon": 401000,
+          "minPriceManwon": 401000,
+          "maxPriceManwon": 401000,
+          "latestPriceManwon": 401000,
+          "latestContractDate": "2026-10-05",
+          "recentTransactions": [
+            {
+              "apartmentName": "신반포4",
+              "buildYear": 1979,
+              "dongName": "잠원동",
+              "jibun": "70",
+              "contractDate": "2026-10-05",
+              "priceManwon": 401000,
+              "areaSqm": 96.48,
+              "floor": 6
+            }
+          ]
+        },
         {
           "areaTypeSqm": 101,
           "areaLabel": "전용 101㎡ · 약 31평",
@@ -9708,8 +9731,8 @@
           "areaTypeSqm": 51,
           "areaLabel": "전용 51㎡ · 약 15평",
           "representativeAreaSqm": 50.67,
-          "count": 20,
-          "averagePriceManwon": 70305,
+          "count": 19,
+          "averagePriceManwon": 69689,
           "minPriceManwon": 42100,
           "maxPriceManwon": 84200,
           "latestPriceManwon": 84200,
@@ -9740,10 +9763,10 @@
               "buildYear": 1988,
               "dongName": "신월동",
               "jibun": "987-1",
-              "contractDate": "2026-09-09",
-              "priceManwon": 82000,
+              "contractDate": "2026-08-28",
+              "priceManwon": 75500,
               "areaSqm": 50.67,
-              "floor": 6
+              "floor": 11
             }
           ]
         },
@@ -10641,10 +10664,10 @@
         "buildYear": 1992,
         "dongName": "호계동",
         "jibun": "570",
-        "contractDate": "2026-10-03",
-        "priceManwon": 85000,
-        "areaSqm": 127.57,
-        "floor": 7
+        "contractDate": "2026-10-14",
+        "priceManwon": 78000,
+        "areaSqm": 84.79,
+        "floor": 12
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -10656,13 +10679,23 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.79,
-          "count": 31,
-          "averagePriceManwon": 67295,
+          "count": 32,
+          "averagePriceManwon": 67630,
           "minPriceManwon": 46000,
           "maxPriceManwon": 79800,
-          "latestPriceManwon": 77000,
-          "latestContractDate": "2026-10-03",
+          "latestPriceManwon": 78000,
+          "latestContractDate": "2026-10-14",
           "recentTransactions": [
+            {
+              "apartmentName": "호계럭키",
+              "buildYear": 1992,
+              "dongName": "호계동",
+              "jibun": "570",
+              "contractDate": "2026-10-14",
+              "priceManwon": 78000,
+              "areaSqm": 84.79,
+              "floor": 12
+            },
             {
               "apartmentName": "호계럭키",
               "buildYear": 1992,
@@ -10682,16 +10715,6 @@
               "priceManwon": 68300,
               "areaSqm": 84.79,
               "floor": 7
-            },
-            {
-              "apartmentName": "호계럭키",
-              "buildYear": 1992,
-              "dongName": "호계동",
-              "jibun": "570",
-              "contractDate": "2026-08-21",
-              "priceManwon": 79800,
-              "areaSqm": 84.79,
-              "floor": 5
             }
           ]
         },
