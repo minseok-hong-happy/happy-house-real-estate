@@ -14,31 +14,51 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-10-28 20:01 KST"
+    "lastSuccessfulAt": "2026-10-29 20:21 KST"
   },
   "recentTransactions": {
     "status": "ok",
     "message": "",
-    "periodLabel": "최근 3개월 계약일 기준 · 전용 59㎡형 · 21건",
+    "periodLabel": "최근 3개월 계약일 기준 · 전용 59㎡형 · 24건",
     "summary": {
-      "count": 21,
-      "averagePriceManwon": 82990,
+      "count": 24,
+      "averagePriceManwon": 83263,
       "minPriceManwon": 49700,
       "maxPriceManwon": 89000,
-      "latestPriceManwon": 83500
+      "latestPriceManwon": 87000
     },
     "areaPrices": [
       {
         "areaTypeSqm": 59,
         "areaLabel": "전용 59㎡ · 약 18평",
-        "representativeAreaSqm": 59.93,
-        "count": 21,
-        "averagePriceManwon": 82990,
+        "representativeAreaSqm": 59.92,
+        "count": 24,
+        "averagePriceManwon": 83263,
         "minPriceManwon": 49700,
         "maxPriceManwon": 89000,
-        "latestPriceManwon": 83500,
-        "latestContractDate": "2026-10-16",
+        "latestPriceManwon": 87000,
+        "latestContractDate": "2026-10-24",
         "recentTransactions": [
+          {
+            "apartmentName": "힐스테이트푸르지오수원",
+            "buildYear": 2023,
+            "dongName": "매교동",
+            "jibun": "292",
+            "contractDate": "2026-10-24",
+            "priceManwon": 87000,
+            "areaSqm": 59.88,
+            "floor": 15
+          },
+          {
+            "apartmentName": "힐스테이트푸르지오수원",
+            "buildYear": 2023,
+            "dongName": "매교동",
+            "jibun": "292",
+            "contractDate": "2026-10-23",
+            "priceManwon": 88500,
+            "areaSqm": 59.95,
+            "floor": 7
+          },
           {
             "apartmentName": "힐스테이트푸르지오수원",
             "buildYear": 2023,
@@ -48,26 +68,6 @@
             "priceManwon": 83500,
             "areaSqm": 59.95,
             "floor": 2
-          },
-          {
-            "apartmentName": "힐스테이트푸르지오수원",
-            "buildYear": 2023,
-            "dongName": "매교동",
-            "jibun": "292",
-            "contractDate": "2026-10-01",
-            "priceManwon": 84300,
-            "areaSqm": 59.95,
-            "floor": 4
-          },
-          {
-            "apartmentName": "힐스테이트푸르지오수원",
-            "buildYear": 2023,
-            "dongName": "매교동",
-            "jibun": "292",
-            "contractDate": "2026-09-30",
-            "priceManwon": 85700,
-            "areaSqm": 59.88,
-            "floor": 6
           }
         ]
       }
@@ -78,10 +78,40 @@
         "buildYear": 2023,
         "dongName": "매교동",
         "jibun": "292",
+        "contractDate": "2026-10-24",
+        "priceManwon": 87000,
+        "areaSqm": 59.88,
+        "floor": 15
+      },
+      {
+        "apartmentName": "힐스테이트푸르지오수원",
+        "buildYear": 2023,
+        "dongName": "매교동",
+        "jibun": "292",
+        "contractDate": "2026-10-23",
+        "priceManwon": 88500,
+        "areaSqm": 59.95,
+        "floor": 7
+      },
+      {
+        "apartmentName": "힐스테이트푸르지오수원",
+        "buildYear": 2023,
+        "dongName": "매교동",
+        "jibun": "292",
         "contractDate": "2026-10-16",
         "priceManwon": 83500,
         "areaSqm": 59.95,
         "floor": 2
+      },
+      {
+        "apartmentName": "힐스테이트푸르지오수원",
+        "buildYear": 2023,
+        "dongName": "매교동",
+        "jibun": "292",
+        "contractDate": "2026-10-15",
+        "priceManwon": 80000,
+        "areaSqm": 59.88,
+        "floor": 1
       },
       {
         "apartmentName": "힐스테이트푸르지오수원",
