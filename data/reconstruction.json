@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-10-29 20:18 KST",
+    "lastSuccessfulAt": "2026-10-30 20:13 KST",
     "message": ""
   },
   "geocoding": {
@@ -1162,10 +1162,10 @@
         "buildYear": 1987,
         "dongName": "은행동",
         "jibun": "550",
-        "contractDate": "2026-09-12",
-        "priceManwon": 90500,
-        "areaSqm": 64.62,
-        "floor": 10
+        "contractDate": "2026-10-01",
+        "priceManwon": 81100,
+        "areaSqm": 54.9,
+        "floor": 11
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -1263,13 +1263,23 @@
           "areaTypeSqm": 55,
           "areaLabel": "전용 55㎡ · 약 17평",
           "representativeAreaSqm": 54.9,
-          "count": 20,
-          "averagePriceManwon": 69069,
+          "count": 21,
+          "averagePriceManwon": 69642,
           "minPriceManwon": 60000,
-          "maxPriceManwon": 78000,
-          "latestPriceManwon": 78000,
-          "latestContractDate": "2026-07-01",
+          "maxPriceManwon": 81100,
+          "latestPriceManwon": 81100,
+          "latestContractDate": "2026-10-01",
           "recentTransactions": [
+            {
+              "apartmentName": "은행주공",
+              "buildYear": 1987,
+              "dongName": "은행동",
+              "jibun": "550",
+              "contractDate": "2026-10-01",
+              "priceManwon": 81100,
+              "areaSqm": 54.9,
+              "floor": 11
+            },
             {
               "apartmentName": "은행주공",
               "buildYear": 1987,
@@ -1289,16 +1299,6 @@
               "priceManwon": 76500,
               "areaSqm": 54.9,
               "floor": 12
-            },
-            {
-              "apartmentName": "은행주공",
-              "buildYear": 1987,
-              "dongName": "은행동",
-              "jibun": "550",
-              "contractDate": "2026-06-23",
-              "priceManwon": 65044,
-              "areaSqm": 54.9,
-              "floor": 6
             }
           ]
         },
@@ -7579,10 +7579,10 @@
         "buildYear": 1987,
         "dongName": "도봉동",
         "jibun": "87",
-        "contractDate": "2026-09-21",
-        "priceManwon": 57700,
-        "areaSqm": 73.89,
-        "floor": 9
+        "contractDate": "2026-10-17",
+        "priceManwon": 64000,
+        "areaSqm": 83.97,
+        "floor": 12
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7637,13 +7637,23 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 83.97,
-          "count": 1,
-          "averagePriceManwon": 62000,
+          "count": 2,
+          "averagePriceManwon": 63000,
           "minPriceManwon": 62000,
-          "maxPriceManwon": 62000,
-          "latestPriceManwon": 62000,
-          "latestContractDate": "2026-05-17",
+          "maxPriceManwon": 64000,
+          "latestPriceManwon": 64000,
+          "latestContractDate": "2026-10-17",
           "recentTransactions": [
+            {
+              "apartmentName": "삼환도봉",
+              "buildYear": 1987,
+              "dongName": "도봉동",
+              "jibun": "87",
+              "contractDate": "2026-10-17",
+              "priceManwon": 64000,
+              "areaSqm": 83.97,
+              "floor": 12
+            },
             {
               "apartmentName": "삼환도봉",
               "buildYear": 1987,
@@ -10886,10 +10896,10 @@
         "buildYear": 1996,
         "dongName": "박달동",
         "jibun": "149-1",
-        "contractDate": "2026-10-27",
-        "priceManwon": 31000,
-        "areaSqm": 59.31,
-        "floor": 3
+        "contractDate": "2026-10-28",
+        "priceManwon": 63000,
+        "areaSqm": 127.452,
+        "floor": 17
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -11010,13 +11020,23 @@
           "areaTypeSqm": 127,
           "areaLabel": "전용 127㎡ · 약 38평",
           "representativeAreaSqm": 127.45,
-          "count": 5,
-          "averagePriceManwon": 55700,
+          "count": 6,
+          "averagePriceManwon": 56917,
           "minPriceManwon": 51000,
-          "maxPriceManwon": 60000,
-          "latestPriceManwon": 57500,
-          "latestContractDate": "2026-07-11",
+          "maxPriceManwon": 63000,
+          "latestPriceManwon": 63000,
+          "latestContractDate": "2026-10-28",
           "recentTransactions": [
+            {
+              "apartmentName": "금호타운",
+              "buildYear": 1996,
+              "dongName": "박달동",
+              "jibun": "149-1",
+              "contractDate": "2026-10-28",
+              "priceManwon": 63000,
+              "areaSqm": 127.452,
+              "floor": 17
+            },
             {
               "apartmentName": "금호타운",
               "buildYear": 1996,
@@ -11036,16 +11056,6 @@
               "priceManwon": 51000,
               "areaSqm": 127.452,
               "floor": 2
-            },
-            {
-              "apartmentName": "금호타운",
-              "buildYear": 1996,
-              "dongName": "박달동",
-              "jibun": "149-1",
-              "contractDate": "2026-03-17",
-              "priceManwon": 57000,
-              "areaSqm": 127.452,
-              "floor": 18
             }
           ]
         }
@@ -11354,10 +11364,10 @@
         "buildYear": 1994,
         "dongName": "풍덕천동",
         "jibun": "663-1",
-        "contractDate": "2026-10-02",
-        "priceManwon": 96500,
+        "contractDate": "2026-10-10",
+        "priceManwon": 95800,
         "areaSqm": 59.76,
-        "floor": 7
+        "floor": 2
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -11369,13 +11379,23 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.76,
-          "count": 26,
-          "averagePriceManwon": 85040,
+          "count": 27,
+          "averagePriceManwon": 85439,
           "minPriceManwon": 63000,
           "maxPriceManwon": 96500,
-          "latestPriceManwon": 96500,
-          "latestContractDate": "2026-10-02",
+          "latestPriceManwon": 95800,
+          "latestContractDate": "2026-10-10",
           "recentTransactions": [
+            {
+              "apartmentName": "수지삼성4차",
+              "buildYear": 1994,
+              "dongName": "풍덕천동",
+              "jibun": "663-1",
+              "contractDate": "2026-10-10",
+              "priceManwon": 95800,
+              "areaSqm": 59.76,
+              "floor": 2
+            },
             {
               "apartmentName": "수지삼성4차",
               "buildYear": 1994,
@@ -11393,16 +11413,6 @@
               "jibun": "663-1",
               "contractDate": "2026-09-23",
               "priceManwon": 95500,
-              "areaSqm": 59.76,
-              "floor": 9
-            },
-            {
-              "apartmentName": "수지삼성4차",
-              "buildYear": 1994,
-              "dongName": "풍덕천동",
-              "jibun": "663-1",
-              "contractDate": "2026-09-23",
-              "priceManwon": 95000,
               "areaSqm": 59.76,
               "floor": 9
             }
