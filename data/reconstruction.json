@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-11-02 22:03 KST",
+    "lastSuccessfulAt": "2026-11-03 21:38 KST",
     "message": ""
   },
   "geocoding": {
@@ -7061,10 +7061,10 @@
         "buildYear": 1983,
         "dongName": "명일동",
         "jibun": "15",
-        "contractDate": "2026-10-14",
-        "priceManwon": 229000,
+        "contractDate": "2026-10-15",
+        "priceManwon": 232000,
         "areaSqm": 107.56,
-        "floor": 6
+        "floor": 13
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7248,13 +7248,23 @@
           "areaTypeSqm": 108,
           "areaLabel": "전용 108㎡ · 약 33평",
           "representativeAreaSqm": 107.56,
-          "count": 5,
-          "averagePriceManwon": 226000,
+          "count": 6,
+          "averagePriceManwon": 227000,
           "minPriceManwon": 223000,
-          "maxPriceManwon": 229000,
-          "latestPriceManwon": 229000,
-          "latestContractDate": "2026-10-14",
+          "maxPriceManwon": 232000,
+          "latestPriceManwon": 232000,
+          "latestContractDate": "2026-10-15",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익그린2차",
+              "buildYear": 1983,
+              "dongName": "명일동",
+              "jibun": "15",
+              "contractDate": "2026-10-15",
+              "priceManwon": 232000,
+              "areaSqm": 107.56,
+              "floor": 13
+            },
             {
               "apartmentName": "삼익그린2차",
               "buildYear": 1983,
@@ -7274,16 +7284,6 @@
               "priceManwon": 225000,
               "areaSqm": 107.56,
               "floor": 12
-            },
-            {
-              "apartmentName": "삼익그린2차",
-              "buildYear": 1983,
-              "dongName": "명일동",
-              "jibun": "15",
-              "contractDate": "2026-06-23",
-              "priceManwon": 223000,
-              "areaSqm": 107.56,
-              "floor": 9
             }
           ]
         },
@@ -11304,10 +11304,10 @@
         "buildYear": 1994,
         "dongName": "풍덕천동",
         "jibun": "663-1",
-        "contractDate": "2026-10-27",
-        "priceManwon": 94800,
+        "contractDate": "2026-10-29",
+        "priceManwon": 95500,
         "areaSqm": 59.76,
-        "floor": 4
+        "floor": 8
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -11319,13 +11319,23 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.76,
-          "count": 25,
-          "averagePriceManwon": 88186,
+          "count": 26,
+          "averagePriceManwon": 88467,
           "minPriceManwon": 69000,
           "maxPriceManwon": 96500,
-          "latestPriceManwon": 94800,
-          "latestContractDate": "2026-10-27",
+          "latestPriceManwon": 95500,
+          "latestContractDate": "2026-10-29",
           "recentTransactions": [
+            {
+              "apartmentName": "수지삼성4차",
+              "buildYear": 1994,
+              "dongName": "풍덕천동",
+              "jibun": "663-1",
+              "contractDate": "2026-10-29",
+              "priceManwon": 95500,
+              "areaSqm": 59.76,
+              "floor": 8
+            },
             {
               "apartmentName": "수지삼성4차",
               "buildYear": 1994,
@@ -11345,16 +11355,6 @@
               "priceManwon": 95800,
               "areaSqm": 59.76,
               "floor": 2
-            },
-            {
-              "apartmentName": "수지삼성4차",
-              "buildYear": 1994,
-              "dongName": "풍덕천동",
-              "jibun": "663-1",
-              "contractDate": "2026-10-02",
-              "priceManwon": 96500,
-              "areaSqm": 59.76,
-              "floor": 7
             }
           ]
         }
