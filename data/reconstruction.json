@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-11-05 21:57 KST",
+    "lastSuccessfulAt": "2026-11-06 21:41 KST",
     "message": ""
   },
   "geocoding": {
@@ -1158,14 +1158,14 @@
       "projectType": "재건축(공동주택)",
       "supplyHouseholds": 3198,
       "latestTransaction": {
-        "apartmentName": "은행주공",
+        "apartmentName": "은행주공2",
         "buildYear": 1987,
         "dongName": "은행동",
         "jibun": "550",
-        "contractDate": "2026-10-01",
-        "priceManwon": 81100,
-        "areaSqm": 54.9,
-        "floor": 11
+        "contractDate": "2026-10-13",
+        "priceManwon": 53000,
+        "areaSqm": 39.72,
+        "floor": 1
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -1219,14 +1219,24 @@
         {
           "areaTypeSqm": 39,
           "areaLabel": "전용 39㎡ · 약 12평",
-          "representativeAreaSqm": 39.4,
-          "count": 23,
-          "averagePriceManwon": 51746,
+          "representativeAreaSqm": 39.41,
+          "count": 24,
+          "averagePriceManwon": 51798,
           "minPriceManwon": 42000,
           "maxPriceManwon": 66000,
-          "latestPriceManwon": 47000,
-          "latestContractDate": "2026-08-29",
+          "latestPriceManwon": 53000,
+          "latestContractDate": "2026-10-13",
           "recentTransactions": [
+            {
+              "apartmentName": "은행주공2",
+              "buildYear": 1987,
+              "dongName": "은행동",
+              "jibun": "550",
+              "contractDate": "2026-10-13",
+              "priceManwon": 53000,
+              "areaSqm": 39.72,
+              "floor": 1
+            },
             {
               "apartmentName": "은행주공2",
               "buildYear": 1987,
@@ -1245,16 +1255,6 @@
               "contractDate": "2026-07-31",
               "priceManwon": 66000,
               "areaSqm": 39.72,
-              "floor": 5
-            },
-            {
-              "apartmentName": "은행주공",
-              "buildYear": 1987,
-              "dongName": "은행동",
-              "jibun": "550",
-              "contractDate": "2026-07-29",
-              "priceManwon": 46000,
-              "areaSqm": 39.15,
               "floor": 5
             }
           ]
@@ -7741,10 +7741,10 @@
         "buildYear": 1986,
         "dongName": "성산동",
         "jibun": "446",
-        "contractDate": "2026-10-05",
-        "priceManwon": 145000,
+        "contractDate": "2026-10-19",
+        "priceManwon": 111000,
         "areaSqm": 50.03,
-        "floor": 5
+        "floor": 14
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7756,13 +7756,23 @@
           "areaTypeSqm": 49,
           "areaLabel": "전용 49㎡ · 약 15평",
           "representativeAreaSqm": 50.03,
-          "count": 18,
-          "averagePriceManwon": 140775,
+          "count": 19,
+          "averagePriceManwon": 139208,
           "minPriceManwon": 91200,
           "maxPriceManwon": 153850,
-          "latestPriceManwon": 145000,
-          "latestContractDate": "2026-10-05",
+          "latestPriceManwon": 111000,
+          "latestContractDate": "2026-10-19",
           "recentTransactions": [
+            {
+              "apartmentName": "성산시영(대우)",
+              "buildYear": 1986,
+              "dongName": "성산동",
+              "jibun": "446",
+              "contractDate": "2026-10-19",
+              "priceManwon": 111000,
+              "areaSqm": 50.03,
+              "floor": 14
+            },
             {
               "apartmentName": "성산시영(대우)",
               "buildYear": 1986,
@@ -7782,16 +7792,6 @@
               "priceManwon": 140500,
               "areaSqm": 50.03,
               "floor": 1
-            },
-            {
-              "apartmentName": "성산시영(대우)",
-              "buildYear": 1986,
-              "dongName": "성산동",
-              "jibun": "446",
-              "contractDate": "2026-08-11",
-              "priceManwon": 153850,
-              "areaSqm": 50.03,
-              "floor": 8
             }
           ]
         },
