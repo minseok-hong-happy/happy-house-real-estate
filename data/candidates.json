@@ -7,7 +7,7 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-11-08 20:43 KST",
+    "lastSuccessfulAt": "2026-11-09 22:39 KST",
     "message": ""
   },
   "discovery": {
@@ -2489,7 +2489,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 64,
+            "score": 65,
             "observedMonths": 32,
             "periodStart": "2024-03-05",
             "periodEnd": "2026-10-31",
@@ -2632,7 +2632,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 70,
+            "score": 69,
             "observedMonths": 32,
             "periodStart": "2024-02-05",
             "periodEnd": "2026-10-17",
@@ -7360,10 +7360,10 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.72,
-          "count": 106,
-          "averagePriceManwon": 74839,
+          "count": 107,
+          "averagePriceManwon": 75013,
           "minPriceManwon": 55000,
-          "maxPriceManwon": 90000,
+          "maxPriceManwon": 93500,
           "latestPriceManwon": 89500,
           "latestContractDate": "2026-11-06",
           "recentTransactions": [
@@ -7382,20 +7382,20 @@
               "buildYear": 1994,
               "dongName": "풍덕천동",
               "jibun": "692",
-              "contractDate": "2026-10-07",
-              "priceManwon": 88700,
+              "contractDate": "2026-10-27",
+              "priceManwon": 93500,
               "areaSqm": 59.721,
-              "floor": 15
+              "floor": 14
             },
             {
               "apartmentName": "보원",
               "buildYear": 1994,
               "dongName": "풍덕천동",
               "jibun": "692",
-              "contractDate": "2026-09-23",
-              "priceManwon": 76000,
+              "contractDate": "2026-10-07",
+              "priceManwon": 88700,
               "areaSqm": 59.721,
-              "floor": 1
+              "floor": 15
             }
           ],
           "growthAnalysis": {
@@ -7404,9 +7404,9 @@
             "observedMonths": 34,
             "periodStart": "2023-12-26",
             "periodEnd": "2026-11-06",
-            "transactionCount": 246,
+            "transactionCount": 247,
             "baselineSampleCount": 18,
-            "recentSampleCount": 36,
+            "recentSampleCount": 37,
             "baselineMedianPriceManwon": 50450,
             "recentMedianPriceManwon": 81000,
             "longTermChangePercent": 60.6,
@@ -7415,7 +7415,7 @@
           }
         }
       ],
-      "discoveryCount": 106
+      "discoveryCount": 107
     },
     {
       "id": "auto-41465-%EC%A3%BD%EC%A0%84%EB%8F%99%7C1165%7C%EC%83%88%ED%84%B0%EB%A7%88%EC%9D%84%EC%A3%BD%EC%A0%84%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8",
@@ -7439,23 +7439,33 @@
         "buildYear": 2004,
         "dongName": "죽전동",
         "jibun": "1165",
-        "contractDate": "2026-11-02",
-        "priceManwon": 95000,
+        "contractDate": "2026-11-05",
+        "priceManwon": 92000,
         "areaSqm": 84.9959,
-        "floor": 19
+        "floor": 17
       },
       "areaPrices": [
         {
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 85,
-          "count": 102,
-          "averagePriceManwon": 79952,
+          "count": 103,
+          "averagePriceManwon": 80069,
           "minPriceManwon": 59500,
           "maxPriceManwon": 95000,
-          "latestPriceManwon": 95000,
-          "latestContractDate": "2026-11-02",
+          "latestPriceManwon": 92000,
+          "latestContractDate": "2026-11-05",
           "recentTransactions": [
+            {
+              "apartmentName": "새터마을죽전힐스테이트",
+              "buildYear": 2004,
+              "dongName": "죽전동",
+              "jibun": "1165",
+              "contractDate": "2026-11-05",
+              "priceManwon": 92000,
+              "areaSqm": 84.9959,
+              "floor": 17
+            },
             {
               "apartmentName": "새터마을죽전힐스테이트",
               "buildYear": 2004,
@@ -7475,16 +7485,6 @@
               "priceManwon": 91800,
               "areaSqm": 84.9959,
               "floor": 2
-            },
-            {
-              "apartmentName": "새터마을죽전힐스테이트",
-              "buildYear": 2004,
-              "dongName": "죽전동",
-              "jibun": "1165",
-              "contractDate": "2026-10-27",
-              "priceManwon": 92500,
-              "areaSqm": 84.9959,
-              "floor": 7
             }
           ],
           "growthAnalysis": {
@@ -7492,19 +7492,19 @@
             "score": 70,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
-            "periodEnd": "2026-11-02",
-            "transactionCount": 318,
+            "periodEnd": "2026-11-05",
+            "transactionCount": 319,
             "baselineSampleCount": 47,
             "recentSampleCount": 43,
             "baselineMedianPriceManwon": 63000,
             "recentMedianPriceManwon": 85000,
             "longTermChangePercent": 34.9,
-            "recentMomentumPercent": 13.7,
+            "recentMomentumPercent": 13.3,
             "confidence": "high"
           }
         }
       ],
-      "discoveryCount": 102
+      "discoveryCount": 103
     },
     {
       "id": "auto-41465-%ED%92%8D%EB%8D%95%EC%B2%9C%EB%8F%99%7C664%7C%EC%82%BC%EC%9D%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
@@ -7528,7 +7528,7 @@
         "buildYear": 1994,
         "dongName": "풍덕천동",
         "jibun": "664",
-        "contractDate": "2026-10-17",
+        "contractDate": "2026-10-24",
         "priceManwon": 85000,
         "areaSqm": 59.76,
         "floor": 11
@@ -7538,13 +7538,23 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.76,
-          "count": 97,
-          "averagePriceManwon": 64984,
+          "count": 98,
+          "averagePriceManwon": 65188,
           "minPriceManwon": 47000,
           "maxPriceManwon": 85000,
           "latestPriceManwon": 85000,
-          "latestContractDate": "2026-10-17",
+          "latestContractDate": "2026-10-24",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익아파트",
+              "buildYear": 1994,
+              "dongName": "풍덕천동",
+              "jibun": "664",
+              "contractDate": "2026-10-24",
+              "priceManwon": 85000,
+              "areaSqm": 59.76,
+              "floor": 11
+            },
             {
               "apartmentName": "삼익아파트",
               "buildYear": 1994,
@@ -7564,16 +7574,6 @@
               "priceManwon": 79700,
               "areaSqm": 59.76,
               "floor": 14
-            },
-            {
-              "apartmentName": "삼익아파트",
-              "buildYear": 1994,
-              "dongName": "풍덕천동",
-              "jibun": "664",
-              "contractDate": "2026-10-08",
-              "priceManwon": 81000,
-              "areaSqm": 59.76,
-              "floor": 11
             }
           ],
           "growthAnalysis": {
@@ -7581,19 +7581,166 @@
             "score": 91,
             "observedMonths": 35,
             "periodStart": "2023-12-01",
-            "periodEnd": "2026-10-17",
-            "transactionCount": 179,
+            "periodEnd": "2026-10-24",
+            "transactionCount": 180,
             "baselineSampleCount": 8,
-            "recentSampleCount": 35,
+            "recentSampleCount": 33,
             "baselineMedianPriceManwon": 47150,
-            "recentMedianPriceManwon": 73500,
-            "longTermChangePercent": 55.9,
-            "recentMomentumPercent": 24.6,
+            "recentMedianPriceManwon": 74000,
+            "longTermChangePercent": 56.9,
+            "recentMomentumPercent": 23.3,
             "confidence": "high"
           }
         }
       ],
-      "discoveryCount": 97
+      "discoveryCount": 98
+    },
+    {
+      "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C1%7C%EC%84%B1%EB%B3%B5%EC%97%AD%EB%A6%AC%EB%B2%84%ED%8C%8C%ED%81%AC",
+      "name": "성복역리버파크",
+      "location": "용인시 수지구 상현동",
+      "lawdCd": "41465",
+      "dongNames": [
+        "상현동"
+      ],
+      "jibun": "1",
+      "matchNames": [
+        "성복역리버파크"
+      ],
+      "exactName": true,
+      "discovered": true,
+      "completionYear": 1998,
+      "priceStatus": "ok",
+      "priceMessage": "",
+      "latestTransaction": {
+        "apartmentName": "성복역리버파크",
+        "buildYear": 1998,
+        "dongName": "상현동",
+        "jibun": "1",
+        "contractDate": "2026-11-07",
+        "priceManwon": 92000,
+        "areaSqm": 59.76,
+        "floor": 19
+      },
+      "areaPrices": [
+        {
+          "areaTypeSqm": 59,
+          "areaLabel": "전용 59㎡ · 약 18평",
+          "representativeAreaSqm": 59.76,
+          "count": 46,
+          "averagePriceManwon": 81574,
+          "minPriceManwon": 50000,
+          "maxPriceManwon": 92000,
+          "latestPriceManwon": 92000,
+          "latestContractDate": "2026-11-07",
+          "recentTransactions": [
+            {
+              "apartmentName": "성복역리버파크",
+              "buildYear": 1998,
+              "dongName": "상현동",
+              "jibun": "1",
+              "contractDate": "2026-11-07",
+              "priceManwon": 92000,
+              "areaSqm": 59.76,
+              "floor": 19
+            },
+            {
+              "apartmentName": "성복역리버파크",
+              "buildYear": 1998,
+              "dongName": "상현동",
+              "jibun": "1",
+              "contractDate": "2026-10-24",
+              "priceManwon": 84000,
+              "areaSqm": 59.76,
+              "floor": 17
+            },
+            {
+              "apartmentName": "성복역리버파크",
+              "buildYear": 1998,
+              "dongName": "상현동",
+              "jibun": "1",
+              "contractDate": "2026-10-10",
+              "priceManwon": 83000,
+              "areaSqm": 59.76,
+              "floor": 2
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 73,
+            "observedMonths": 34,
+            "periodStart": "2024-01-09",
+            "periodEnd": "2026-11-07",
+            "transactionCount": 103,
+            "baselineSampleCount": 9,
+            "recentSampleCount": 21,
+            "baselineMedianPriceManwon": 54000,
+            "recentMedianPriceManwon": 86750,
+            "longTermChangePercent": 60.6,
+            "recentMomentumPercent": 7.2,
+            "confidence": "high"
+          }
+        },
+        {
+          "areaTypeSqm": 84,
+          "areaLabel": "전용 84㎡ · 약 25평",
+          "representativeAreaSqm": 84.97,
+          "count": 44,
+          "averagePriceManwon": 88038,
+          "minPriceManwon": 60000,
+          "maxPriceManwon": 98500,
+          "latestPriceManwon": 97000,
+          "latestContractDate": "2026-11-05",
+          "recentTransactions": [
+            {
+              "apartmentName": "성복역리버파크",
+              "buildYear": 1998,
+              "dongName": "상현동",
+              "jibun": "1",
+              "contractDate": "2026-11-05",
+              "priceManwon": 97000,
+              "areaSqm": 84.965,
+              "floor": 13
+            },
+            {
+              "apartmentName": "성복역리버파크",
+              "buildYear": 1998,
+              "dongName": "상현동",
+              "jibun": "1",
+              "contractDate": "2026-11-04",
+              "priceManwon": 94000,
+              "areaSqm": 84.965,
+              "floor": 5
+            },
+            {
+              "apartmentName": "성복역리버파크",
+              "buildYear": 1998,
+              "dongName": "상현동",
+              "jibun": "1",
+              "contractDate": "2026-10-24",
+              "priceManwon": 94000,
+              "areaSqm": 84.965,
+              "floor": 13
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 70,
+            "observedMonths": 32,
+            "periodStart": "2024-02-24",
+            "periodEnd": "2026-11-05",
+            "transactionCount": 103,
+            "baselineSampleCount": 9,
+            "recentSampleCount": 20,
+            "baselineMedianPriceManwon": 65000,
+            "recentMedianPriceManwon": 94000,
+            "longTermChangePercent": 44.6,
+            "recentMomentumPercent": 10.3,
+            "confidence": "high"
+          }
+        }
+      ],
+      "discoveryCount": 90
     },
     {
       "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C30%7C%EC%A7%84%EC%82%B0%EB%A7%88%EC%9D%84%EC%84%B1%EC%9B%90%EC%83%81%EB%96%BC%EB%B9%8C%EC%95%84%ED%8C%8C%ED%8A%B8",
@@ -7881,8 +8028,8 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.85,
-          "count": 34,
-          "averagePriceManwon": 102168,
+          "count": 35,
+          "averagePriceManwon": 102306,
           "minPriceManwon": 75000,
           "maxPriceManwon": 116500,
           "latestPriceManwon": 116500,
@@ -7913,21 +8060,21 @@
               "buildYear": 2001,
               "dongName": "상현동",
               "jibun": "85-6",
-              "contractDate": "2026-10-03",
-              "priceManwon": 105000,
+              "contractDate": "2026-10-17",
+              "priceManwon": 107000,
               "areaSqm": 84.8518,
-              "floor": 1
+              "floor": 6
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 66,
+            "score": 67,
             "observedMonths": 34,
             "periodStart": "2024-01-10",
             "periodEnd": "2026-11-05",
-            "transactionCount": 105,
+            "transactionCount": 106,
             "baselineSampleCount": 21,
-            "recentSampleCount": 21,
+            "recentSampleCount": 22,
             "baselineMedianPriceManwon": 69000,
             "recentMedianPriceManwon": 105000,
             "longTermChangePercent": 52.2,
@@ -7936,7 +8083,7 @@
           }
         }
       ],
-      "discoveryCount": 50
+      "discoveryCount": 51
     },
     {
       "id": "auto-41465-%EC%8B%A0%EB%B4%89%EB%8F%99%7C905%7C%EC%9A%B0%EB%82%A8%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%B9%8C",
@@ -8380,151 +8527,161 @@
       "discoveryCount": 41
     },
     {
-      "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C1%7C%EC%84%B1%EB%B3%B5%EC%97%AD%EB%A6%AC%EB%B2%84%ED%8C%8C%ED%81%AC",
-      "name": "성복역리버파크",
+      "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C1206%7C%ED%8F%AC%EB%A0%88%EB%82%98%20%EA%B4%91%EA%B5%90%EC%83%81%ED%98%84",
+      "name": "포레나 광교상현",
       "location": "용인시 수지구 상현동",
       "lawdCd": "41465",
       "dongNames": [
         "상현동"
       ],
-      "jibun": "1",
+      "jibun": "1206",
       "matchNames": [
-        "성복역리버파크"
+        "포레나 광교상현"
       ],
       "exactName": true,
       "discovered": true,
-      "completionYear": 1998,
+      "completionYear": 2018,
       "priceStatus": "ok",
       "priceMessage": "",
       "latestTransaction": {
-        "apartmentName": "성복역리버파크",
-        "buildYear": 1998,
+        "apartmentName": "포레나 광교상현",
+        "buildYear": 2018,
         "dongName": "상현동",
-        "jibun": "1",
-        "contractDate": "2026-10-24",
-        "priceManwon": 84000,
-        "areaSqm": 59.76,
-        "floor": 17
+        "jibun": "1206",
+        "contractDate": "2026-10-31",
+        "priceManwon": 115700,
+        "areaSqm": 84.9133,
+        "floor": 7
       },
       "areaPrices": [
         {
-          "areaTypeSqm": 59,
-          "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 59.76,
-          "count": 45,
-          "averagePriceManwon": 81342,
-          "minPriceManwon": 50000,
-          "maxPriceManwon": 90000,
-          "latestPriceManwon": 84000,
-          "latestContractDate": "2026-10-24",
+          "areaTypeSqm": 84,
+          "areaLabel": "전용 84㎡ · 약 25평",
+          "representativeAreaSqm": 84.86,
+          "count": 37,
+          "averagePriceManwon": 102249,
+          "minPriceManwon": 88900,
+          "maxPriceManwon": 118800,
+          "latestPriceManwon": 115700,
+          "latestContractDate": "2026-10-31",
           "recentTransactions": [
             {
-              "apartmentName": "성복역리버파크",
-              "buildYear": 1998,
+              "apartmentName": "포레나 광교상현",
+              "buildYear": 2018,
               "dongName": "상현동",
-              "jibun": "1",
-              "contractDate": "2026-10-24",
-              "priceManwon": 84000,
-              "areaSqm": 59.76,
-              "floor": 17
+              "jibun": "1206",
+              "contractDate": "2026-10-31",
+              "priceManwon": 115700,
+              "areaSqm": 84.9133,
+              "floor": 7
             },
             {
-              "apartmentName": "성복역리버파크",
-              "buildYear": 1998,
+              "apartmentName": "포레나 광교상현",
+              "buildYear": 2018,
               "dongName": "상현동",
-              "jibun": "1",
-              "contractDate": "2026-10-10",
-              "priceManwon": 83000,
-              "areaSqm": 59.76,
-              "floor": 2
+              "jibun": "1206",
+              "contractDate": "2026-10-31",
+              "priceManwon": 110000,
+              "areaSqm": 84.9133,
+              "floor": 20
             },
             {
-              "apartmentName": "성복역리버파크",
-              "buildYear": 1998,
+              "apartmentName": "포레나 광교상현",
+              "buildYear": 2018,
               "dongName": "상현동",
-              "jibun": "1",
-              "contractDate": "2026-09-30",
-              "priceManwon": 85000,
-              "areaSqm": 59.76,
-              "floor": 3
+              "jibun": "1206",
+              "contractDate": "2026-10-23",
+              "priceManwon": 116000,
+              "areaSqm": 84.9133,
+              "floor": 13
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 75,
-            "observedMonths": 33,
-            "periodStart": "2024-01-09",
-            "periodEnd": "2026-10-24",
-            "transactionCount": 102,
-            "baselineSampleCount": 9,
-            "recentSampleCount": 23,
-            "baselineMedianPriceManwon": 54000,
-            "recentMedianPriceManwon": 86500,
-            "longTermChangePercent": 60.2,
-            "recentMomentumPercent": 8.1,
+            "score": 51,
+            "observedMonths": 34,
+            "periodStart": "2024-01-13",
+            "periodEnd": "2026-10-31",
+            "transactionCount": 130,
+            "baselineSampleCount": 32,
+            "recentSampleCount": 21,
+            "baselineMedianPriceManwon": 79500,
+            "recentMedianPriceManwon": 102700,
+            "longTermChangePercent": 29.2,
+            "recentMomentumPercent": 8,
             "confidence": "high"
           }
         },
         {
-          "areaTypeSqm": 84,
-          "areaLabel": "전용 84㎡ · 약 25평",
-          "representativeAreaSqm": 84.97,
-          "count": 41,
-          "averagePriceManwon": 87528,
-          "minPriceManwon": 60000,
-          "maxPriceManwon": 98500,
-          "latestPriceManwon": 94500,
-          "latestContractDate": "2026-10-16",
+          "areaTypeSqm": 89,
+          "areaLabel": "전용 89㎡ · 약 27평",
+          "representativeAreaSqm": 89.07,
+          "count": 1,
+          "averagePriceManwon": 97000,
+          "minPriceManwon": 97000,
+          "maxPriceManwon": 97000,
+          "latestPriceManwon": 97000,
+          "latestContractDate": "2026-02-27",
           "recentTransactions": [
             {
-              "apartmentName": "성복역리버파크",
-              "buildYear": 1998,
+              "apartmentName": "포레나 광교상현",
+              "buildYear": 2018,
               "dongName": "상현동",
-              "jibun": "1",
-              "contractDate": "2026-10-16",
-              "priceManwon": 94500,
-              "areaSqm": 84.965,
-              "floor": 14
-            },
-            {
-              "apartmentName": "성복역리버파크",
-              "buildYear": 1998,
-              "dongName": "상현동",
-              "jibun": "1",
-              "contractDate": "2026-10-06",
-              "priceManwon": 95000,
-              "areaSqm": 84.965,
-              "floor": 10
-            },
-            {
-              "apartmentName": "성복역리버파크",
-              "buildYear": 1998,
-              "dongName": "상현동",
-              "jibun": "1",
-              "contractDate": "2026-10-03",
-              "priceManwon": 93000,
-              "areaSqm": 84.965,
-              "floor": 9
+              "jibun": "1206",
+              "contractDate": "2026-02-27",
+              "priceManwon": 97000,
+              "areaSqm": 89.0725,
+              "floor": 2
             }
           ],
           "growthAnalysis": {
-            "status": "ok",
-            "score": 71,
-            "observedMonths": 32,
-            "periodStart": "2024-02-24",
-            "periodEnd": "2026-10-16",
-            "transactionCount": 100,
-            "baselineSampleCount": 9,
-            "recentSampleCount": 18,
-            "baselineMedianPriceManwon": 65000,
-            "recentMedianPriceManwon": 94000,
-            "longTermChangePercent": 44.6,
-            "recentMomentumPercent": 11,
-            "confidence": "high"
+            "status": "insufficient",
+            "message": "비교 가능한 장기 거래가 부족합니다.",
+            "observedMonths": 4,
+            "transactionCount": 2
+          }
+        },
+        {
+          "areaTypeSqm": 93,
+          "areaLabel": "전용 93㎡ · 약 28평",
+          "representativeAreaSqm": 92.63,
+          "count": 2,
+          "averagePriceManwon": 94750,
+          "minPriceManwon": 90000,
+          "maxPriceManwon": 99500,
+          "latestPriceManwon": 99500,
+          "latestContractDate": "2026-03-09",
+          "recentTransactions": [
+            {
+              "apartmentName": "포레나 광교상현",
+              "buildYear": 2018,
+              "dongName": "상현동",
+              "jibun": "1206",
+              "contractDate": "2026-03-09",
+              "priceManwon": 99500,
+              "areaSqm": 92.6313,
+              "floor": 2
+            },
+            {
+              "apartmentName": "포레나 광교상현",
+              "buildYear": 2018,
+              "dongName": "상현동",
+              "jibun": "1206",
+              "contractDate": "2026-01-15",
+              "priceManwon": 90000,
+              "areaSqm": 92.6313,
+              "floor": 1
+            }
+          ],
+          "growthAnalysis": {
+            "status": "insufficient",
+            "message": "비교 가능한 장기 거래가 부족합니다.",
+            "observedMonths": 19,
+            "transactionCount": 3
           }
         }
       ],
-      "discoveryCount": 41
+      "discoveryCount": 40
     },
     {
       "id": "auto-41465-%EC%A3%BD%EC%A0%84%EB%8F%99%7C1003-8%7C%ED%98%84%EC%95%94%EB%A7%88%EC%9D%84%EB%8F%99%EC%84%B12%EC%B0%A8",
@@ -8964,163 +9121,6 @@
         }
       ],
       "discoveryCount": 40
-    },
-    {
-      "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C1206%7C%ED%8F%AC%EB%A0%88%EB%82%98%20%EA%B4%91%EA%B5%90%EC%83%81%ED%98%84",
-      "name": "포레나 광교상현",
-      "location": "용인시 수지구 상현동",
-      "lawdCd": "41465",
-      "dongNames": [
-        "상현동"
-      ],
-      "jibun": "1206",
-      "matchNames": [
-        "포레나 광교상현"
-      ],
-      "exactName": true,
-      "discovered": true,
-      "completionYear": 2018,
-      "priceStatus": "ok",
-      "priceMessage": "",
-      "latestTransaction": {
-        "apartmentName": "포레나 광교상현",
-        "buildYear": 2018,
-        "dongName": "상현동",
-        "jibun": "1206",
-        "contractDate": "2026-10-31",
-        "priceManwon": 115700,
-        "areaSqm": 84.9133,
-        "floor": 7
-      },
-      "areaPrices": [
-        {
-          "areaTypeSqm": 84,
-          "areaLabel": "전용 84㎡ · 약 25평",
-          "representativeAreaSqm": 84.86,
-          "count": 36,
-          "averagePriceManwon": 102033,
-          "minPriceManwon": 88900,
-          "maxPriceManwon": 118800,
-          "latestPriceManwon": 115700,
-          "latestContractDate": "2026-10-31",
-          "recentTransactions": [
-            {
-              "apartmentName": "포레나 광교상현",
-              "buildYear": 2018,
-              "dongName": "상현동",
-              "jibun": "1206",
-              "contractDate": "2026-10-31",
-              "priceManwon": 115700,
-              "areaSqm": 84.9133,
-              "floor": 7
-            },
-            {
-              "apartmentName": "포레나 광교상현",
-              "buildYear": 2018,
-              "dongName": "상현동",
-              "jibun": "1206",
-              "contractDate": "2026-10-23",
-              "priceManwon": 116000,
-              "areaSqm": 84.9133,
-              "floor": 13
-            },
-            {
-              "apartmentName": "포레나 광교상현",
-              "buildYear": 2018,
-              "dongName": "상현동",
-              "jibun": "1206",
-              "contractDate": "2026-10-20",
-              "priceManwon": 108000,
-              "areaSqm": 84.9133,
-              "floor": 8
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 51,
-            "observedMonths": 34,
-            "periodStart": "2024-01-13",
-            "periodEnd": "2026-10-31",
-            "transactionCount": 129,
-            "baselineSampleCount": 32,
-            "recentSampleCount": 20,
-            "baselineMedianPriceManwon": 79500,
-            "recentMedianPriceManwon": 102600,
-            "longTermChangePercent": 29.1,
-            "recentMomentumPercent": 7.9,
-            "confidence": "high"
-          }
-        },
-        {
-          "areaTypeSqm": 89,
-          "areaLabel": "전용 89㎡ · 약 27평",
-          "representativeAreaSqm": 89.07,
-          "count": 1,
-          "averagePriceManwon": 97000,
-          "minPriceManwon": 97000,
-          "maxPriceManwon": 97000,
-          "latestPriceManwon": 97000,
-          "latestContractDate": "2026-02-27",
-          "recentTransactions": [
-            {
-              "apartmentName": "포레나 광교상현",
-              "buildYear": 2018,
-              "dongName": "상현동",
-              "jibun": "1206",
-              "contractDate": "2026-02-27",
-              "priceManwon": 97000,
-              "areaSqm": 89.0725,
-              "floor": 2
-            }
-          ],
-          "growthAnalysis": {
-            "status": "insufficient",
-            "message": "비교 가능한 장기 거래가 부족합니다.",
-            "observedMonths": 4,
-            "transactionCount": 2
-          }
-        },
-        {
-          "areaTypeSqm": 93,
-          "areaLabel": "전용 93㎡ · 약 28평",
-          "representativeAreaSqm": 92.63,
-          "count": 2,
-          "averagePriceManwon": 94750,
-          "minPriceManwon": 90000,
-          "maxPriceManwon": 99500,
-          "latestPriceManwon": 99500,
-          "latestContractDate": "2026-03-09",
-          "recentTransactions": [
-            {
-              "apartmentName": "포레나 광교상현",
-              "buildYear": 2018,
-              "dongName": "상현동",
-              "jibun": "1206",
-              "contractDate": "2026-03-09",
-              "priceManwon": 99500,
-              "areaSqm": 92.6313,
-              "floor": 2
-            },
-            {
-              "apartmentName": "포레나 광교상현",
-              "buildYear": 2018,
-              "dongName": "상현동",
-              "jibun": "1206",
-              "contractDate": "2026-01-15",
-              "priceManwon": 90000,
-              "areaSqm": 92.6313,
-              "floor": 1
-            }
-          ],
-          "growthAnalysis": {
-            "status": "insufficient",
-            "message": "비교 가능한 장기 거래가 부족합니다.",
-            "observedMonths": 19,
-            "transactionCount": 3
-          }
-        }
-      ],
-      "discoveryCount": 39
     },
     {
       "id": "auto-41135-%EA%B5%AC%EB%AF%B8%EB%8F%99%7C212%7C%EB%AC%B4%EC%A7%80%EA%B0%9C(12%EB%8B%A8%EC%A7%80)(%EC%A3%BC%EA%B3%B5)",
@@ -13553,7 +13553,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 24,
+            "score": 25,
             "observedMonths": 29,
             "periodStart": "2024-04-16",
             "periodEnd": "2026-09-03",
