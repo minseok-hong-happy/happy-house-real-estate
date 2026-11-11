@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-11-10 22:14 KST",
+    "lastSuccessfulAt": "2026-11-11 21:24 KST",
     "message": ""
   },
   "geocoding": {
@@ -7152,13 +7152,23 @@
           "areaTypeSqm": 55,
           "areaLabel": "전용 55㎡ · 약 17평",
           "representativeAreaSqm": 54.81,
-          "count": 12,
-          "averagePriceManwon": 162958,
+          "count": 13,
+          "averagePriceManwon": 162731,
           "minPriceManwon": 150000,
           "maxPriceManwon": 175000,
-          "latestPriceManwon": 169500,
-          "latestContractDate": "2026-10-03",
+          "latestPriceManwon": 160000,
+          "latestContractDate": "2026-10-26",
           "recentTransactions": [
+            {
+              "apartmentName": "삼익그린2차",
+              "buildYear": 1983,
+              "dongName": "명일동",
+              "jibun": "15",
+              "contractDate": "2026-10-26",
+              "priceManwon": 160000,
+              "areaSqm": 54.81,
+              "floor": 9
+            },
             {
               "apartmentName": "삼익그린2차",
               "buildYear": 1983,
@@ -7178,16 +7188,6 @@
               "priceManwon": 175000,
               "areaSqm": 54.81,
               "floor": 10
-            },
-            {
-              "apartmentName": "삼익그린2차",
-              "buildYear": 1983,
-              "dongName": "명일동",
-              "jibun": "15",
-              "contractDate": "2026-06-29",
-              "priceManwon": 168000,
-              "areaSqm": 54.81,
-              "floor": 15
             }
           ]
         },
@@ -10937,13 +10937,23 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.9,
-          "count": 15,
-          "averagePriceManwon": 43073,
+          "count": 16,
+          "averagePriceManwon": 43194,
           "minPriceManwon": 39000,
           "maxPriceManwon": 45500,
           "latestPriceManwon": 45000,
-          "latestContractDate": "2026-11-01",
+          "latestContractDate": "2026-11-03",
           "recentTransactions": [
+            {
+              "apartmentName": "금호타운",
+              "buildYear": 1996,
+              "dongName": "박달동",
+              "jibun": "149-1",
+              "contractDate": "2026-11-03",
+              "priceManwon": 45000,
+              "areaSqm": 84.897,
+              "floor": 19
+            },
             {
               "apartmentName": "금호타운",
               "buildYear": 1996,
@@ -10963,16 +10973,6 @@
               "priceManwon": 43000,
               "areaSqm": 84.897,
               "floor": 13
-            },
-            {
-              "apartmentName": "금호타운",
-              "buildYear": 1996,
-              "dongName": "박달동",
-              "jibun": "149-1",
-              "contractDate": "2026-10-24",
-              "priceManwon": 44000,
-              "areaSqm": 84.897,
-              "floor": 17
             }
           ]
         },
