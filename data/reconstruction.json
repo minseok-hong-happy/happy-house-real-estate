@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-11-11 21:24 KST",
+    "lastSuccessfulAt": "2026-11-12 22:32 KST",
     "message": ""
   },
   "geocoding": {
@@ -7770,14 +7770,14 @@
       "projectType": "재건축(공동주택)",
       "supplyHouseholds": 4823,
       "latestTransaction": {
-        "apartmentName": "성산시영(대우)",
+        "apartmentName": "성산시영(유원)",
         "buildYear": 1986,
         "dongName": "성산동",
         "jibun": "446",
-        "contractDate": "2026-10-19",
-        "priceManwon": 111000,
-        "areaSqm": 50.03,
-        "floor": 14
+        "contractDate": "2026-11-02",
+        "priceManwon": 167000,
+        "areaSqm": 59.43,
+        "floor": 10
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -7875,13 +7875,23 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.43,
-          "count": 6,
-          "averagePriceManwon": 162917,
+          "count": 7,
+          "averagePriceManwon": 163500,
           "minPriceManwon": 155000,
           "maxPriceManwon": 168000,
-          "latestPriceManwon": 164000,
-          "latestContractDate": "2026-07-13",
+          "latestPriceManwon": 167000,
+          "latestContractDate": "2026-11-02",
           "recentTransactions": [
+            {
+              "apartmentName": "성산시영(유원)",
+              "buildYear": 1986,
+              "dongName": "성산동",
+              "jibun": "446",
+              "contractDate": "2026-11-02",
+              "priceManwon": 167000,
+              "areaSqm": 59.43,
+              "floor": 10
+            },
             {
               "apartmentName": "성산시영(유원)",
               "buildYear": 1986,
@@ -7901,16 +7911,6 @@
               "priceManwon": 168000,
               "areaSqm": 59.43,
               "floor": 11
-            },
-            {
-              "apartmentName": "성산시영(유원)",
-              "buildYear": 1986,
-              "dongName": "성산동",
-              "jibun": "446",
-              "contractDate": "2026-06-05",
-              "priceManwon": 165500,
-              "areaSqm": 59.43,
-              "floor": 13
             }
           ]
         }
@@ -9666,10 +9666,10 @@
         "buildYear": 1988,
         "dongName": "신월동",
         "jibun": "987-1",
-        "contractDate": "2026-10-27",
-        "priceManwon": 78000,
+        "contractDate": "2026-10-31",
+        "priceManwon": 84500,
         "areaSqm": 50.67,
-        "floor": 10
+        "floor": 7
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -9724,13 +9724,23 @@
           "areaTypeSqm": 51,
           "areaLabel": "전용 51㎡ · 약 15평",
           "representativeAreaSqm": 50.67,
-          "count": 19,
-          "averagePriceManwon": 71789,
+          "count": 20,
+          "averagePriceManwon": 72425,
           "minPriceManwon": 42100,
-          "maxPriceManwon": 84200,
-          "latestPriceManwon": 78000,
-          "latestContractDate": "2026-10-27",
+          "maxPriceManwon": 84500,
+          "latestPriceManwon": 84500,
+          "latestContractDate": "2026-10-31",
           "recentTransactions": [
+            {
+              "apartmentName": "신월시영",
+              "buildYear": 1988,
+              "dongName": "신월동",
+              "jibun": "987-1",
+              "contractDate": "2026-10-31",
+              "priceManwon": 84500,
+              "areaSqm": 50.67,
+              "floor": 7
+            },
             {
               "apartmentName": "신월시영",
               "buildYear": 1988,
@@ -9750,16 +9760,6 @@
               "priceManwon": 84200,
               "areaSqm": 50.67,
               "floor": 10
-            },
-            {
-              "apartmentName": "신월시영",
-              "buildYear": 1988,
-              "dongName": "신월동",
-              "jibun": "987-1",
-              "contractDate": "2026-09-15",
-              "priceManwon": 82000,
-              "areaSqm": 50.67,
-              "floor": 9
             }
           ]
         },
