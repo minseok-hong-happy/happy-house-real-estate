@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-11-16 22:21 KST",
+    "lastSuccessfulAt": "2026-11-17 23:05 KST",
     "message": ""
   },
   "geocoding": {
@@ -4906,14 +4906,24 @@
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 59.12,
-          "count": 18,
-          "averagePriceManwon": 101056,
+          "representativeAreaSqm": 59.09,
+          "count": 19,
+          "averagePriceManwon": 102105,
           "minPriceManwon": 85000,
           "maxPriceManwon": 127000,
-          "latestPriceManwon": 127000,
-          "latestContractDate": "2026-10-23",
+          "latestPriceManwon": 121000,
+          "latestContractDate": "2026-11-04",
           "recentTransactions": [
+            {
+              "apartmentName": "장안현대홈타운(336)",
+              "buildYear": 2003,
+              "dongName": "장안동",
+              "jibun": "336",
+              "contractDate": "2026-11-04",
+              "priceManwon": 121000,
+              "areaSqm": 58.42,
+              "floor": 22
+            },
             {
               "apartmentName": "장안현대홈타운(336)",
               "buildYear": 2003,
@@ -4933,16 +4943,6 @@
               "priceManwon": 121000,
               "areaSqm": 59.54,
               "floor": 27
-            },
-            {
-              "apartmentName": "장안현대홈타운(336)",
-              "buildYear": 2003,
-              "dongName": "장안동",
-              "jibun": "336",
-              "contractDate": "2026-06-17",
-              "priceManwon": 97000,
-              "areaSqm": 59.54,
-              "floor": 17
             }
           ]
         },
@@ -5239,10 +5239,10 @@
         "buildYear": 1982,
         "dongName": "옥수동",
         "jibun": "220-1",
-        "contractDate": "2026-10-15",
-        "priceManwon": 304000,
-        "areaSqm": 101.09,
-        "floor": 12
+        "contractDate": "2026-10-19",
+        "priceManwon": 280000,
+        "areaSqm": 87.67,
+        "floor": 6
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -5254,13 +5254,23 @@
           "areaTypeSqm": 88,
           "areaLabel": "전용 88㎡ · 약 27평",
           "representativeAreaSqm": 87.67,
-          "count": 2,
-          "averagePriceManwon": 267500,
+          "count": 3,
+          "averagePriceManwon": 271667,
           "minPriceManwon": 265000,
-          "maxPriceManwon": 270000,
-          "latestPriceManwon": 265000,
-          "latestContractDate": "2026-05-18",
+          "maxPriceManwon": 280000,
+          "latestPriceManwon": 280000,
+          "latestContractDate": "2026-10-19",
           "recentTransactions": [
+            {
+              "apartmentName": "한남하이츠",
+              "buildYear": 1982,
+              "dongName": "옥수동",
+              "jibun": "220-1",
+              "contractDate": "2026-10-19",
+              "priceManwon": 280000,
+              "areaSqm": 87.67,
+              "floor": 6
+            },
             {
               "apartmentName": "한남하이츠",
               "buildYear": 1982,
@@ -11352,8 +11362,8 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.76,
-          "count": 26,
-          "averagePriceManwon": 88467,
+          "count": 27,
+          "averagePriceManwon": 88702,
           "minPriceManwon": 69000,
           "maxPriceManwon": 96500,
           "latestPriceManwon": 95500,
@@ -11384,10 +11394,10 @@
               "buildYear": 1994,
               "dongName": "풍덕천동",
               "jibun": "663-1",
-              "contractDate": "2026-10-10",
-              "priceManwon": 95800,
+              "contractDate": "2026-10-20",
+              "priceManwon": 94800,
               "areaSqm": 59.76,
-              "floor": 2
+              "floor": 3
             }
           ]
         }
@@ -12546,11 +12556,11 @@
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 58.31,
-          "count": 23,
-          "averagePriceManwon": 55591,
+          "representativeAreaSqm": 58.3,
+          "count": 24,
+          "averagePriceManwon": 55775,
           "minPriceManwon": 53000,
-          "maxPriceManwon": 59000,
+          "maxPriceManwon": 60000,
           "latestPriceManwon": 56500,
           "latestContractDate": "2026-10-27",
           "recentTransactions": [
@@ -12569,18 +12579,18 @@
               "buildYear": 1989,
               "dongName": "우만동",
               "jibun": "28",
-              "contractDate": "2026-10-09",
-              "priceManwon": 54500,
+              "contractDate": "2026-10-23",
+              "priceManwon": 60000,
               "areaSqm": 58.01,
-              "floor": 14
+              "floor": 8
             },
             {
               "apartmentName": "우만주공2단지",
               "buildYear": 1989,
               "dongName": "우만동",
               "jibun": "28",
-              "contractDate": "2026-10-08",
-              "priceManwon": 59000,
+              "contractDate": "2026-10-09",
+              "priceManwon": 54500,
               "areaSqm": 58.01,
               "floor": 14
             }
