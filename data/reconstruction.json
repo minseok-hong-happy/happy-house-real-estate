@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-11-20 22:49 KST",
+    "lastSuccessfulAt": "2026-11-21 22:16 KST",
     "message": ""
   },
   "geocoding": {
@@ -5542,10 +5542,10 @@
         "buildYear": 1984,
         "dongName": "당산동5가",
         "jibun": "7-2",
-        "contractDate": "2026-09-20",
-        "priceManwon": 210000,
+        "contractDate": "2026-11-02",
+        "priceManwon": 218000,
         "areaSqm": 84.6,
-        "floor": 1
+        "floor": 11
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -5557,13 +5557,23 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.6,
-          "count": 3,
-          "averagePriceManwon": 204667,
+          "count": 4,
+          "averagePriceManwon": 208000,
           "minPriceManwon": 197000,
-          "maxPriceManwon": 210000,
-          "latestPriceManwon": 210000,
-          "latestContractDate": "2026-09-20",
+          "maxPriceManwon": 218000,
+          "latestPriceManwon": 218000,
+          "latestContractDate": "2026-11-02",
           "recentTransactions": [
+            {
+              "apartmentName": "유원제일2차",
+              "buildYear": 1984,
+              "dongName": "당산동5가",
+              "jibun": "7-2",
+              "contractDate": "2026-11-02",
+              "priceManwon": 218000,
+              "areaSqm": 84.6,
+              "floor": 11
+            },
             {
               "apartmentName": "유원제일2차",
               "buildYear": 1984,
@@ -5583,16 +5593,6 @@
               "priceManwon": 207000,
               "areaSqm": 84.6,
               "floor": 8
-            },
-            {
-              "apartmentName": "유원제일2차",
-              "buildYear": 1984,
-              "dongName": "당산동5가",
-              "jibun": "7-2",
-              "contractDate": "2026-06-26",
-              "priceManwon": 197000,
-              "areaSqm": 84.6,
-              "floor": 3
             }
           ]
         },
