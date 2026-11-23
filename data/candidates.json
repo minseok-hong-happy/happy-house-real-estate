@@ -7,7 +7,7 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-11-22 22:04 KST",
+    "lastSuccessfulAt": "2026-11-24 00:41 KST",
     "message": ""
   },
   "discovery": {
@@ -265,7 +265,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 69,
+            "score": 68,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-10",
@@ -323,7 +323,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 54,
+            "score": 53,
             "observedMonths": 35,
             "periodStart": "2023-12-21",
             "periodEnd": "2026-11-07",
@@ -424,7 +424,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 30,
+            "score": 29,
             "observedMonths": 35,
             "periodStart": "2023-12-04",
             "periodEnd": "2026-11-02",
@@ -482,7 +482,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 28,
+            "score": 27,
             "observedMonths": 32,
             "periodStart": "2024-03-09",
             "periodEnd": "2026-10-30",
@@ -628,7 +628,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 74,
+            "score": 73,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-10-30",
@@ -686,7 +686,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 57,
+            "score": 55,
             "observedMonths": 31,
             "periodStart": "2024-03-08",
             "periodEnd": "2026-10-12",
@@ -744,7 +744,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 77,
+            "score": 76,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-06",
@@ -802,7 +802,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 36,
+            "score": 35,
             "observedMonths": 31,
             "periodStart": "2024-01-05",
             "periodEnd": "2026-07-31",
@@ -888,7 +888,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 65,
+            "score": 64,
             "observedMonths": 34,
             "periodStart": "2023-12-08",
             "periodEnd": "2026-10-15",
@@ -946,7 +946,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 33,
+            "score": 32,
             "observedMonths": 32,
             "periodStart": "2023-12-29",
             "periodEnd": "2026-09-03",
@@ -1004,7 +1004,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 65,
+            "score": 64,
             "observedMonths": 35,
             "periodStart": "2023-12-20",
             "periodEnd": "2026-11-05",
@@ -1197,7 +1197,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 73,
+            "score": 72,
             "observedMonths": 35,
             "periodStart": "2023-12-05",
             "periodEnd": "2026-11-02",
@@ -1255,7 +1255,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 80,
+            "score": 79,
             "observedMonths": 36,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-17",
@@ -1380,7 +1380,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 55,
+            "score": 54,
             "observedMonths": 35,
             "periodStart": "2023-12-21",
             "periodEnd": "2026-11-14",
@@ -1438,7 +1438,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 30,
+            "score": 29,
             "observedMonths": 33,
             "periodStart": "2024-01-25",
             "periodEnd": "2026-10-24",
@@ -1881,7 +1881,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 79,
+            "score": 78,
             "observedMonths": 35,
             "periodStart": "2023-12-12",
             "periodEnd": "2026-11-07",
@@ -1939,7 +1939,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 53,
+            "score": 52,
             "observedMonths": 32,
             "periodStart": "2024-01-30",
             "periodEnd": "2026-10-02",
@@ -2023,7 +2023,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 53,
+            "score": 52,
             "observedMonths": 20,
             "periodStart": "2025-01-18",
             "periodEnd": "2026-09-18",
@@ -2081,7 +2081,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 58,
+            "score": 57,
             "observedMonths": 31,
             "periodStart": "2024-02-09",
             "periodEnd": "2026-09-11",
@@ -2204,7 +2204,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 83,
+            "score": 82,
             "observedMonths": 35,
             "periodStart": "2023-12-08",
             "periodEnd": "2026-11-05",
@@ -2288,7 +2288,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 62,
+            "score": 61,
             "observedMonths": 34,
             "periodStart": "2023-12-27",
             "periodEnd": "2026-11-05",
@@ -2346,7 +2346,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 61,
+            "score": 60,
             "observedMonths": 34,
             "periodStart": "2024-01-04",
             "periodEnd": "2026-11-03",
@@ -2489,7 +2489,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 68,
+            "score": 67,
             "observedMonths": 32,
             "periodStart": "2024-03-05",
             "periodEnd": "2026-11-11",
@@ -2716,7 +2716,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 60,
+            "score": 59,
             "observedMonths": 33,
             "periodStart": "2024-01-26",
             "periodEnd": "2026-10-14",
@@ -3021,7 +3021,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 58,
+            "score": 57,
             "observedMonths": 32,
             "periodStart": "2024-03-25",
             "periodEnd": "2026-11-14",
@@ -3079,7 +3079,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 56,
+            "score": 55,
             "observedMonths": 31,
             "periodStart": "2024-03-15",
             "periodEnd": "2026-10-28",
@@ -3280,7 +3280,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 73,
+            "score": 72,
             "observedMonths": 29,
             "periodStart": "2024-06-03",
             "periodEnd": "2026-11-13",
@@ -3366,7 +3366,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 40,
+            "score": 39,
             "observedMonths": 33,
             "periodStart": "2024-01-27",
             "periodEnd": "2026-11-04",
@@ -3479,7 +3479,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 56,
+            "score": 55,
             "observedMonths": 31,
             "periodStart": "2024-02-10",
             "periodEnd": "2026-09-22",
@@ -3594,7 +3594,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 57,
+            "score": 56,
             "observedMonths": 35,
             "periodStart": "2023-12-05",
             "periodEnd": "2026-11-16",
@@ -3847,7 +3847,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 52,
+            "score": 51,
             "observedMonths": 35,
             "periodStart": "2023-12-09",
             "periodEnd": "2026-11-13",
@@ -4296,7 +4296,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 23,
+            "score": 22,
             "observedMonths": 22,
             "periodStart": "2025-01-08",
             "periodEnd": "2026-11-18",
@@ -4354,7 +4354,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 37,
+            "score": 36,
             "observedMonths": 30,
             "periodStart": "2024-05-08",
             "periodEnd": "2026-11-17",
@@ -4598,7 +4598,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 87,
+            "score": 86,
             "observedMonths": 33,
             "periodStart": "2024-01-06",
             "periodEnd": "2026-09-23",
@@ -4745,7 +4745,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 44,
+            "score": 43,
             "observedMonths": 28,
             "periodStart": "2024-06-17",
             "periodEnd": "2026-10-28",
@@ -4863,7 +4863,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 70,
+            "score": 69,
             "observedMonths": 32,
             "periodStart": "2024-02-08",
             "periodEnd": "2026-10-19",
@@ -5139,7 +5139,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 71,
+            "score": 70,
             "observedMonths": 36,
             "periodStart": "2023-12-01",
             "periodEnd": "2026-11-18",
@@ -5255,7 +5255,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 39,
+            "score": 38,
             "observedMonths": 35,
             "periodStart": "2023-12-04",
             "periodEnd": "2026-11-09",
@@ -5518,7 +5518,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 51,
+            "score": 50,
             "observedMonths": 32,
             "periodStart": "2024-03-01",
             "periodEnd": "2026-10-28",
@@ -5888,7 +5888,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 38,
+            "score": 36,
             "observedMonths": 30,
             "periodStart": "2024-02-21",
             "periodEnd": "2026-08-21",
@@ -6231,7 +6231,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 6,
+            "score": 5,
             "observedMonths": 21,
             "periodStart": "2025-02-15",
             "periodEnd": "2026-11-18",
@@ -6320,7 +6320,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 73,
+            "score": 72,
             "observedMonths": 34,
             "periodStart": "2023-12-28",
             "periodEnd": "2026-11-11",
@@ -6409,7 +6409,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 31,
+            "score": 30,
             "observedMonths": 35,
             "periodStart": "2023-12-09",
             "periodEnd": "2026-10-31",
@@ -6498,7 +6498,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 38,
+            "score": 37,
             "observedMonths": 33,
             "periodStart": "2023-12-19",
             "periodEnd": "2026-10-03",
@@ -6556,7 +6556,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 40,
+            "score": 39,
             "observedMonths": 33,
             "periodStart": "2024-01-06",
             "periodEnd": "2026-10-19",
@@ -6645,7 +6645,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 68,
+            "score": 67,
             "observedMonths": 34,
             "periodStart": "2023-12-13",
             "periodEnd": "2026-10-28",
@@ -6703,7 +6703,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 52,
+            "score": 51,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-10-27",
@@ -6792,7 +6792,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 70,
+            "score": 69,
             "observedMonths": 33,
             "periodStart": "2024-01-15",
             "periodEnd": "2026-10-23",
@@ -6930,7 +6930,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 36,
+            "score": 35,
             "observedMonths": 32,
             "periodStart": "2024-03-15",
             "periodEnd": "2026-11-07",
@@ -7048,7 +7048,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 41,
+            "score": 40,
             "observedMonths": 34,
             "periodStart": "2024-01-11",
             "periodEnd": "2026-10-31",
@@ -7106,7 +7106,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 7,
+            "score": 6,
             "observedMonths": 27,
             "periodStart": "2024-03-19",
             "periodEnd": "2026-06-09",
@@ -7164,7 +7164,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 31,
+            "score": 30,
             "observedMonths": 30,
             "periodStart": "2024-01-31",
             "periodEnd": "2026-07-31",
@@ -7311,7 +7311,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 51,
+            "score": 50,
             "observedMonths": 34,
             "periodStart": "2024-01-28",
             "periodEnd": "2026-11-18",
@@ -7360,8 +7360,8 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.72,
-          "count": 110,
-          "averagePriceManwon": 75258,
+          "count": 111,
+          "averagePriceManwon": 75359,
           "minPriceManwon": 55000,
           "maxPriceManwon": 94000,
           "latestPriceManwon": 94000,
@@ -7392,8 +7392,8 @@
               "buildYear": 1994,
               "dongName": "풍덕천동",
               "jibun": "692",
-              "contractDate": "2026-11-06",
-              "priceManwon": 89500,
+              "contractDate": "2026-11-11",
+              "priceManwon": 86500,
               "areaSqm": 59.721,
               "floor": 11
             }
@@ -7404,9 +7404,9 @@
             "observedMonths": 35,
             "periodStart": "2023-12-26",
             "periodEnd": "2026-11-13",
-            "transactionCount": 250,
+            "transactionCount": 251,
             "baselineSampleCount": 18,
-            "recentSampleCount": 39,
+            "recentSampleCount": 40,
             "baselineMedianPriceManwon": 50450,
             "recentMedianPriceManwon": 81000,
             "longTermChangePercent": 60.6,
@@ -7415,7 +7415,7 @@
           }
         }
       ],
-      "discoveryCount": 110
+      "discoveryCount": 111
     },
     {
       "id": "auto-41465-%EC%A3%BD%EC%A0%84%EB%8F%99%7C1165%7C%EC%83%88%ED%84%B0%EB%A7%88%EC%9D%84%EC%A3%BD%EC%A0%84%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8",
@@ -7449,8 +7449,8 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 85,
-          "count": 109,
-          "averagePriceManwon": 80735,
+          "count": 110,
+          "averagePriceManwon": 80855,
           "minPriceManwon": 59500,
           "maxPriceManwon": 95000,
           "latestPriceManwon": 94000,
@@ -7489,22 +7489,22 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 76,
+            "score": 75,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-10",
-            "transactionCount": 325,
+            "transactionCount": 326,
             "baselineSampleCount": 47,
-            "recentSampleCount": 48,
+            "recentSampleCount": 49,
             "baselineMedianPriceManwon": 63000,
-            "recentMedianPriceManwon": 86900,
-            "longTermChangePercent": 37.9,
-            "recentMomentumPercent": 15.9,
+            "recentMedianPriceManwon": 87000,
+            "longTermChangePercent": 38.1,
+            "recentMomentumPercent": 16,
             "confidence": "high"
           }
         }
       ],
-      "discoveryCount": 109
+      "discoveryCount": 110
     },
     {
       "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C1%7C%EC%84%B1%EB%B3%B5%EC%97%AD%EB%A6%AC%EB%B2%84%ED%8C%8C%ED%81%AC",
@@ -7578,7 +7578,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 73,
+            "score": 72,
             "observedMonths": 34,
             "periodStart": "2024-01-09",
             "periodEnd": "2026-11-07",
@@ -7636,7 +7636,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 69,
+            "score": 68,
             "observedMonths": 33,
             "periodStart": "2024-02-24",
             "periodEnd": "2026-11-10",
@@ -7725,7 +7725,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 89,
+            "score": 88,
             "observedMonths": 35,
             "periodStart": "2023-12-01",
             "periodEnd": "2026-10-28",
@@ -7783,7 +7783,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 72,
+            "score": 71,
             "observedMonths": 34,
             "periodStart": "2023-12-26",
             "periodEnd": "2026-11-07",
@@ -7871,10 +7871,10 @@
         "buildYear": 2001,
         "dongName": "상현동",
         "jibun": "85-6",
-        "contractDate": "2026-11-07",
-        "priceManwon": 109500,
+        "contractDate": "2026-11-10",
+        "priceManwon": 107000,
         "areaSqm": 84.8518,
-        "floor": 13
+        "floor": 2
       },
       "areaPrices": [
         {
@@ -7921,7 +7921,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 66,
+            "score": 65,
             "observedMonths": 33,
             "periodStart": "2024-01-31",
             "periodEnd": "2026-10-31",
@@ -7939,13 +7939,23 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.85,
-          "count": 35,
-          "averagePriceManwon": 102120,
+          "count": 36,
+          "averagePriceManwon": 102256,
           "minPriceManwon": 75000,
           "maxPriceManwon": 116500,
-          "latestPriceManwon": 109500,
-          "latestContractDate": "2026-11-07",
+          "latestPriceManwon": 107000,
+          "latestContractDate": "2026-11-10",
           "recentTransactions": [
+            {
+              "apartmentName": "서원마을현대홈타운",
+              "buildYear": 2001,
+              "dongName": "상현동",
+              "jibun": "85-6",
+              "contractDate": "2026-11-10",
+              "priceManwon": 107000,
+              "areaSqm": 84.8518,
+              "floor": 2
+            },
             {
               "apartmentName": "서원마을현대홈타운",
               "buildYear": 2001,
@@ -7965,27 +7975,17 @@
               "priceManwon": 116500,
               "areaSqm": 84.8518,
               "floor": 20
-            },
-            {
-              "apartmentName": "서원마을현대홈타운",
-              "buildYear": 2001,
-              "dongName": "상현동",
-              "jibun": "85-6",
-              "contractDate": "2026-10-17",
-              "priceManwon": 107000,
-              "areaSqm": 84.8518,
-              "floor": 6
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 66,
+            "score": 65,
             "observedMonths": 34,
             "periodStart": "2024-01-10",
-            "periodEnd": "2026-11-07",
-            "transactionCount": 106,
+            "periodEnd": "2026-11-10",
+            "transactionCount": 107,
             "baselineSampleCount": 21,
-            "recentSampleCount": 22,
+            "recentSampleCount": 21,
             "baselineMedianPriceManwon": 69000,
             "recentMedianPriceManwon": 105000,
             "longTermChangePercent": 52.2,
@@ -7994,7 +7994,7 @@
           }
         }
       ],
-      "discoveryCount": 51
+      "discoveryCount": 52
     },
     {
       "id": "auto-41465-%EC%8B%A0%EB%B4%89%EB%8F%99%7C905%7C%EC%9A%B0%EB%82%A8%ED%8D%BC%EC%8A%A4%ED%8A%B8%EB%B9%8C",
@@ -8068,7 +8068,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 59,
+            "score": 58,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-10-25",
@@ -8331,7 +8331,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 46,
+            "score": 45,
             "observedMonths": 30,
             "periodStart": "2024-04-13",
             "periodEnd": "2026-10-02",
@@ -8420,7 +8420,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 66,
+            "score": 65,
             "observedMonths": 34,
             "periodStart": "2024-01-13",
             "periodEnd": "2026-11-10",
@@ -8516,6 +8516,191 @@
       "discoveryCount": 44
     },
     {
+      "id": "auto-41465-%EC%A3%BD%EC%A0%84%EB%8F%99%7C1003-8%7C%ED%98%84%EC%95%94%EB%A7%88%EC%9D%84%EB%8F%99%EC%84%B12%EC%B0%A8",
+      "name": "현암마을동성2차",
+      "location": "용인시 수지구 죽전동",
+      "lawdCd": "41465",
+      "dongNames": [
+        "죽전동"
+      ],
+      "jibun": "1003-8",
+      "matchNames": [
+        "현암마을동성2차"
+      ],
+      "exactName": true,
+      "discovered": true,
+      "completionYear": 1999,
+      "priceStatus": "ok",
+      "priceMessage": "",
+      "latestTransaction": {
+        "apartmentName": "현암마을동성2차",
+        "buildYear": 1999,
+        "dongName": "죽전동",
+        "jibun": "1003-8",
+        "contractDate": "2026-11-20",
+        "priceManwon": 100000,
+        "areaSqm": 60,
+        "floor": 7
+      },
+      "areaPrices": [
+        {
+          "areaTypeSqm": 59,
+          "areaLabel": "전용 59㎡ · 약 18평",
+          "representativeAreaSqm": 60,
+          "count": 31,
+          "averagePriceManwon": 86939,
+          "minPriceManwon": 67000,
+          "maxPriceManwon": 104000,
+          "latestPriceManwon": 100000,
+          "latestContractDate": "2026-11-20",
+          "recentTransactions": [
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-11-20",
+              "priceManwon": 100000,
+              "areaSqm": 60,
+              "floor": 7
+            },
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-11-11",
+              "priceManwon": 104000,
+              "areaSqm": 60,
+              "floor": 15
+            },
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-10-29",
+              "priceManwon": 99700,
+              "areaSqm": 60,
+              "floor": 6
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 91,
+            "observedMonths": 36,
+            "periodStart": "2023-12-04",
+            "periodEnd": "2026-11-20",
+            "transactionCount": 87,
+            "baselineSampleCount": 7,
+            "recentSampleCount": 19,
+            "baselineMedianPriceManwon": 56500,
+            "recentMedianPriceManwon": 95800,
+            "longTermChangePercent": 69.6,
+            "recentMomentumPercent": 31.2,
+            "confidence": "medium"
+          }
+        },
+        {
+          "areaTypeSqm": 84,
+          "areaLabel": "전용 84㎡ · 약 25평",
+          "representativeAreaSqm": 84.99,
+          "count": 12,
+          "averagePriceManwon": 91625,
+          "minPriceManwon": 60000,
+          "maxPriceManwon": 109500,
+          "latestPriceManwon": 109500,
+          "latestContractDate": "2026-09-11",
+          "recentTransactions": [
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-09-11",
+              "priceManwon": 109500,
+              "areaSqm": 84.99,
+              "floor": 14
+            },
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-08-13",
+              "priceManwon": 106500,
+              "areaSqm": 84.99,
+              "floor": 5
+            },
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-05-19",
+              "priceManwon": 94500,
+              "areaSqm": 84.99,
+              "floor": 17
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 70,
+            "observedMonths": 31,
+            "periodStart": "2024-01-27",
+            "periodEnd": "2026-09-11",
+            "transactionCount": 52,
+            "baselineSampleCount": 3,
+            "recentSampleCount": 6,
+            "baselineMedianPriceManwon": 71000,
+            "recentMedianPriceManwon": 98250,
+            "longTermChangePercent": 38.4,
+            "recentMomentumPercent": 22.8,
+            "confidence": "limited"
+          }
+        },
+        {
+          "areaTypeSqm": 134,
+          "areaLabel": "전용 134㎡ · 약 41평",
+          "representativeAreaSqm": 134.88,
+          "count": 1,
+          "averagePriceManwon": 104000,
+          "minPriceManwon": 104000,
+          "maxPriceManwon": 104000,
+          "latestPriceManwon": 104000,
+          "latestContractDate": "2026-03-06",
+          "recentTransactions": [
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-03-06",
+              "priceManwon": 104000,
+              "areaSqm": 134.88,
+              "floor": 18
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 14,
+            "observedMonths": 21,
+            "periodStart": "2024-06-07",
+            "periodEnd": "2026-03-06",
+            "transactionCount": 13,
+            "baselineSampleCount": 6,
+            "recentSampleCount": 4,
+            "baselineMedianPriceManwon": 84700,
+            "recentMedianPriceManwon": 91250,
+            "longTermChangePercent": 7.7,
+            "recentMomentumPercent": 9.6,
+            "confidence": "limited"
+          }
+        }
+      ],
+      "discoveryCount": 43
+    },
+    {
       "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C853%7C%EA%B4%91%EA%B5%90%EC%83%81%ED%98%84%EB%A7%88%EC%9D%84%ED%98%84%EB%8C%80",
       "name": "광교상현마을현대",
       "location": "용인시 수지구 상현동",
@@ -8587,7 +8772,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 83,
+            "score": 82,
             "observedMonths": 35,
             "periodStart": "2023-12-04",
             "periodEnd": "2026-11-18",
@@ -8603,191 +8788,6 @@
         }
       ],
       "discoveryCount": 43
-    },
-    {
-      "id": "auto-41465-%EC%A3%BD%EC%A0%84%EB%8F%99%7C1003-8%7C%ED%98%84%EC%95%94%EB%A7%88%EC%9D%84%EB%8F%99%EC%84%B12%EC%B0%A8",
-      "name": "현암마을동성2차",
-      "location": "용인시 수지구 죽전동",
-      "lawdCd": "41465",
-      "dongNames": [
-        "죽전동"
-      ],
-      "jibun": "1003-8",
-      "matchNames": [
-        "현암마을동성2차"
-      ],
-      "exactName": true,
-      "discovered": true,
-      "completionYear": 1999,
-      "priceStatus": "ok",
-      "priceMessage": "",
-      "latestTransaction": {
-        "apartmentName": "현암마을동성2차",
-        "buildYear": 1999,
-        "dongName": "죽전동",
-        "jibun": "1003-8",
-        "contractDate": "2026-11-11",
-        "priceManwon": 104000,
-        "areaSqm": 60,
-        "floor": 15
-      },
-      "areaPrices": [
-        {
-          "areaTypeSqm": 59,
-          "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 60,
-          "count": 30,
-          "averagePriceManwon": 86503,
-          "minPriceManwon": 67000,
-          "maxPriceManwon": 104000,
-          "latestPriceManwon": 104000,
-          "latestContractDate": "2026-11-11",
-          "recentTransactions": [
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-11-11",
-              "priceManwon": 104000,
-              "areaSqm": 60,
-              "floor": 15
-            },
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-10-29",
-              "priceManwon": 99700,
-              "areaSqm": 60,
-              "floor": 6
-            },
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-10-26",
-              "priceManwon": 99000,
-              "areaSqm": 60,
-              "floor": 15
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 91,
-            "observedMonths": 35,
-            "periodStart": "2023-12-04",
-            "periodEnd": "2026-11-11",
-            "transactionCount": 86,
-            "baselineSampleCount": 7,
-            "recentSampleCount": 19,
-            "baselineMedianPriceManwon": 56500,
-            "recentMedianPriceManwon": 93800,
-            "longTermChangePercent": 66,
-            "recentMomentumPercent": 28.5,
-            "confidence": "medium"
-          }
-        },
-        {
-          "areaTypeSqm": 84,
-          "areaLabel": "전용 84㎡ · 약 25평",
-          "representativeAreaSqm": 84.99,
-          "count": 12,
-          "averagePriceManwon": 91625,
-          "minPriceManwon": 60000,
-          "maxPriceManwon": 109500,
-          "latestPriceManwon": 109500,
-          "latestContractDate": "2026-09-11",
-          "recentTransactions": [
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-09-11",
-              "priceManwon": 109500,
-              "areaSqm": 84.99,
-              "floor": 14
-            },
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-08-13",
-              "priceManwon": 106500,
-              "areaSqm": 84.99,
-              "floor": 5
-            },
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-05-19",
-              "priceManwon": 94500,
-              "areaSqm": 84.99,
-              "floor": 17
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 71,
-            "observedMonths": 31,
-            "periodStart": "2024-01-27",
-            "periodEnd": "2026-09-11",
-            "transactionCount": 52,
-            "baselineSampleCount": 3,
-            "recentSampleCount": 6,
-            "baselineMedianPriceManwon": 71000,
-            "recentMedianPriceManwon": 98250,
-            "longTermChangePercent": 38.4,
-            "recentMomentumPercent": 22.8,
-            "confidence": "limited"
-          }
-        },
-        {
-          "areaTypeSqm": 134,
-          "areaLabel": "전용 134㎡ · 약 41평",
-          "representativeAreaSqm": 134.88,
-          "count": 1,
-          "averagePriceManwon": 104000,
-          "minPriceManwon": 104000,
-          "maxPriceManwon": 104000,
-          "latestPriceManwon": 104000,
-          "latestContractDate": "2026-03-06",
-          "recentTransactions": [
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-03-06",
-              "priceManwon": 104000,
-              "areaSqm": 134.88,
-              "floor": 18
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 14,
-            "observedMonths": 21,
-            "periodStart": "2024-06-07",
-            "periodEnd": "2026-03-06",
-            "transactionCount": 13,
-            "baselineSampleCount": 6,
-            "recentSampleCount": 4,
-            "baselineMedianPriceManwon": 84700,
-            "recentMedianPriceManwon": 91250,
-            "longTermChangePercent": 7.7,
-            "recentMomentumPercent": 9.6,
-            "confidence": "limited"
-          }
-        }
-      ],
-      "discoveryCount": 42
     },
     {
       "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C850%7C%EB%A7%8C%ED%98%84%EB%A7%88%EC%9D%84%EC%8C%8D%EC%9A%A91%EC%B0%A8",
@@ -8919,7 +8919,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 87,
+            "score": 86,
             "observedMonths": 34,
             "periodStart": "2023-12-05",
             "periodEnd": "2026-09-28",
@@ -9044,209 +9044,180 @@
       "discoveryCount": 40
     },
     {
-      "id": "auto-41465-%EC%8B%A0%EB%B4%89%EB%8F%99%7C1025%7C%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B8%EA%B4%91%EA%B5%90%EC%82%B0",
-      "name": "힐스테이트광교산",
-      "location": "용인시 수지구 신봉동",
+      "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C96-1%7C%ED%92%8D%EC%82%B0%EC%95%84%ED%8C%8C%ED%8A%B8",
+      "name": "풍산아파트",
+      "location": "용인시 수지구 상현동",
       "lawdCd": "41465",
       "dongNames": [
-        "신봉동"
+        "상현동"
       ],
-      "jibun": "1025",
+      "jibun": "96-1",
       "matchNames": [
-        "힐스테이트광교산"
+        "풍산아파트"
       ],
       "exactName": true,
       "discovered": true,
-      "completionYear": 2022,
+      "completionYear": 1997,
       "priceStatus": "ok",
       "priceMessage": "",
       "latestTransaction": {
-        "apartmentName": "힐스테이트광교산",
-        "buildYear": 2022,
-        "dongName": "신봉동",
-        "jibun": "1025",
-        "contractDate": "2026-11-08",
-        "priceManwon": 84900,
-        "areaSqm": 59.954,
-        "floor": 5
+        "apartmentName": "풍산아파트",
+        "buildYear": 1997,
+        "dongName": "상현동",
+        "jibun": "96-1",
+        "contractDate": "2026-11-14",
+        "priceManwon": 93800,
+        "areaSqm": 84.87,
+        "floor": 3
       },
       "areaPrices": [
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 59.96,
-          "count": 14,
-          "averagePriceManwon": 75857,
-          "minPriceManwon": 69500,
-          "maxPriceManwon": 84900,
-          "latestPriceManwon": 84900,
-          "latestContractDate": "2026-11-08",
+          "representativeAreaSqm": 59.58,
+          "count": 25,
+          "averagePriceManwon": 74692,
+          "minPriceManwon": 60000,
+          "maxPriceManwon": 87000,
+          "latestPriceManwon": 87000,
+          "latestContractDate": "2026-11-13",
           "recentTransactions": [
             {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-11-08",
-              "priceManwon": 84900,
-              "areaSqm": 59.954,
-              "floor": 5
+              "apartmentName": "풍산아파트",
+              "buildYear": 1997,
+              "dongName": "상현동",
+              "jibun": "96-1",
+              "contractDate": "2026-11-13",
+              "priceManwon": 87000,
+              "areaSqm": 59.58,
+              "floor": 11
             },
             {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-07-27",
-              "priceManwon": 81800,
-              "areaSqm": 59.9926,
-              "floor": 17
+              "apartmentName": "풍산아파트",
+              "buildYear": 1997,
+              "dongName": "상현동",
+              "jibun": "96-1",
+              "contractDate": "2026-11-07",
+              "priceManwon": 83300,
+              "areaSqm": 59.58,
+              "floor": 2
             },
             {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-06-29",
-              "priceManwon": 74500,
-              "areaSqm": 59.954,
-              "floor": 4
+              "apartmentName": "풍산아파트",
+              "buildYear": 1997,
+              "dongName": "상현동",
+              "jibun": "96-1",
+              "contractDate": "2026-10-24",
+              "priceManwon": 85300,
+              "areaSqm": 59.58,
+              "floor": 10
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 32,
-            "observedMonths": 31,
-            "periodStart": "2024-04-10",
-            "periodEnd": "2026-11-08",
-            "transactionCount": 47,
-            "baselineSampleCount": 15,
-            "recentSampleCount": 7,
-            "baselineMedianPriceManwon": 66000,
-            "recentMedianPriceManwon": 79000,
-            "longTermChangePercent": 19.7,
-            "recentMomentumPercent": 8.4,
-            "confidence": "medium"
-          }
-        },
-        {
-          "areaTypeSqm": 77,
-          "areaLabel": "전용 77㎡ · 약 23평",
-          "representativeAreaSqm": 76.75,
-          "count": 16,
-          "averagePriceManwon": 84466,
-          "minPriceManwon": 50000,
-          "maxPriceManwon": 93500,
-          "latestPriceManwon": 92000,
-          "latestContractDate": "2026-10-09",
-          "recentTransactions": [
-            {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-10-09",
-              "priceManwon": 92000,
-              "areaSqm": 76.7243,
-              "floor": 4
-            },
-            {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-10-03",
-              "priceManwon": 93000,
-              "areaSqm": 76.7243,
-              "floor": 15
-            },
-            {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-08-14",
-              "priceManwon": 93500,
-              "areaSqm": 76.787,
-              "floor": 22
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 26,
-            "observedMonths": 28,
-            "periodStart": "2024-05-29",
-            "periodEnd": "2026-10-09",
-            "transactionCount": 36,
-            "baselineSampleCount": 9,
-            "recentSampleCount": 8,
-            "baselineMedianPriceManwon": 74500,
-            "recentMedianPriceManwon": 88900,
-            "longTermChangePercent": 19.3,
-            "recentMomentumPercent": 5.8,
-            "confidence": "medium"
+            "score": 64,
+            "observedMonths": 30,
+            "periodStart": "2024-05-25",
+            "periodEnd": "2026-11-13",
+            "transactionCount": 69,
+            "baselineSampleCount": 16,
+            "recentSampleCount": 11,
+            "baselineMedianPriceManwon": 51150,
+            "recentMedianPriceManwon": 78000,
+            "longTermChangePercent": 52.5,
+            "recentMomentumPercent": 6.8,
+            "confidence": "high"
           }
         },
         {
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
-          "representativeAreaSqm": 84.97,
-          "count": 18,
-          "averagePriceManwon": 92375,
-          "minPriceManwon": 84000,
-          "maxPriceManwon": 100500,
-          "latestPriceManwon": 96000,
-          "latestContractDate": "2026-09-28",
+          "representativeAreaSqm": 84.87,
+          "count": 12,
+          "averagePriceManwon": 82550,
+          "minPriceManwon": 70000,
+          "maxPriceManwon": 93800,
+          "latestPriceManwon": 93800,
+          "latestContractDate": "2026-11-14",
           "recentTransactions": [
             {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-09-28",
-              "priceManwon": 96000,
-              "areaSqm": 84.9663,
+              "apartmentName": "풍산아파트",
+              "buildYear": 1997,
+              "dongName": "상현동",
+              "jibun": "96-1",
+              "contractDate": "2026-11-14",
+              "priceManwon": 93800,
+              "areaSqm": 84.87,
               "floor": 3
             },
             {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-09-03",
-              "priceManwon": 94000,
-              "areaSqm": 84.9663,
-              "floor": 3
+              "apartmentName": "풍산아파트",
+              "buildYear": 1997,
+              "dongName": "상현동",
+              "jibun": "96-1",
+              "contractDate": "2026-11-11",
+              "priceManwon": 90000,
+              "areaSqm": 84.87,
+              "floor": 14
             },
             {
-              "apartmentName": "힐스테이트광교산",
-              "buildYear": 2022,
-              "dongName": "신봉동",
-              "jibun": "1025",
-              "contractDate": "2026-09-02",
+              "apartmentName": "풍산아파트",
+              "buildYear": 1997,
+              "dongName": "상현동",
+              "jibun": "96-1",
+              "contractDate": "2026-09-15",
               "priceManwon": 92000,
-              "areaSqm": 84.9663,
-              "floor": 3
+              "areaSqm": 84.87,
+              "floor": 4
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 13,
-            "observedMonths": 30,
-            "periodStart": "2024-03-27",
-            "periodEnd": "2026-09-28",
-            "transactionCount": 30,
-            "baselineSampleCount": 5,
-            "recentSampleCount": 13,
-            "baselineMedianPriceManwon": 83400,
-            "recentMedianPriceManwon": 93500,
-            "longTermChangePercent": 12.1,
-            "recentMomentumPercent": 2.2,
+            "score": 79,
+            "observedMonths": 34,
+            "periodStart": "2024-01-10",
+            "periodEnd": "2026-11-14",
+            "transactionCount": 38,
+            "baselineSampleCount": 4,
+            "recentSampleCount": 6,
+            "baselineMedianPriceManwon": 56000,
+            "recentMedianPriceManwon": 91000,
+            "longTermChangePercent": 62.5,
+            "recentMomentumPercent": 18,
             "confidence": "medium"
+          }
+        },
+        {
+          "areaTypeSqm": 134,
+          "areaLabel": "전용 134㎡ · 약 41평",
+          "representativeAreaSqm": 133.99,
+          "count": 1,
+          "averagePriceManwon": 65000,
+          "minPriceManwon": 65000,
+          "maxPriceManwon": 65000,
+          "latestPriceManwon": 65000,
+          "latestContractDate": "2026-01-17",
+          "recentTransactions": [
+            {
+              "apartmentName": "풍산아파트",
+              "buildYear": 1997,
+              "dongName": "상현동",
+              "jibun": "96-1",
+              "contractDate": "2026-01-17",
+              "priceManwon": 65000,
+              "areaSqm": 133.99,
+              "floor": 15
+            }
+          ],
+          "growthAnalysis": {
+            "status": "insufficient",
+            "message": "비교 가능한 장기 거래가 부족합니다.",
+            "observedMonths": 24,
+            "transactionCount": 6
           }
         }
       ],
-      "discoveryCount": 34
+      "discoveryCount": 37
     },
     {
       "id": "auto-41135-%EA%B5%AC%EB%AF%B8%EB%8F%99%7C212%7C%EB%AC%B4%EC%A7%80%EA%B0%9C(12%EB%8B%A8%EC%A7%80)(%EC%A3%BC%EA%B3%B5)",
@@ -9467,7 +9438,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 87,
+            "score": 86,
             "observedMonths": 33,
             "periodStart": "2024-01-31",
             "periodEnd": "2026-10-30",
@@ -9525,7 +9496,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 78,
+            "score": 77,
             "observedMonths": 35,
             "periodStart": "2023-12-06",
             "periodEnd": "2026-10-26",
@@ -9583,7 +9554,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 73,
+            "score": 72,
             "observedMonths": 35,
             "periodStart": "2023-12-05",
             "periodEnd": "2026-11-18",
@@ -9790,7 +9761,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 44,
+            "score": 43,
             "observedMonths": 27,
             "periodStart": "2024-02-08",
             "periodEnd": "2026-05-07",
@@ -9966,7 +9937,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 58,
+            "score": 57,
             "observedMonths": 30,
             "periodStart": "2024-04-20",
             "periodEnd": "2026-10-27",
@@ -10104,7 +10075,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 52,
+            "score": 51,
             "observedMonths": 23,
             "periodStart": "2024-06-25",
             "periodEnd": "2026-05-26",
@@ -10193,7 +10164,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 41,
+            "score": 40,
             "observedMonths": 31,
             "periodStart": "2024-03-30",
             "periodEnd": "2026-10-15",
@@ -10282,7 +10253,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 76,
+            "score": 75,
             "observedMonths": 35,
             "periodStart": "2023-12-03",
             "periodEnd": "2026-10-24",
@@ -10371,7 +10342,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 31,
+            "score": 30,
             "observedMonths": 30,
             "periodStart": "2024-03-16",
             "periodEnd": "2026-09-08",
@@ -10487,7 +10458,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 42,
+            "score": 41,
             "observedMonths": 32,
             "periodStart": "2024-02-14",
             "periodEnd": "2026-10-22",
@@ -10603,7 +10574,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 28,
+            "score": 27,
             "observedMonths": 25,
             "periodStart": "2024-07-29",
             "periodEnd": "2026-09-12",
@@ -10710,7 +10681,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 35,
+            "score": 34,
             "observedMonths": 29,
             "periodStart": "2024-03-11",
             "periodEnd": "2026-08-01",
@@ -10946,7 +10917,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 64,
+            "score": 63,
             "observedMonths": 30,
             "periodStart": "2024-04-13",
             "periodEnd": "2026-10-13",
@@ -11004,7 +10975,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 60,
+            "score": 59,
             "observedMonths": 30,
             "periodStart": "2024-05-19",
             "periodEnd": "2026-11-09",
@@ -11062,7 +11033,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 49,
+            "score": 48,
             "observedMonths": 31,
             "periodStart": "2024-03-06",
             "periodEnd": "2026-10-16",
@@ -11151,7 +11122,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 67,
+            "score": 66,
             "observedMonths": 31,
             "periodStart": "2024-03-18",
             "periodEnd": "2026-10-09",
@@ -11209,7 +11180,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 70,
+            "score": 68,
             "observedMonths": 32,
             "periodStart": "2024-02-23",
             "periodEnd": "2026-11-06",
@@ -11267,7 +11238,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 36,
+            "score": 35,
             "observedMonths": 30,
             "periodStart": "2024-01-02",
             "periodEnd": "2026-07-18",
@@ -11405,7 +11376,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 77,
+            "score": 76,
             "observedMonths": 32,
             "periodStart": "2024-02-17",
             "periodEnd": "2026-10-30",
@@ -11494,7 +11465,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 53,
+            "score": 52,
             "observedMonths": 32,
             "periodStart": "2024-03-02",
             "periodEnd": "2026-10-30",
@@ -11681,7 +11652,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 55,
+            "score": 54,
             "observedMonths": 30,
             "periodStart": "2024-01-18",
             "periodEnd": "2026-07-30",
@@ -11739,7 +11710,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 77,
+            "score": 76,
             "observedMonths": 34,
             "periodStart": "2024-01-18",
             "periodEnd": "2026-11-12",
@@ -11797,7 +11768,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 59,
+            "score": 58,
             "observedMonths": 35,
             "periodStart": "2023-12-19",
             "periodEnd": "2026-11-06",
@@ -11935,7 +11906,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 33,
+            "score": 32,
             "observedMonths": 33,
             "periodStart": "2023-12-22",
             "periodEnd": "2026-09-23",
@@ -11993,7 +11964,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 26,
+            "score": 25,
             "observedMonths": 32,
             "periodStart": "2023-12-24",
             "periodEnd": "2026-09-04",
@@ -12247,7 +12218,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 70,
+            "score": 69,
             "observedMonths": 30,
             "periodStart": "2024-03-30",
             "periodEnd": "2026-09-28",
@@ -12434,7 +12405,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 60,
+            "score": 59,
             "observedMonths": 27,
             "periodStart": "2024-06-22",
             "periodEnd": "2026-09-13",
@@ -12660,7 +12631,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 60,
+            "score": 58,
             "observedMonths": 34,
             "periodStart": "2024-01-24",
             "periodEnd": "2026-11-10",
@@ -12836,7 +12807,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 29,
+            "score": 28,
             "observedMonths": 34,
             "periodStart": "2023-12-29",
             "periodEnd": "2026-10-30",
@@ -12954,7 +12925,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 65,
+            "score": 64,
             "observedMonths": 34,
             "periodStart": "2023-12-23",
             "periodEnd": "2026-10-17",
@@ -13141,7 +13112,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 25,
+            "score": 24,
             "observedMonths": 29,
             "periodStart": "2024-04-16",
             "periodEnd": "2026-09-03",
@@ -13279,7 +13250,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 46,
+            "score": 45,
             "observedMonths": 29,
             "periodStart": "2024-01-27",
             "periodEnd": "2026-07-03",
@@ -13337,7 +13308,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 55,
+            "score": 54,
             "observedMonths": 33,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-09-16",
@@ -13426,7 +13397,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 65,
+            "score": 64,
             "observedMonths": 33,
             "periodStart": "2024-01-27",
             "periodEnd": "2026-10-17",
@@ -13554,7 +13525,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 42,
+            "score": 41,
             "observedMonths": 29,
             "periodStart": "2024-02-26",
             "periodEnd": "2026-08-08",
@@ -13643,7 +13614,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 40,
+            "score": 39,
             "observedMonths": 32,
             "periodStart": "2024-01-25",
             "periodEnd": "2026-09-12",
@@ -13812,7 +13783,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 60,
+            "score": 59,
             "observedMonths": 34,
             "periodStart": "2024-01-06",
             "periodEnd": "2026-11-11",
@@ -13999,7 +13970,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 55,
+            "score": 54,
             "observedMonths": 29,
             "periodStart": "2024-04-21",
             "periodEnd": "2026-09-19",
@@ -14057,7 +14028,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 52,
+            "score": 51,
             "observedMonths": 32,
             "periodStart": "2024-01-20",
             "periodEnd": "2026-10-03",
@@ -14502,7 +14473,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 62,
+            "score": 61,
             "observedMonths": 30,
             "periodStart": "2024-02-15",
             "periodEnd": "2026-08-21",
@@ -14560,7 +14531,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 69,
+            "score": 68,
             "observedMonths": 35,
             "periodStart": "2023-12-18",
             "periodEnd": "2026-11-16",
@@ -14796,7 +14767,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 45,
+            "score": 44,
             "observedMonths": 35,
             "periodStart": "2023-12-08",
             "periodEnd": "2026-11-14",
@@ -14854,7 +14825,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 52,
+            "score": 51,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-04",
@@ -14912,7 +14883,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 17,
+            "score": 16,
             "observedMonths": 26,
             "periodStart": "2024-04-24",
             "periodEnd": "2026-06-27",
@@ -15030,7 +15001,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 68,
+            "score": 67,
             "observedMonths": 34,
             "periodStart": "2024-01-29",
             "periodEnd": "2026-11-14",
@@ -15235,7 +15206,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 52,
+            "score": 51,
             "observedMonths": 34,
             "periodStart": "2023-12-22",
             "periodEnd": "2026-11-05",
@@ -15373,7 +15344,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 60,
+            "score": 59,
             "observedMonths": 33,
             "periodStart": "2024-02-05",
             "periodEnd": "2026-11-04",
@@ -15431,7 +15402,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 75,
+            "score": 74,
             "observedMonths": 35,
             "periodStart": "2023-12-16",
             "periodEnd": "2026-11-11",
@@ -15520,7 +15491,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 49,
+            "score": 48,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-14",
@@ -15609,7 +15580,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 40,
+            "score": 39,
             "observedMonths": 35,
             "periodStart": "2023-12-19",
             "periodEnd": "2026-11-05",
@@ -15747,7 +15718,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 74,
+            "score": 73,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-07",
@@ -15836,7 +15807,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 45,
+            "score": 44,
             "observedMonths": 33,
             "periodStart": "2024-01-26",
             "periodEnd": "2026-10-28",
@@ -15925,7 +15896,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 49,
+            "score": 48,
             "observedMonths": 33,
             "periodStart": "2024-01-06",
             "periodEnd": "2026-10-15",
@@ -16103,7 +16074,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 53,
+            "score": 52,
             "observedMonths": 33,
             "periodStart": "2023-12-26",
             "periodEnd": "2026-10-06",
