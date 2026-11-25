@@ -7,7 +7,7 @@
   },
   "sync": {
     "schedule": "매일 14:00 KST",
-    "lastSuccessfulAt": "2026-11-25 00:32 KST",
+    "lastSuccessfulAt": "2026-11-26 00:20 KST",
     "message": ""
   },
   "discovery": {
@@ -55,10 +55,10 @@
         "buildYear": 2023,
         "dongName": "매교동",
         "jibun": "300",
-        "contractDate": "2026-11-18",
-        "priceManwon": 93000,
-        "areaSqm": 59.88,
-        "floor": 3
+        "contractDate": "2026-11-20",
+        "priceManwon": 95800,
+        "areaSqm": 59.94,
+        "floor": 13
       },
       "areaPrices": [
         {
@@ -123,8 +123,8 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.97,
-          "count": 109,
-          "averagePriceManwon": 100959,
+          "count": 110,
+          "averagePriceManwon": 101114,
           "minPriceManwon": 65100,
           "maxPriceManwon": 122300,
           "latestPriceManwon": 114000,
@@ -167,13 +167,13 @@
             "observedMonths": 33,
             "periodStart": "2024-02-04",
             "periodEnd": "2026-11-10",
-            "transactionCount": 195,
+            "transactionCount": 196,
             "baselineSampleCount": 23,
-            "recentSampleCount": 62,
+            "recentSampleCount": 63,
             "baselineMedianPriceManwon": 93500,
-            "recentMedianPriceManwon": 104350,
-            "longTermChangePercent": 11.6,
-            "recentMomentumPercent": 8.7,
+            "recentMedianPriceManwon": 104700,
+            "longTermChangePercent": 12,
+            "recentMomentumPercent": 9.1,
             "confidence": "high"
           }
         }
@@ -323,7 +323,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 54,
+            "score": 53,
             "observedMonths": 35,
             "periodStart": "2023-12-21",
             "periodEnd": "2026-11-07",
@@ -1255,7 +1255,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 79,
+            "score": 80,
             "observedMonths": 36,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-17",
@@ -2288,7 +2288,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 61,
+            "score": 62,
             "observedMonths": 34,
             "periodStart": "2023-12-27",
             "periodEnd": "2026-11-05",
@@ -2391,13 +2391,23 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 58.64,
-          "count": 127,
-          "averagePriceManwon": 102798,
+          "count": 128,
+          "averagePriceManwon": 103003,
           "minPriceManwon": 54000,
-          "maxPriceManwon": 123000,
-          "latestPriceManwon": 114000,
-          "latestContractDate": "2026-10-28",
+          "maxPriceManwon": 129000,
+          "latestPriceManwon": 129000,
+          "latestContractDate": "2026-11-03",
           "recentTransactions": [
+            {
+              "apartmentName": "매화마을공무원2",
+              "buildYear": 1995,
+              "dongName": "야탑동",
+              "jibun": "215",
+              "contractDate": "2026-11-03",
+              "priceManwon": 129000,
+              "areaSqm": 58.71,
+              "floor": 17
+            },
             {
               "apartmentName": "매화마을공무원2",
               "buildYear": 1995,
@@ -2417,31 +2427,21 @@
               "priceManwon": 123000,
               "areaSqm": 58.71,
               "floor": 17
-            },
-            {
-              "apartmentName": "매화마을공무원2",
-              "buildYear": 1995,
-              "dongName": "야탑동",
-              "jibun": "215",
-              "contractDate": "2026-10-28",
-              "priceManwon": 114500,
-              "areaSqm": 58.71,
-              "floor": 21
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 78,
+            "score": 77,
             "observedMonths": 34,
             "periodStart": "2023-12-26",
-            "periodEnd": "2026-10-28",
-            "transactionCount": 226,
+            "periodEnd": "2026-11-03",
+            "transactionCount": 227,
             "baselineSampleCount": 20,
-            "recentSampleCount": 80,
+            "recentSampleCount": 78,
             "baselineMedianPriceManwon": 69400,
-            "recentMedianPriceManwon": 106000,
-            "longTermChangePercent": 52.7,
-            "recentMomentumPercent": 10.4,
+            "recentMedianPriceManwon": 106125,
+            "longTermChangePercent": 52.9,
+            "recentMomentumPercent": 9.7,
             "confidence": "high"
           }
         },
@@ -2489,7 +2489,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 68,
+            "score": 67,
             "observedMonths": 32,
             "periodStart": "2024-03-05",
             "periodEnd": "2026-11-11",
@@ -3222,7 +3222,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 68,
+            "score": 69,
             "observedMonths": 31,
             "periodStart": "2024-03-23",
             "periodEnd": "2026-10-16",
@@ -3280,7 +3280,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 72,
+            "score": 73,
             "observedMonths": 29,
             "periodStart": "2024-06-03",
             "periodEnd": "2026-11-13",
@@ -4041,23 +4041,33 @@
         "buildYear": 2021,
         "dongName": "고등동",
         "jibun": "310",
-        "contractDate": "2026-11-15",
-        "priceManwon": 95000,
-        "areaSqm": 74.99,
-        "floor": 19
+        "contractDate": "2026-11-21",
+        "priceManwon": 81500,
+        "areaSqm": 59.99,
+        "floor": 13
       },
       "areaPrices": [
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.99,
-          "count": 34,
-          "averagePriceManwon": 71050,
+          "count": 36,
+          "averagePriceManwon": 71533,
           "minPriceManwon": 63800,
           "maxPriceManwon": 87000,
-          "latestPriceManwon": 79500,
-          "latestContractDate": "2026-10-30",
+          "latestPriceManwon": 81500,
+          "latestContractDate": "2026-11-21",
           "recentTransactions": [
+            {
+              "apartmentName": "수원역푸르지오자이",
+              "buildYear": 2021,
+              "dongName": "고등동",
+              "jibun": "310",
+              "contractDate": "2026-11-21",
+              "priceManwon": 81500,
+              "areaSqm": 59.99,
+              "floor": 13
+            },
             {
               "apartmentName": "수원역푸르지오자이",
               "buildYear": 2021,
@@ -4073,35 +4083,25 @@
               "buildYear": 2021,
               "dongName": "고등동",
               "jibun": "310",
-              "contractDate": "2026-09-29",
-              "priceManwon": 80700,
-              "areaSqm": 59.99,
-              "floor": 3
-            },
-            {
-              "apartmentName": "수원역푸르지오자이",
-              "buildYear": 2021,
-              "dongName": "고등동",
-              "jibun": "310",
-              "contractDate": "2026-09-21",
-              "priceManwon": 80500,
+              "contractDate": "2026-10-30",
+              "priceManwon": 78000,
               "areaSqm": 59.99,
               "floor": 9
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 30,
-            "observedMonths": 33,
+            "score": 31,
+            "observedMonths": 34,
             "periodStart": "2024-02-03",
-            "periodEnd": "2026-10-30",
-            "transactionCount": 118,
+            "periodEnd": "2026-11-21",
+            "transactionCount": 120,
             "baselineSampleCount": 29,
-            "recentSampleCount": 20,
+            "recentSampleCount": 21,
             "baselineMedianPriceManwon": 65000,
-            "recentMedianPriceManwon": 73000,
-            "longTermChangePercent": 12.3,
-            "recentMomentumPercent": 7.7,
+            "recentMedianPriceManwon": 73500,
+            "longTermChangePercent": 13.1,
+            "recentMomentumPercent": 8.1,
             "confidence": "high"
           }
         },
@@ -4314,8 +4314,8 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.99,
-          "count": 126,
-          "averagePriceManwon": 71231,
+          "count": 128,
+          "averagePriceManwon": 71443,
           "minPriceManwon": 58000,
           "maxPriceManwon": 85500,
           "latestPriceManwon": 84500,
@@ -4336,20 +4336,20 @@
               "buildYear": 2024,
               "dongName": "인계동",
               "jibun": "1173",
-              "contractDate": "2026-11-10",
+              "contractDate": "2026-11-13",
               "priceManwon": 85000,
-              "areaSqm": 59.99,
-              "floor": 6
+              "areaSqm": 59.98,
+              "floor": 10
             },
             {
               "apartmentName": "수원센트럴아이파크자이",
               "buildYear": 2024,
               "dongName": "인계동",
               "jibun": "1173",
-              "contractDate": "2026-11-06",
-              "priceManwon": 84500,
+              "contractDate": "2026-11-12",
+              "priceManwon": 84700,
               "areaSqm": 59.98,
-              "floor": 14
+              "floor": 6
             }
           ],
           "growthAnalysis": {
@@ -4358,13 +4358,13 @@
             "observedMonths": 30,
             "periodStart": "2024-05-08",
             "periodEnd": "2026-11-17",
-            "transactionCount": 171,
+            "transactionCount": 173,
             "baselineSampleCount": 5,
-            "recentSampleCount": 62,
+            "recentSampleCount": 64,
             "baselineMedianPriceManwon": 66000,
-            "recentMedianPriceManwon": 74700,
-            "longTermChangePercent": 13.2,
-            "recentMomentumPercent": 10.7,
+            "recentMedianPriceManwon": 74850,
+            "longTermChangePercent": 13.4,
+            "recentMomentumPercent": 10.9,
             "confidence": "medium"
           }
         },
@@ -4412,7 +4412,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 27,
+            "score": 26,
             "observedMonths": 18,
             "periodStart": "2025-05-10",
             "periodEnd": "2026-10-31",
@@ -5099,8 +5099,8 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.98,
-          "count": 58,
-          "averagePriceManwon": 67871,
+          "count": 59,
+          "averagePriceManwon": 68083,
           "minPriceManwon": 55000,
           "maxPriceManwon": 81000,
           "latestPriceManwon": 76000,
@@ -5121,35 +5121,35 @@
               "buildYear": 2008,
               "dongName": "매탄동",
               "jibun": "1352",
-              "contractDate": "2026-11-13",
-              "priceManwon": 81000,
+              "contractDate": "2026-11-18",
+              "priceManwon": 80400,
               "areaSqm": 59.9845,
-              "floor": 17
+              "floor": 15
             },
             {
               "apartmentName": "매탄위브하늘채",
               "buildYear": 2008,
               "dongName": "매탄동",
               "jibun": "1352",
-              "contractDate": "2026-11-10",
-              "priceManwon": 80400,
+              "contractDate": "2026-11-13",
+              "priceManwon": 81000,
               "areaSqm": 59.9845,
-              "floor": 14
+              "floor": 17
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 71,
+            "score": 72,
             "observedMonths": 36,
             "periodStart": "2023-12-01",
             "periodEnd": "2026-11-18",
-            "transactionCount": 186,
+            "transactionCount": 187,
             "baselineSampleCount": 31,
-            "recentSampleCount": 25,
+            "recentSampleCount": 26,
             "baselineMedianPriceManwon": 54500,
-            "recentMedianPriceManwon": 74000,
-            "longTermChangePercent": 35.8,
-            "recentMomentumPercent": 16.1,
+            "recentMedianPriceManwon": 74500,
+            "longTermChangePercent": 36.7,
+            "recentMomentumPercent": 16.9,
             "confidence": "high"
           }
         },
@@ -5255,7 +5255,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 39,
+            "score": 38,
             "observedMonths": 35,
             "periodStart": "2023-12-04",
             "periodEnd": "2026-11-09",
@@ -6084,8 +6084,8 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.99,
-          "count": 39,
-          "averagePriceManwon": 95940,
+          "count": 40,
+          "averagePriceManwon": 95841,
           "minPriceManwon": 87500,
           "maxPriceManwon": 112000,
           "latestPriceManwon": 92000,
@@ -6107,19 +6107,19 @@
               "dongName": "원천동",
               "jibun": "628",
               "contractDate": "2026-11-18",
-              "priceManwon": 109700,
-              "areaSqm": 84.9868,
-              "floor": 16
+              "priceManwon": 92000,
+              "areaSqm": 84.9957,
+              "floor": 1
             },
             {
               "apartmentName": "영흥숲푸르지오파크비엔",
               "buildYear": 2023,
               "dongName": "원천동",
               "jibun": "628",
-              "contractDate": "2026-11-05",
-              "priceManwon": 97000,
-              "areaSqm": 84.9839,
-              "floor": 2
+              "contractDate": "2026-11-18",
+              "priceManwon": 109700,
+              "areaSqm": 84.9868,
+              "floor": 16
             }
           ],
           "growthAnalysis": {
@@ -6128,9 +6128,9 @@
             "observedMonths": 22,
             "periodStart": "2025-01-13",
             "periodEnd": "2026-11-18",
-            "transactionCount": 62,
+            "transactionCount": 63,
             "baselineSampleCount": 9,
-            "recentSampleCount": 32,
+            "recentSampleCount": 33,
             "baselineMedianPriceManwon": 95500,
             "recentMedianPriceManwon": 95000,
             "longTermChangePercent": -0.5,
@@ -6246,7 +6246,7 @@
           }
         }
       ],
-      "discoveryCount": 46
+      "discoveryCount": 47
     },
     {
       "id": "auto-41117-%EC%98%81%ED%86%B5%EB%8F%99%7C1154%7C%EC%98%81%ED%86%B5%EB%9D%BC%EC%98%A8%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97",
@@ -6556,7 +6556,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 31,
+            "score": 30,
             "observedMonths": 35,
             "periodStart": "2023-12-09",
             "periodEnd": "2026-10-31",
@@ -7400,7 +7400,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 92,
+            "score": 91,
             "observedMonths": 35,
             "periodStart": "2023-12-26",
             "periodEnd": "2026-11-13",
@@ -7636,7 +7636,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 69,
+            "score": 70,
             "observedMonths": 33,
             "periodStart": "2024-02-24",
             "periodEnd": "2026-11-10",
@@ -7652,6 +7652,95 @@
         }
       ],
       "discoveryCount": 91
+    },
+    {
+      "id": "auto-41465-%ED%92%8D%EB%8D%95%EC%B2%9C%EB%8F%99%7C664%7C%ED%92%8D%EB%A6%BC%EC%95%84%ED%8C%8C%ED%8A%B8",
+      "name": "풍림아파트",
+      "location": "용인시 수지구 풍덕천동",
+      "lawdCd": "41465",
+      "dongNames": [
+        "풍덕천동"
+      ],
+      "jibun": "664",
+      "matchNames": [
+        "풍림아파트"
+      ],
+      "exactName": true,
+      "discovered": true,
+      "completionYear": 1994,
+      "priceStatus": "ok",
+      "priceMessage": "",
+      "latestTransaction": {
+        "apartmentName": "풍림아파트",
+        "buildYear": 1994,
+        "dongName": "풍덕천동",
+        "jibun": "664",
+        "contractDate": "2026-11-07",
+        "priceManwon": 85000,
+        "areaSqm": 59.76,
+        "floor": 9
+      },
+      "areaPrices": [
+        {
+          "areaTypeSqm": 59,
+          "areaLabel": "전용 59㎡ · 약 18평",
+          "representativeAreaSqm": 59.76,
+          "count": 89,
+          "averagePriceManwon": 67171,
+          "minPriceManwon": 47900,
+          "maxPriceManwon": 88000,
+          "latestPriceManwon": 85000,
+          "latestContractDate": "2026-11-07",
+          "recentTransactions": [
+            {
+              "apartmentName": "풍림아파트",
+              "buildYear": 1994,
+              "dongName": "풍덕천동",
+              "jibun": "664",
+              "contractDate": "2026-11-07",
+              "priceManwon": 85000,
+              "areaSqm": 59.76,
+              "floor": 9
+            },
+            {
+              "apartmentName": "풍림아파트",
+              "buildYear": 1994,
+              "dongName": "풍덕천동",
+              "jibun": "664",
+              "contractDate": "2026-11-05",
+              "priceManwon": 75000,
+              "areaSqm": 59.76,
+              "floor": 7
+            },
+            {
+              "apartmentName": "풍림아파트",
+              "buildYear": 1994,
+              "dongName": "풍덕천동",
+              "jibun": "664",
+              "contractDate": "2026-10-29",
+              "priceManwon": 81500,
+              "areaSqm": 59.76,
+              "floor": 4
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 94,
+            "observedMonths": 35,
+            "periodStart": "2023-12-13",
+            "periodEnd": "2026-11-07",
+            "transactionCount": 170,
+            "baselineSampleCount": 14,
+            "recentSampleCount": 28,
+            "baselineMedianPriceManwon": 47500,
+            "recentMedianPriceManwon": 78250,
+            "longTermChangePercent": 64.7,
+            "recentMomentumPercent": 23.2,
+            "confidence": "high"
+          }
+        }
+      ],
+      "discoveryCount": 89
     },
     {
       "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C30%7C%EC%A7%84%EC%82%B0%EB%A7%88%EC%9D%84%EC%84%B1%EC%9B%90%EC%83%81%EB%96%BC%EB%B9%8C%EC%95%84%ED%8C%8C%ED%8A%B8",
@@ -7675,9 +7764,9 @@
         "buildYear": 1997,
         "dongName": "상현동",
         "jibun": "30",
-        "contractDate": "2026-11-06",
-        "priceManwon": 110000,
-        "areaSqm": 133.44,
+        "contractDate": "2026-11-07",
+        "priceManwon": 100000,
+        "areaSqm": 84.96,
         "floor": 16
       },
       "areaPrices": [
@@ -7743,13 +7832,23 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.96,
-          "count": 33,
-          "averagePriceManwon": 83489,
+          "count": 34,
+          "averagePriceManwon": 83975,
           "minPriceManwon": 60000,
-          "maxPriceManwon": 95000,
-          "latestPriceManwon": 95000,
-          "latestContractDate": "2026-10-07",
+          "maxPriceManwon": 100000,
+          "latestPriceManwon": 100000,
+          "latestContractDate": "2026-11-07",
           "recentTransactions": [
+            {
+              "apartmentName": "진산마을성원상떼빌아파트",
+              "buildYear": 1997,
+              "dongName": "상현동",
+              "jibun": "30",
+              "contractDate": "2026-11-07",
+              "priceManwon": 100000,
+              "areaSqm": 84.96,
+              "floor": 16
+            },
             {
               "apartmentName": "진산마을성원상떼빌아파트",
               "buildYear": 1997,
@@ -7769,31 +7868,21 @@
               "priceManwon": 95000,
               "areaSqm": 84.96,
               "floor": 8
-            },
-            {
-              "apartmentName": "진산마을성원상떼빌아파트",
-              "buildYear": 1997,
-              "dongName": "상현동",
-              "jibun": "30",
-              "contractDate": "2026-09-19",
-              "priceManwon": 75000,
-              "areaSqm": 84.96,
-              "floor": 1
             }
           ],
           "growthAnalysis": {
             "status": "ok",
             "score": 72,
-            "observedMonths": 33,
+            "observedMonths": 34,
             "periodStart": "2023-12-26",
-            "periodEnd": "2026-10-07",
-            "transactionCount": 89,
+            "periodEnd": "2026-11-07",
+            "transactionCount": 90,
             "baselineSampleCount": 9,
-            "recentSampleCount": 16,
+            "recentSampleCount": 14,
             "baselineMedianPriceManwon": 62000,
-            "recentMedianPriceManwon": 88350,
-            "longTermChangePercent": 42.5,
-            "recentMomentumPercent": 12.2,
+            "recentMedianPriceManwon": 89250,
+            "longTermChangePercent": 44,
+            "recentMomentumPercent": 11.6,
             "confidence": "high"
           }
         },
@@ -7847,7 +7936,7 @@
           }
         }
       ],
-      "discoveryCount": 74
+      "discoveryCount": 75
     },
     {
       "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C85-6%7C%EC%84%9C%EC%9B%90%EB%A7%88%EC%9D%84%ED%98%84%EB%8C%80%ED%99%88%ED%83%80%EC%9A%B4",
@@ -8068,7 +8157,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 59,
+            "score": 58,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-10-25",
@@ -8142,6 +8231,191 @@
         }
       ],
       "discoveryCount": 49
+    },
+    {
+      "id": "auto-41465-%EC%A3%BD%EC%A0%84%EB%8F%99%7C1003-8%7C%ED%98%84%EC%95%94%EB%A7%88%EC%9D%84%EB%8F%99%EC%84%B12%EC%B0%A8",
+      "name": "현암마을동성2차",
+      "location": "용인시 수지구 죽전동",
+      "lawdCd": "41465",
+      "dongNames": [
+        "죽전동"
+      ],
+      "jibun": "1003-8",
+      "matchNames": [
+        "현암마을동성2차"
+      ],
+      "exactName": true,
+      "discovered": true,
+      "completionYear": 1999,
+      "priceStatus": "ok",
+      "priceMessage": "",
+      "latestTransaction": {
+        "apartmentName": "현암마을동성2차",
+        "buildYear": 1999,
+        "dongName": "죽전동",
+        "jibun": "1003-8",
+        "contractDate": "2026-11-20",
+        "priceManwon": 100000,
+        "areaSqm": 60,
+        "floor": 7
+      },
+      "areaPrices": [
+        {
+          "areaTypeSqm": 59,
+          "areaLabel": "전용 59㎡ · 약 18평",
+          "representativeAreaSqm": 60,
+          "count": 33,
+          "averagePriceManwon": 87921,
+          "minPriceManwon": 67000,
+          "maxPriceManwon": 104300,
+          "latestPriceManwon": 100000,
+          "latestContractDate": "2026-11-20",
+          "recentTransactions": [
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-11-20",
+              "priceManwon": 100000,
+              "areaSqm": 60,
+              "floor": 7
+            },
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-11-19",
+              "priceManwon": 102000,
+              "areaSqm": 60,
+              "floor": 6
+            },
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-11-14",
+              "priceManwon": 104300,
+              "areaSqm": 60,
+              "floor": 6
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 93,
+            "observedMonths": 36,
+            "periodStart": "2023-12-04",
+            "periodEnd": "2026-11-20",
+            "transactionCount": 89,
+            "baselineSampleCount": 7,
+            "recentSampleCount": 21,
+            "baselineMedianPriceManwon": 56500,
+            "recentMedianPriceManwon": 97000,
+            "longTermChangePercent": 71.7,
+            "recentMomentumPercent": 32.9,
+            "confidence": "medium"
+          }
+        },
+        {
+          "areaTypeSqm": 84,
+          "areaLabel": "전용 84㎡ · 약 25평",
+          "representativeAreaSqm": 84.99,
+          "count": 12,
+          "averagePriceManwon": 91625,
+          "minPriceManwon": 60000,
+          "maxPriceManwon": 109500,
+          "latestPriceManwon": 109500,
+          "latestContractDate": "2026-09-11",
+          "recentTransactions": [
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-09-11",
+              "priceManwon": 109500,
+              "areaSqm": 84.99,
+              "floor": 14
+            },
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-08-13",
+              "priceManwon": 106500,
+              "areaSqm": 84.99,
+              "floor": 5
+            },
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-05-19",
+              "priceManwon": 94500,
+              "areaSqm": 84.99,
+              "floor": 17
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 70,
+            "observedMonths": 31,
+            "periodStart": "2024-01-27",
+            "periodEnd": "2026-09-11",
+            "transactionCount": 52,
+            "baselineSampleCount": 3,
+            "recentSampleCount": 6,
+            "baselineMedianPriceManwon": 71000,
+            "recentMedianPriceManwon": 98250,
+            "longTermChangePercent": 38.4,
+            "recentMomentumPercent": 22.8,
+            "confidence": "limited"
+          }
+        },
+        {
+          "areaTypeSqm": 134,
+          "areaLabel": "전용 134㎡ · 약 41평",
+          "representativeAreaSqm": 134.88,
+          "count": 1,
+          "averagePriceManwon": 104000,
+          "minPriceManwon": 104000,
+          "maxPriceManwon": 104000,
+          "latestPriceManwon": 104000,
+          "latestContractDate": "2026-03-06",
+          "recentTransactions": [
+            {
+              "apartmentName": "현암마을동성2차",
+              "buildYear": 1999,
+              "dongName": "죽전동",
+              "jibun": "1003-8",
+              "contractDate": "2026-03-06",
+              "priceManwon": 104000,
+              "areaSqm": 134.88,
+              "floor": 18
+            }
+          ],
+          "growthAnalysis": {
+            "status": "ok",
+            "score": 14,
+            "observedMonths": 21,
+            "periodStart": "2024-06-07",
+            "periodEnd": "2026-03-06",
+            "transactionCount": 13,
+            "baselineSampleCount": 6,
+            "recentSampleCount": 4,
+            "baselineMedianPriceManwon": 84700,
+            "recentMedianPriceManwon": 91250,
+            "longTermChangePercent": 7.7,
+            "recentMomentumPercent": 9.6,
+            "confidence": "limited"
+          }
+        }
+      ],
+      "discoveryCount": 45
     },
     {
       "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C99%7C%EB%B2%BD%EC%82%B0%EB%B8%94%EB%A3%A8%EB%B0%8D",
@@ -8349,185 +8623,89 @@
       "discoveryCount": 45
     },
     {
-      "id": "auto-41465-%EC%A3%BD%EC%A0%84%EB%8F%99%7C1003-8%7C%ED%98%84%EC%95%94%EB%A7%88%EC%9D%84%EB%8F%99%EC%84%B12%EC%B0%A8",
-      "name": "현암마을동성2차",
-      "location": "용인시 수지구 죽전동",
+      "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C853%7C%EA%B4%91%EA%B5%90%EC%83%81%ED%98%84%EB%A7%88%EC%9D%84%ED%98%84%EB%8C%80",
+      "name": "광교상현마을현대",
+      "location": "용인시 수지구 상현동",
       "lawdCd": "41465",
       "dongNames": [
-        "죽전동"
+        "상현동"
       ],
-      "jibun": "1003-8",
+      "jibun": "853",
       "matchNames": [
-        "현암마을동성2차"
+        "광교상현마을현대"
       ],
       "exactName": true,
       "discovered": true,
-      "completionYear": 1999,
+      "completionYear": 2001,
       "priceStatus": "ok",
       "priceMessage": "",
       "latestTransaction": {
-        "apartmentName": "현암마을동성2차",
-        "buildYear": 1999,
-        "dongName": "죽전동",
-        "jibun": "1003-8",
-        "contractDate": "2026-11-20",
-        "priceManwon": 100000,
-        "areaSqm": 60,
-        "floor": 7
+        "apartmentName": "광교상현마을현대",
+        "buildYear": 2001,
+        "dongName": "상현동",
+        "jibun": "853",
+        "contractDate": "2026-11-18",
+        "priceManwon": 112000,
+        "areaSqm": 79.336,
+        "floor": 8
       },
       "areaPrices": [
         {
-          "areaTypeSqm": 59,
-          "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 60,
-          "count": 32,
-          "averagePriceManwon": 87481,
-          "minPriceManwon": 67000,
-          "maxPriceManwon": 104300,
-          "latestPriceManwon": 100000,
-          "latestContractDate": "2026-11-20",
+          "areaTypeSqm": 79,
+          "areaLabel": "전용 79㎡ · 약 24평",
+          "representativeAreaSqm": 79.34,
+          "count": 44,
+          "averagePriceManwon": 98977,
+          "minPriceManwon": 76700,
+          "maxPriceManwon": 118000,
+          "latestPriceManwon": 112000,
+          "latestContractDate": "2026-11-18",
           "recentTransactions": [
             {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-11-20",
-              "priceManwon": 100000,
-              "areaSqm": 60,
-              "floor": 7
+              "apartmentName": "광교상현마을현대",
+              "buildYear": 2001,
+              "dongName": "상현동",
+              "jibun": "853",
+              "contractDate": "2026-11-18",
+              "priceManwon": 112000,
+              "areaSqm": 79.336,
+              "floor": 8
             },
             {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-11-14",
-              "priceManwon": 104300,
-              "areaSqm": 60,
-              "floor": 6
+              "apartmentName": "광교상현마을현대",
+              "buildYear": 2001,
+              "dongName": "상현동",
+              "jibun": "853",
+              "contractDate": "2026-10-29",
+              "priceManwon": 103000,
+              "areaSqm": 79.336,
+              "floor": 8
             },
             {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-11-11",
-              "priceManwon": 104000,
-              "areaSqm": 60,
-              "floor": 15
+              "apartmentName": "광교상현마을현대",
+              "buildYear": 2001,
+              "dongName": "상현동",
+              "jibun": "853",
+              "contractDate": "2026-10-27",
+              "priceManwon": 114000,
+              "areaSqm": 79.336,
+              "floor": 4
             }
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 92,
-            "observedMonths": 36,
+            "score": 83,
+            "observedMonths": 35,
             "periodStart": "2023-12-04",
-            "periodEnd": "2026-11-20",
-            "transactionCount": 88,
-            "baselineSampleCount": 7,
-            "recentSampleCount": 20,
-            "baselineMedianPriceManwon": 56500,
-            "recentMedianPriceManwon": 96400,
-            "longTermChangePercent": 70.6,
-            "recentMomentumPercent": 32.1,
-            "confidence": "medium"
-          }
-        },
-        {
-          "areaTypeSqm": 84,
-          "areaLabel": "전용 84㎡ · 약 25평",
-          "representativeAreaSqm": 84.99,
-          "count": 12,
-          "averagePriceManwon": 91625,
-          "minPriceManwon": 60000,
-          "maxPriceManwon": 109500,
-          "latestPriceManwon": 109500,
-          "latestContractDate": "2026-09-11",
-          "recentTransactions": [
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-09-11",
-              "priceManwon": 109500,
-              "areaSqm": 84.99,
-              "floor": 14
-            },
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-08-13",
-              "priceManwon": 106500,
-              "areaSqm": 84.99,
-              "floor": 5
-            },
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-05-19",
-              "priceManwon": 94500,
-              "areaSqm": 84.99,
-              "floor": 17
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 70,
-            "observedMonths": 31,
-            "periodStart": "2024-01-27",
-            "periodEnd": "2026-09-11",
-            "transactionCount": 52,
-            "baselineSampleCount": 3,
-            "recentSampleCount": 6,
-            "baselineMedianPriceManwon": 71000,
-            "recentMedianPriceManwon": 98250,
-            "longTermChangePercent": 38.4,
-            "recentMomentumPercent": 22.8,
-            "confidence": "limited"
-          }
-        },
-        {
-          "areaTypeSqm": 134,
-          "areaLabel": "전용 134㎡ · 약 41평",
-          "representativeAreaSqm": 134.88,
-          "count": 1,
-          "averagePriceManwon": 104000,
-          "minPriceManwon": 104000,
-          "maxPriceManwon": 104000,
-          "latestPriceManwon": 104000,
-          "latestContractDate": "2026-03-06",
-          "recentTransactions": [
-            {
-              "apartmentName": "현암마을동성2차",
-              "buildYear": 1999,
-              "dongName": "죽전동",
-              "jibun": "1003-8",
-              "contractDate": "2026-03-06",
-              "priceManwon": 104000,
-              "areaSqm": 134.88,
-              "floor": 18
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 14,
-            "observedMonths": 21,
-            "periodStart": "2024-06-07",
-            "periodEnd": "2026-03-06",
-            "transactionCount": 13,
-            "baselineSampleCount": 6,
-            "recentSampleCount": 4,
-            "baselineMedianPriceManwon": 84700,
-            "recentMedianPriceManwon": 91250,
-            "longTermChangePercent": 7.7,
-            "recentMomentumPercent": 9.6,
-            "confidence": "limited"
+            "periodEnd": "2026-11-18",
+            "transactionCount": 148,
+            "baselineSampleCount": 11,
+            "recentSampleCount": 25,
+            "baselineMedianPriceManwon": 69500,
+            "recentMedianPriceManwon": 103500,
+            "longTermChangePercent": 48.9,
+            "recentMomentumPercent": 16.6,
+            "confidence": "high"
           }
         }
       ],
@@ -8699,95 +8877,6 @@
         }
       ],
       "discoveryCount": 44
-    },
-    {
-      "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C853%7C%EA%B4%91%EA%B5%90%EC%83%81%ED%98%84%EB%A7%88%EC%9D%84%ED%98%84%EB%8C%80",
-      "name": "광교상현마을현대",
-      "location": "용인시 수지구 상현동",
-      "lawdCd": "41465",
-      "dongNames": [
-        "상현동"
-      ],
-      "jibun": "853",
-      "matchNames": [
-        "광교상현마을현대"
-      ],
-      "exactName": true,
-      "discovered": true,
-      "completionYear": 2001,
-      "priceStatus": "ok",
-      "priceMessage": "",
-      "latestTransaction": {
-        "apartmentName": "광교상현마을현대",
-        "buildYear": 2001,
-        "dongName": "상현동",
-        "jibun": "853",
-        "contractDate": "2026-11-18",
-        "priceManwon": 112000,
-        "areaSqm": 79.336,
-        "floor": 8
-      },
-      "areaPrices": [
-        {
-          "areaTypeSqm": 79,
-          "areaLabel": "전용 79㎡ · 약 24평",
-          "representativeAreaSqm": 79.34,
-          "count": 43,
-          "averagePriceManwon": 98628,
-          "minPriceManwon": 76700,
-          "maxPriceManwon": 118000,
-          "latestPriceManwon": 112000,
-          "latestContractDate": "2026-11-18",
-          "recentTransactions": [
-            {
-              "apartmentName": "광교상현마을현대",
-              "buildYear": 2001,
-              "dongName": "상현동",
-              "jibun": "853",
-              "contractDate": "2026-11-18",
-              "priceManwon": 112000,
-              "areaSqm": 79.336,
-              "floor": 8
-            },
-            {
-              "apartmentName": "광교상현마을현대",
-              "buildYear": 2001,
-              "dongName": "상현동",
-              "jibun": "853",
-              "contractDate": "2026-10-29",
-              "priceManwon": 103000,
-              "areaSqm": 79.336,
-              "floor": 8
-            },
-            {
-              "apartmentName": "광교상현마을현대",
-              "buildYear": 2001,
-              "dongName": "상현동",
-              "jibun": "853",
-              "contractDate": "2026-10-17",
-              "priceManwon": 111500,
-              "areaSqm": 79.336,
-              "floor": 20
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 83,
-            "observedMonths": 35,
-            "periodStart": "2023-12-04",
-            "periodEnd": "2026-11-18",
-            "transactionCount": 147,
-            "baselineSampleCount": 11,
-            "recentSampleCount": 24,
-            "baselineMedianPriceManwon": 69500,
-            "recentMedianPriceManwon": 103500,
-            "longTermChangePercent": 48.9,
-            "recentMomentumPercent": 16.6,
-            "confidence": "high"
-          }
-        }
-      ],
-      "discoveryCount": 43
     },
     {
       "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C850%7C%EB%A7%8C%ED%98%84%EB%A7%88%EC%9D%84%EC%8C%8D%EC%9A%A91%EC%B0%A8",
@@ -9044,182 +9133,6 @@
       "discoveryCount": 40
     },
     {
-      "id": "auto-41465-%EC%83%81%ED%98%84%EB%8F%99%7C96-1%7C%ED%92%8D%EC%82%B0%EC%95%84%ED%8C%8C%ED%8A%B8",
-      "name": "풍산아파트",
-      "location": "용인시 수지구 상현동",
-      "lawdCd": "41465",
-      "dongNames": [
-        "상현동"
-      ],
-      "jibun": "96-1",
-      "matchNames": [
-        "풍산아파트"
-      ],
-      "exactName": true,
-      "discovered": true,
-      "completionYear": 1997,
-      "priceStatus": "ok",
-      "priceMessage": "",
-      "latestTransaction": {
-        "apartmentName": "풍산아파트",
-        "buildYear": 1997,
-        "dongName": "상현동",
-        "jibun": "96-1",
-        "contractDate": "2026-11-14",
-        "priceManwon": 93800,
-        "areaSqm": 84.87,
-        "floor": 3
-      },
-      "areaPrices": [
-        {
-          "areaTypeSqm": 59,
-          "areaLabel": "전용 59㎡ · 약 18평",
-          "representativeAreaSqm": 59.58,
-          "count": 25,
-          "averagePriceManwon": 74692,
-          "minPriceManwon": 60000,
-          "maxPriceManwon": 87000,
-          "latestPriceManwon": 87000,
-          "latestContractDate": "2026-11-13",
-          "recentTransactions": [
-            {
-              "apartmentName": "풍산아파트",
-              "buildYear": 1997,
-              "dongName": "상현동",
-              "jibun": "96-1",
-              "contractDate": "2026-11-13",
-              "priceManwon": 87000,
-              "areaSqm": 59.58,
-              "floor": 11
-            },
-            {
-              "apartmentName": "풍산아파트",
-              "buildYear": 1997,
-              "dongName": "상현동",
-              "jibun": "96-1",
-              "contractDate": "2026-11-07",
-              "priceManwon": 83300,
-              "areaSqm": 59.58,
-              "floor": 2
-            },
-            {
-              "apartmentName": "풍산아파트",
-              "buildYear": 1997,
-              "dongName": "상현동",
-              "jibun": "96-1",
-              "contractDate": "2026-10-24",
-              "priceManwon": 85300,
-              "areaSqm": 59.58,
-              "floor": 10
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 65,
-            "observedMonths": 30,
-            "periodStart": "2024-05-25",
-            "periodEnd": "2026-11-13",
-            "transactionCount": 69,
-            "baselineSampleCount": 16,
-            "recentSampleCount": 11,
-            "baselineMedianPriceManwon": 51150,
-            "recentMedianPriceManwon": 78000,
-            "longTermChangePercent": 52.5,
-            "recentMomentumPercent": 6.8,
-            "confidence": "high"
-          }
-        },
-        {
-          "areaTypeSqm": 84,
-          "areaLabel": "전용 84㎡ · 약 25평",
-          "representativeAreaSqm": 84.87,
-          "count": 12,
-          "averagePriceManwon": 82550,
-          "minPriceManwon": 70000,
-          "maxPriceManwon": 93800,
-          "latestPriceManwon": 93800,
-          "latestContractDate": "2026-11-14",
-          "recentTransactions": [
-            {
-              "apartmentName": "풍산아파트",
-              "buildYear": 1997,
-              "dongName": "상현동",
-              "jibun": "96-1",
-              "contractDate": "2026-11-14",
-              "priceManwon": 93800,
-              "areaSqm": 84.87,
-              "floor": 3
-            },
-            {
-              "apartmentName": "풍산아파트",
-              "buildYear": 1997,
-              "dongName": "상현동",
-              "jibun": "96-1",
-              "contractDate": "2026-11-11",
-              "priceManwon": 90000,
-              "areaSqm": 84.87,
-              "floor": 14
-            },
-            {
-              "apartmentName": "풍산아파트",
-              "buildYear": 1997,
-              "dongName": "상현동",
-              "jibun": "96-1",
-              "contractDate": "2026-09-15",
-              "priceManwon": 92000,
-              "areaSqm": 84.87,
-              "floor": 4
-            }
-          ],
-          "growthAnalysis": {
-            "status": "ok",
-            "score": 80,
-            "observedMonths": 34,
-            "periodStart": "2024-01-10",
-            "periodEnd": "2026-11-14",
-            "transactionCount": 38,
-            "baselineSampleCount": 4,
-            "recentSampleCount": 6,
-            "baselineMedianPriceManwon": 56000,
-            "recentMedianPriceManwon": 91000,
-            "longTermChangePercent": 62.5,
-            "recentMomentumPercent": 18,
-            "confidence": "medium"
-          }
-        },
-        {
-          "areaTypeSqm": 134,
-          "areaLabel": "전용 134㎡ · 약 41평",
-          "representativeAreaSqm": 133.99,
-          "count": 1,
-          "averagePriceManwon": 65000,
-          "minPriceManwon": 65000,
-          "maxPriceManwon": 65000,
-          "latestPriceManwon": 65000,
-          "latestContractDate": "2026-01-17",
-          "recentTransactions": [
-            {
-              "apartmentName": "풍산아파트",
-              "buildYear": 1997,
-              "dongName": "상현동",
-              "jibun": "96-1",
-              "contractDate": "2026-01-17",
-              "priceManwon": 65000,
-              "areaSqm": 133.99,
-              "floor": 15
-            }
-          ],
-          "growthAnalysis": {
-            "status": "insufficient",
-            "message": "비교 가능한 장기 거래가 부족합니다.",
-            "observedMonths": 24,
-            "transactionCount": 6
-          }
-        }
-      ],
-      "discoveryCount": 37
-    },
-    {
       "id": "auto-41135-%EA%B5%AC%EB%AF%B8%EB%8F%99%7C212%7C%EB%AC%B4%EC%A7%80%EA%B0%9C(12%EB%8B%A8%EC%A7%80)(%EC%A3%BC%EA%B3%B5)",
       "name": "무지개(12단지)(주공)",
       "location": "성남시 분당구 구미동",
@@ -9349,7 +9262,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 95,
+            "score": 94,
             "observedMonths": 33,
             "periodStart": "2023-12-23",
             "periodEnd": "2026-09-23",
@@ -10730,8 +10643,8 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.94,
-          "count": 43,
-          "averagePriceManwon": 103976,
+          "count": 44,
+          "averagePriceManwon": 104078,
           "minPriceManwon": 94000,
           "maxPriceManwon": 116000,
           "latestPriceManwon": 113000,
@@ -10762,10 +10675,10 @@
               "buildYear": 2023,
               "dongName": "금광동",
               "jibun": "1008",
-              "contractDate": "2026-10-17",
-              "priceManwon": 113000,
-              "areaSqm": 59.98,
-              "floor": 13
+              "contractDate": "2026-10-25",
+              "priceManwon": 108500,
+              "areaSqm": 59.95,
+              "floor": 1
             }
           ],
           "growthAnalysis": {
@@ -10774,13 +10687,13 @@
             "observedMonths": 30,
             "periodStart": "2024-05-19",
             "periodEnd": "2026-11-09",
-            "transactionCount": 99,
+            "transactionCount": 100,
             "baselineSampleCount": 9,
-            "recentSampleCount": 20,
+            "recentSampleCount": 21,
             "baselineMedianPriceManwon": 80000,
-            "recentMedianPriceManwon": 109875,
-            "longTermChangePercent": 37.3,
-            "recentMomentumPercent": 9.3,
+            "recentMedianPriceManwon": 109750,
+            "longTermChangePercent": 37.2,
+            "recentMomentumPercent": 9.2,
             "confidence": "high"
           }
         },
@@ -10843,7 +10756,7 @@
           }
         }
       ],
-      "discoveryCount": 50
+      "discoveryCount": 51
     },
     {
       "id": "auto-41133-%EC%A4%91%EC%95%99%EB%8F%99%7C577%7C%EC%A4%91%EC%95%99%EB%8F%99%ED%9E%90%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%8A%B82%EC%B0%A8",
@@ -10917,7 +10830,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 67,
+            "score": 68,
             "observedMonths": 31,
             "periodStart": "2024-03-18",
             "periodEnd": "2026-10-09",
@@ -11171,7 +11084,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 77,
+            "score": 76,
             "observedMonths": 32,
             "periodStart": "2024-02-17",
             "periodEnd": "2026-10-30",
@@ -11260,7 +11173,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 53,
+            "score": 52,
             "observedMonths": 32,
             "periodStart": "2024-03-02",
             "periodEnd": "2026-10-30",
@@ -11447,7 +11360,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 54,
+            "score": 55,
             "observedMonths": 30,
             "periodStart": "2024-01-18",
             "periodEnd": "2026-07-30",
@@ -11817,7 +11730,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 15,
+            "score": 14,
             "observedMonths": 34,
             "periodStart": "2023-12-23",
             "periodEnd": "2026-10-25",
@@ -11914,23 +11827,33 @@
         "buildYear": 2012,
         "dongName": "중앙동",
         "jibun": "578",
-        "contractDate": "2026-10-13",
-        "priceManwon": 105000,
+        "contractDate": "2026-10-31",
+        "priceManwon": 106500,
         "areaSqm": 59.98,
-        "floor": 1
+        "floor": 9
       },
       "areaPrices": [
         {
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 59.98,
-          "count": 7,
-          "averagePriceManwon": 96714,
+          "count": 8,
+          "averagePriceManwon": 97938,
           "minPriceManwon": 87000,
-          "maxPriceManwon": 105000,
-          "latestPriceManwon": 105000,
-          "latestContractDate": "2026-10-13",
+          "maxPriceManwon": 106500,
+          "latestPriceManwon": 106500,
+          "latestContractDate": "2026-10-31",
           "recentTransactions": [
+            {
+              "apartmentName": "중앙동힐스테이트1차",
+              "buildYear": 2012,
+              "dongName": "중앙동",
+              "jibun": "578",
+              "contractDate": "2026-10-31",
+              "priceManwon": 106500,
+              "areaSqm": 59.98,
+              "floor": 9
+            },
             {
               "apartmentName": "중앙동힐스테이트1차",
               "buildYear": 2012,
@@ -11950,23 +11873,22 @@
               "priceManwon": 105000,
               "areaSqm": 59.98,
               "floor": 6
-            },
-            {
-              "apartmentName": "중앙동힐스테이트1차",
-              "buildYear": 2012,
-              "dongName": "중앙동",
-              "jibun": "578",
-              "contractDate": "2026-04-05",
-              "priceManwon": 95000,
-              "areaSqm": 59.98,
-              "floor": 2
             }
           ],
           "growthAnalysis": {
-            "status": "insufficient",
-            "message": "비교 가능한 장기 거래가 부족합니다.",
-            "observedMonths": 28,
-            "transactionCount": 22
+            "status": "ok",
+            "score": 60,
+            "observedMonths": 29,
+            "periodStart": "2024-06-06",
+            "periodEnd": "2026-10-31",
+            "transactionCount": 23,
+            "baselineSampleCount": 4,
+            "recentSampleCount": 3,
+            "baselineMedianPriceManwon": 73500,
+            "recentMedianPriceManwon": 105000,
+            "longTermChangePercent": 42.9,
+            "recentMomentumPercent": 11.7,
+            "confidence": "limited"
           }
         },
         {
@@ -12077,7 +11999,7 @@
           }
         }
       ],
-      "discoveryCount": 23
+      "discoveryCount": 24
     },
     {
       "id": "auto-41133-%EA%B8%88%EA%B4%91%EB%8F%99%7C1003%7Ce%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%EA%B8%88%EB%B9%9B%EA%B7%B8%EB%9E%91%EB%A9%94%EC%A2%852%EB%8B%A8%EC%A7%80",
@@ -12426,7 +12348,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 59,
+            "score": 58,
             "observedMonths": 34,
             "periodStart": "2024-01-24",
             "periodEnd": "2026-11-10",
@@ -14268,7 +14190,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 62,
+            "score": 61,
             "observedMonths": 30,
             "periodStart": "2024-02-15",
             "periodEnd": "2026-08-21",
@@ -14796,7 +14718,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 68,
+            "score": 67,
             "observedMonths": 34,
             "periodStart": "2024-01-29",
             "periodEnd": "2026-11-14",
@@ -15001,7 +14923,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 52,
+            "score": 51,
             "observedMonths": 34,
             "periodStart": "2023-12-22",
             "periodEnd": "2026-11-05",
@@ -15513,7 +15435,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 74,
+            "score": 73,
             "observedMonths": 35,
             "periodStart": "2023-12-02",
             "periodEnd": "2026-11-07",
@@ -15691,7 +15613,7 @@
           ],
           "growthAnalysis": {
             "status": "ok",
-            "score": 49,
+            "score": 48,
             "observedMonths": 33,
             "periodStart": "2024-01-06",
             "periodEnd": "2026-10-15",
