@@ -7,7 +7,7 @@
     "url": "https://www.data.go.kr/data/15160169/fileData.do"
   },
   "sync": {
-    "lastSuccessfulAt": "2026-11-26 00:18 KST",
+    "lastSuccessfulAt": "2026-11-26 23:42 KST",
     "message": ""
   },
   "geocoding": {
@@ -4950,13 +4950,23 @@
           "areaTypeSqm": 84,
           "areaLabel": "전용 84㎡ · 약 25평",
           "representativeAreaSqm": 84.86,
-          "count": 37,
-          "averagePriceManwon": 119388,
+          "count": 38,
+          "averagePriceManwon": 119707,
           "minPriceManwon": 105000,
           "maxPriceManwon": 133000,
-          "latestPriceManwon": 126000,
-          "latestContractDate": "2026-11-09",
+          "latestPriceManwon": 131500,
+          "latestContractDate": "2026-11-14",
           "recentTransactions": [
+            {
+              "apartmentName": "장안현대홈타운(336)",
+              "buildYear": 2003,
+              "dongName": "장안동",
+              "jibun": "336",
+              "contractDate": "2026-11-14",
+              "priceManwon": 131500,
+              "areaSqm": 84.78,
+              "floor": 13
+            },
             {
               "apartmentName": "장안현대홈타운(336)",
               "buildYear": 2003,
@@ -4976,16 +4986,6 @@
               "priceManwon": 131500,
               "areaSqm": 84.78,
               "floor": 15
-            },
-            {
-              "apartmentName": "장안현대홈타운(336)",
-              "buildYear": 2003,
-              "dongName": "장안동",
-              "jibun": "336",
-              "contractDate": "2026-09-30",
-              "priceManwon": 133000,
-              "areaSqm": 84.87,
-              "floor": 6
             }
           ]
         },
@@ -6485,10 +6485,10 @@
         "buildYear": 1995,
         "dongName": "풍덕천동",
         "jibun": "692-1",
-        "contractDate": "2026-11-06",
-        "priceManwon": 108000,
+        "contractDate": "2026-11-21",
+        "priceManwon": 106500,
         "areaSqm": 59.9985,
-        "floor": 13
+        "floor": 2
       },
       "geocodeStatus": "not_configured",
       "geocodeMessage": "NAVER Geocoding 설정 대기",
@@ -6500,13 +6500,23 @@
           "areaTypeSqm": 59,
           "areaLabel": "전용 59㎡ · 약 18평",
           "representativeAreaSqm": 60,
-          "count": 5,
-          "averagePriceManwon": 96900,
+          "count": 6,
+          "averagePriceManwon": 98500,
           "minPriceManwon": 83000,
           "maxPriceManwon": 108000,
-          "latestPriceManwon": 108000,
-          "latestContractDate": "2026-11-06",
+          "latestPriceManwon": 106500,
+          "latestContractDate": "2026-11-21",
           "recentTransactions": [
+            {
+              "apartmentName": "수지삼성2차",
+              "buildYear": 1995,
+              "dongName": "풍덕천동",
+              "jibun": "692-1",
+              "contractDate": "2026-11-21",
+              "priceManwon": 106500,
+              "areaSqm": 59.9985,
+              "floor": 2
+            },
             {
               "apartmentName": "수지삼성2차",
               "buildYear": 1995,
@@ -6526,16 +6536,6 @@
               "priceManwon": 93000,
               "areaSqm": 59.9985,
               "floor": 1
-            },
-            {
-              "apartmentName": "수지삼성2차",
-              "buildYear": 1995,
-              "dongName": "풍덕천동",
-              "jibun": "692-1",
-              "contractDate": "2026-08-08",
-              "priceManwon": 96500,
-              "areaSqm": 59.9985,
-              "floor": 3
             }
           ]
         },
